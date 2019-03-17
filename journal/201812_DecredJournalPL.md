@@ -300,7 +300,7 @@ To 9. wydanie Decred Journal. Jest on dostępny na [GitHub](https://xaur.github.
 
 Chińskie tłumaczenie aut. @guang jest dostępne na [Medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-12%E6%9C%88-eb8b42a5e4fd), [Weibo](https://www.weibo.com/ttarticle/p/show?id=2309404327424178422533) oraz [GitHub](https://github.com/Guang168/DecredCNJournal/blob/master/201812_DecredJournalCN.md).
 
-Większość informacji od stron trzecich jest przekazywana bezpośrednio ze źródła po minimalnym sprawdzeniu poprawności. Autorzy Decred Journal nie mają możliwości zweryfikowania wszystkich publikowanch stwierdzeń. Proszę uważać na oszustwa i przeprowadzać własny research.
+Większość informacji od stron trzecich jest przekazywana bezpośrednio ze źródła po minimalnym sprawdzeniu poprawności. Autorzy Decred Journal nie mają możliwości zweryfikowania wszystkich publikowanych stwierdzeń. Proszę uważać na oszustwa i przeprowadzać własny research.
 
 Wasze opinie i komentarze są mile widziane na portalach [GitHub](https://github.com/xaur/decred-news/issues) oraz [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
