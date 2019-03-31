@@ -263,7 +263,7 @@ Statystyki społeczności na dzień 4 lutego:
 * Użytkownicy na Telegramie: 4,503 (-231)
 * Subskrybenci na YouTube: 3,752 (+14)
 * Obserwujący na Facebooku: 3,132 (+11), polubień: 2,891 (+11)
-* Obserwujący na LinkedIn: strona Decred 466 (+16), Pstrona Politeia 27 (+3)
+* Obserwujący na LinkedIn: strona Decred 466 (+16), strona Politeia 27 (+3)
 * GitHub: 468 gwiazdek (+10) i 1,221 forków repozytorium dcrd (+29)
 
 Wiadomości z platform komunikacyjnych:
