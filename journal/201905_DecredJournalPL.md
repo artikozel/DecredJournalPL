@@ -7,7 +7,7 @@ Najważniejsze wydarzenia z maja:
 * DCP4 zostało aktywowane. Sieć główna Decred jest teraz gotowa na Lightning Network.
 * Release candidate pierwszego portfela dla iOS wszedł z fazę publicznych testów.
 * Pierwsza faza 3 propozycji finansowanych przez Skarbiec (Ditto, Research i Bug Bounty) dobiega końca, ich podsumowania są publikowane, a propozycje dalszego finansowania zostały już otwarte dla propozycji Ditto i programu badawczego. W sumie w maju złożono 6 wniosków, a 4 wnioski zostały poddane pod głosowanie na początku czerwca.
-* Decred Assembly i podcast Decred in Depth zakończyły fazę wczesnej produkcji i pojawiły się pierwsze odcinki. Decred Distributed gości @elian, który później w maju udał się na 3 eventy w 7 dni w Kolumbii i Urugwaju, i dostarczył szczegółowe opisy swoich doświadczeńm z każdego z nich.
+* Decred Assembly i podcast Decred in Depth zakończyły fazę wczesnej produkcji i pojawiły się pierwsze odcinki. Decred Distributed gości @elian, który w maju udał się na 3 eventy w 7 dni w Kolumbii i Urugwaju, i dostarczył szczegółowe opisy swoich doświadczeń z każdego z nich.
 
 ## Rozwój
 
