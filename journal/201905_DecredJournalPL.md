@@ -120,10 +120,6 @@ Uwaga: autorzy Decred Journal nie są w stanie ocenić wiarygodności żadnego z
 
 [Trippki.com](https://trippki.com/) [ogłosiło](https://twitter.com/Trippki_/status/1125131845673410561) wsparcie dla DCR w swojej usłudze rezerwacji hoteli.
 
-[ADHOC](https://adhoc.zone/), a company that focuses on ethical and privacy-respecting hardware and software [announced](https://twitter.com/adhoc_zone/status/1126653081259839488) that they accept DCR as a payment method. As of writing, ADHOC sells refurbished Samsung Galaxy S2 and S3 with software for private communications and Replicant OS (fully free Android distribution that once [featured](https://www.fsf.org/blogs/community/replicant-developers-find-and-close-samsung-galaxy-backdoor) on fsf.org for finding a backdoor in a Samsung phone), Librebooted ThinkPad X220 with Tails, and a ebook reader. The products are mirrored on OpenBazaar [store](https://openbazaar.com/store/QmTQNzpvq1Lgx6NvXhnoiWirLV1oQbF9LJZwMENKoPYVon).
-
-[Cryptwerk.com](https://cryptwerk.com/) directory collected a [list of businesses](https://www.reddit.com/r/decred/comments/bp035s/decred_accepted_here_the_list_of_businesses_where/) accepting DCR.
-
 [ADHOC](https://adhoc.zone/), firma, która koncentruje się na etycznym i szanującym prywatność sprzęcie i oprogramowaniu [zapowiedziała](https://twitter.com/adhoc_zone/status/1126653081259839488_zone/status/1126653081259839488), że przyjmuje DCR jako metodę płatności. W trakcie pisania ADHOC sprzedaje odnowione Samsungi Galaxy S2 i S3 z oprogramowaniem do prywatnej komunikacji i Replicant OS (w pełni darmową dystrybucją Androida, która [znalazła się](https://www.fsf.org/blogs/community/replicant-developers-find-and-close-samsung-galaxy-backdoor) na fsf.org za znalezienie backdoora w telefonie Samsung), ThinkPad X220 z Tails i firmwarem Libreboot i czytnik e-booków. Produkty te można również znaleźć w [sklepie](https://openbazaar.com/store/QmTQNzpvq1Lgx6NvXhnoiWirLV1oQbF9LJZwMENKoPYVon) OpenBazaar.
 
 Katalog [Cryptwerk.com](https://cryptwerk.com/) zebrał [listę firm](https://www.reddit.com/r/decred/comments/bp035s/decred_accepted_here_the_list_of_businesses_where/) akceptujących DCR.
@@ -132,7 +128,7 @@ Katalog [Cryptwerk.com](https://cryptwerk.com/) zebrał [listę firm](https://ww
 
 W maju Decred miał mnóstwo pracy przy kładzeniu podwalin pod bardziej zdecentralizowany charakter swoich działań. Duża część prac w maju skupiła się na Blockchain Week w Nowym Jorku i okolicach, gdzie około piętnastu członków społeczności zebrało się razem z większą grupą giełd wymian, górników, partnerów instytucjonalnych i nie tylko. Została uruchomiona grupa Telegram [Decred Africa](https://t.me/DecredAfrica) i koordynowała prezentację na Blockchain Nigeria w Lagos 24 maja. W Nowym Jorku, różni członkowie społeczności uczestniczyli w konferencji Magical Crypto w dniach 10-11 maja, a następnie w Consensus przez kolejne trzy dni. W ramach konferencji Consensus, @jy-p przedstawił zaktualizowane informacje na temat finansowania i mapy rozwoju Decred jako część panelu Changelogs. Dodatkowo, @jy-p przemawiał później tego dnia na pierwszej w historii konferencji Ditto PR & The Block, Atomic Swap. @jy-p był na panelu z przedstawicielami Beam, Dash i Orbs, na którym dyskutowano o decentralizacji i zarządzaniu. Decred koordynował kolację z członkami społeczności azjatyckiej i sformułował strategię penetracji rynku azjatyckiego, stawiając Chiny na pierwszym miejscu w najbliższym czasie. @Dominic i @changhugo planują organizację i promocję spotkania w Pekinie w najbliższej przyszłości, a Decred pracuje nad planem zorganizowania wydarzenia w Singapurze, potencjalnie we wrześniu.
 
-@anshawblack udał się do Nowego Jorku na Blockchain Weeki nagrał podcasty z @jz, @MustStopMurad, Joelem Monegro, @lukebp, @jholdstock i Permabull Nino. Pierwszy podcast z @jz został [wydany](https://www.youtube.com/watch?v=rcEJuN7zh2M), z kolejnymi co dwa tygodnie.
+@anshawblack udał się do Nowego Jorku na Blockchain Week i nagrał podcasty z @jz, @MustStopMurad, Joelem Monegro, @lukebp, @jholdstock i Permabull Nino. Pierwszy podcast z @jz został [wydany](https://www.youtube.com/watch?v=rcEJuN7zh2M), z kolejnymi co dwa tygodnie.
 
 @Dustorf wydał pierwszą część Decred Assembly, segment zatytułowany Decred Distributed, który przygląda się miejscom na całym świecie i rozmawia z lokalnymi organizatorami społeczności, aby zrozumieć, co Decred robi w tych obszarach. Gościem pierwszego [wydania](https://www.youtube.com/watch?v=N7GYD8zwOe8=N7GYD8zwOe8) był @elian, który przewodzi wysiłkom w Meksyku i wykonuje masę wspaniałej pracy w Ameryce Łacińskiej. Na początku czerwca zostaną opublikowane dodatkowe segmenty, w tym dogłębna dyskusja z @jy-p na temat propozycji DEX.
 
@@ -169,7 +165,7 @@ Na których byliśmy:
 * 23 maja - [Decred AMA](https://twitter.com/DecredCN/status/1131487833137397760) - online. Sesja AMA została zorganizowana przez Cobo Wallet, na której @Dominic odpowiadał na pytania. AMA doprowadziło do przyłączenia się [300](https://matrix.to/#/!aNPTuiryMFmdMQWUzb:decred.org/$15587188721553ZAajQ:decred.org) ludzi do [chińskiego kanału](https://t.me/decred_cn) na Telegram.
 * 24 maja - [Bitcoinday](https://bitcoinday.tv/) - Montevideo, Urugwaj. W wydarzeniu uczestniczyło około 200 osób, a @elian reprezentował Decred na panelu poświęconym blockchainowi i biznesowi, a także prowadził warsztaty na temat dcrtime i Politei, w których uczestniczyło około 20 osób. ([raport](https://github.com/decredcommunity/events/blob/master/reports/20190524-bitcoinday-montevideo-uruguay.md))
 * 24-25 maja - [Blockchain Nigeria Group](http://blockchainnigeria.group/) - Lagos, Nigeria. @collins i kilku innych deweloperów Grupy Raedah reprezentowało Decred na imprezie i przedstawiło prezentację.
-* 28 maja - [Gophers Silesia](https://www.meetup.com/GophersSilesia/events/260673565/) - Katowice, Polska. @kozel przygotował [prezentację©](https://twitter.com/Decred_PL/status/1133452876716621824_PL/status/1133452876716621824) o Decred. Wideo wkrótce.
+* 28 maja - [Gophers Silesia](https://www.meetup.com/GophersSilesia/events/260673565/) - Katowice, Polska. @kozel przygotował [prezentację](https://twitter.com/Decred_PL/status/1133452876716621824_PL/status/1133452876716621824) o Decred. Wideo wkrótce.
 
 Nadchodzące:
 
@@ -182,119 +178,119 @@ Repozytorium [wydarzeń](https://github.com/decredcommunity/events) zostało pon
 
 ## Media
 
-@jy-p participated in an [AMA](https://www.reddit.com/r/CryptoCurrency/comments/bjubwv/ama_decred_project_lead_jake_yocompiatt/) on the /r/cryptocurrency subreddit, answering 18 questions.
+@jy-p wziął udział w [AMA](https://www.reddit.com/r/CryptoCurrency/comments/bjubwv/ama_decred_project_lead_jake_yocompiatt/) na subreddicie /r/cryptocurrency, odpowiadając na 18 pytań.
 
-Selected articles:
+Wybrane artykuły:
 
-* How I Make a Living in the Crypto Gig Economy by @s\_ben ([medium](https://medium.com/@seth.benton/how-i-make-a-living-in-the-crypto-gig-economy-8674f3693858))
-* The Basics of Blockchain Governance by @Haon ([medium](https://medium.com/@NoahPierau/the-basics-of-blockchain-governance-6669c098344d))
-* Decred as DAE Infrastructure provider by @neil\_nie ([dcrclub](https://blog.dcrclub.org/chapter_05/dcr_DAE.html)), translated to English by @changhugo ([medium](https://medium.com/@changhugo/decred-as-a-dae-infrastructure-provider-970677f38179))
-* Comparing Double Spend Resistance: Decred VS Bitcoin - Part 1 by @Fiach\_Dubh ([medium](https://medium.com/coinmonks/comparing-double-spend-resistance-decred-vs-bitcoin-part-1-330c8081b2a9))
-* Bitcoin: an Accounting Revolution by Permabull Nino ([medium](https://medium.com/@permabullnino/bitcoin-an-accounting-revolution-40efcb903d7b)) - not Decred related
-* The community of Decred is present around the world by @Haon ([medium](https://medium.com/decred/the-community-of-decred-is-present-around-the-world-64fcc9113924))
-* Decred Governance: An Iterative Approach by @max\_bronstein ([medium](https://medium.com/@maxbronstein/decred-governnce-an-iterative-approach-2a89b9751f5e))
-* Decred Price Analysis: Emergence as a digital store of value ([bravenewcoin.com](https://bravenewcoin.com/insights/decred-price-analysis-emergence-as-a-digital-store-of-value))
+* Jak zarabiam na życie w ekonomii fuch krypto, aut. @s\_ben ([medium](https://medium.com/@seth.benton/how-i-make-a-living-in-the-crypto-gig-economy-8674f3693858))
+* Podstawy zarządzania blockchainem, aut. @Haon ([medium](https://medium.com/@NoahPierau/the-basics-of-blockchain-governance-6669c098344d))
+* Decred jako dostawca infrastruktury dla Zdecentralizowanych Autonomicznych organizacji, aut. @neil\_nie ([dcrclub](https://blog.dcrclub.org/chapter_05/dcr_DAE.html)), przetłumaczone na język angielski przez @changhugo ([medium](https://medium.com/@changhugo/decred-as-a-dae-infrastructure-provider-970677f38179)).
+* Porównanie odporności na ataki double spend: Decred VS Bitcoin - część 1, aut. @Fiach\_Dubh ([medium](https://medium.com/coinmonks/comparing-double-spend-resistance-decred-vs-bitcoin-part-1-330c8081b2a9))
+* Bitcoin: rewolucja w księgowości , aut. Permabull Nino ([medium](https://medium.com/@permabullnino/bitcoin-an-accounting-revolution-40efcb903d7b)) - niezwiązane z Decred.
+* Społeczność Decred jest obecna na całym świecie, aut. @Haon ([medium](https://medium.com/decred/the-community-of-decred-is-present-around-the-world-64fcc9113924)).
+* Zarządzanie w Decred: podejście iteracyjne, aut. @max\_bronstein ([medium](https://medium.com/@maxbronstein/decred-governnce-an-iterative approach-2a89b9751f5e)).
+* Analiza ceny Decred: Pojawienie się jako cyfrowy środek przechowania wartości ([bravenewcoin.com](https://bravenewcoin.com/insights/decred-price-analysis-emergence-as-a-digital-store-of-value))
 
-Translations:
+Tłumaczenia:
 
-* All issues of the Journal have been [translated](https://github.com/raedahgroup/decred-journal/tree/master/vietnamese) to Vietnamese by @duyenemdo - sponsored by Raedah Group. Since last mention in March the translations have been extended further into the Journal's history, now going all the way back to issue 1. Vietnamese now leads by the number of DJ translations being and is the only language that has all issues.
-* March Journal [translated](https://insaf01.github.io/decred-journal-ar/journal/201903.html) to Arabic by @arij and reviewed by @abdulrahman4.
+* Wszystkie wydania czasopisma zostały [przetłumaczone](https://github.com/raedahgroup/decred-journal/tree/master/vietnamese) na język wietnamski przez @duyenemdo - sponsorowane przez Grupę Raedah. Od ostatniej wzmianki w marcu tłumaczenia zostały rozszerzone na numery archiwalne, obecnie sięgają aż do numeru 1. Jęz. wietnamski prowadzi teraz pod względem liczby tłumaczeń Decred Journal i jest jedynym językiem, oprócz angielskiego, w którym przeczytać możesz wszystkie wydania.
+* Marcowy Journal został [przetłumaczony](https://insaf01.github.io/decred-journal-ar/journal/201903.html) na język arabski przez @arij i zrecenzowany przez @abdulrahman4.
 
-Videos:
+Wideo:
 
-* Decred Distributed with @elian, first release from the newly rebooted Decred Assembly ([youtube](https://www.youtube.com/watch?v=N7GYD8zwOe8))
-* What is Decred - Explainer Video by blockgeeks ([youtube](https://www.youtube.com/watch?v=qT9oBsbzUos))
-* Bitcoin's Big Brother... Introducing Decred - An Interview with @oregonisaac by BBOD ([youtube](https://www.youtube.com/watch?v=MscFEpWuWU4))
+* Decred Distributed z @elian, pierwszy odcinek nowo zrebootowanego Decred Assembly ([youtube](https://www.youtube.com/watch?v=N7GYD8zwOe8))
+* Czym jest Decred - filmik wyjaśniający aut. blockgeeks ([youtube](https://www.youtube.com/watch?v=qT9oBsbzUos))
+* Starszy brat Bitcoina.... Przedstawiamy Decred - wywiad z @oregonisaac aut. BBOD ([youtube](https://www.youtube.com/watch?v=MscFEpWuWU4))
 
 Audio:
 
-* Decred: Everything You Ever Wanted to Know - Vexpoint podcast with @Haon ([vexpoint.com](http://www.vexpoint.com/decred-investment/))
-* Crypto 101 podcast with @moo31337, introduction to Decred ([listennotes.com](https://www.listennotes.com/podcasts/crypto-101-with/horizen-decred-casino-coin-101-o_stJI2LaQC/), starts 17:32)
-* CryptoBasic 101 Series: Decred - podcast with @richardred ([cryptobasicpodcast.com](https://www.cryptobasicpodcast.com/home/180))
-* Decred in Depth episode 1 DCR 101 with @jz, hosted by @anshawblack ([youtube](https://www.youtube.com/watch?v=rcEJuN7zh2M), [soundcloud](https://soundcloud.com/decredindepth/ep-1-jonathan-zeppettini-jz-dcr-101))
+* Decred: WEszystko, czego chcieliście się dowiedzieć - podcast Vexpoint z @Haon ([vexpoint.com](http://www.vexpoint.com/decred-investment/))
+* Podcast Crypto 101 z @moo31337, wprowadzenie do Decred ([listennotes.com](https://www.listennotes.com/podcasts/crypto-101-with/horizen-decred-casino-coin-101-o_stJI2LaQC/), zaczyna się od 17:32)
+* CryptoBasic 101 Series: Decred - podcast z @richardred ([cryptobasicpodcast.com](https://www.cryptobasicpodcast.com/home/180))
+* Decred in Depth, odcinek 1 - DCR 101 z @jz, prowadzony przez @anshawblack ([youtube](https://www.youtube.com/watch?v=rcEJuN7zh2M), [soundcloud](https://soundcloud.com/decredindepth/ep-1-jonathan-zeppettini-jz-dcr-101))
 
-## Community Discussions
+## Dyskusje społeczności
 
-Community stats as of Jun 1:
+Statystyki społeczności na dzień 1 czerwca:
 
-* Politeia users: 175 (+8)
-* Twitter followers: 40,462 (+6)
-* Reddit subscribers: 9,459 (+34)
-* Matrix users: 337 (+25)
-* Slack users: 6,721 (+36)
-* Discord users: 2257 (+63), verified to post: 226 (+27)
-* Telegram users: 3,576 (-92)
-* YouTube subscribers: 3,769 (-2)
-* Facebook followers: 3,219 (+1), likes: 2,954 (-2)
-* LinkedIn followers: 544 (+29)
-* GitHub dcrd stars: 489 (+3), forks: 1,324 (+39)
+* Użytkownicy platformy Politeia: 175 (+8)
+* Obserwujący na Twitterze: 40,462 (+6)
+* Subskrybenci na Reddit: 9,459 (+34)
+* Użytkownicy na Matrixie: 337 (+25)
+* Użytkownicy na Slacku: 6,721 (+36)
+* Użytkownicy na Discordzie: 2257 (+63), zweryfikowani z możliwością pisania postów: 226 (+27)
+* Użytkownicy na Telegramie: 3,576 (-92)
+* Subskrybenci na YouTube: 3,769 (-2)
+* Obserwujący na Facebooku: 3,219 (+1), polubień: 2,954 (-2)
+* Obserwujący na LinkedIn: 544 (+29)
+* GitHub: 489 gwiazdek (+3) i 1,324 forków repozytorium dcrd (+39)
 
-Comm systems news:
+Nowinki z platform komunikacyjnych:
 
-* Someone [trolled](https://www.reddit.com/r/decred/comments/bvw3pv/change_the_name_and_bring_back_tacotime_to_lead/) r/decred with some posts about @jy-p's dress sense or something in early June, and [deleted](https://www.removeddit.com/r/decred/comments/bvw3pv/change_the_name_and_bring_back_tacotime_to_lead) their posts after some time. Not feeding trolls with attention is the best known tactic.
+* Ktoś [strollował](https://www.reddit.com/r/decred/comments/bvw3pv/change_the_name_and_bring_back_tacotime_to_lead/) kanał r/decred postami o guście @jy-p względem ubioru czy czymś podobnym we wczesnym czerwcu, i [usunął](https://www.removeddit.com/r/decred/comments/bvw3pv/change_the_name_and_bring_back_tacotime_to_lead) po jakimś czasie swoje posty. Niekarmienie troli uwagą jest najskuteczniejszą znaną nam znaną taktyką radzenia sobie z nimi.
 
-Selected Reddit posts:
+Wybrane posty z Reddita:
 
-* A [resource](https://www.reddit.com/r/decred/comments/bp035s/decred_accepted_here_the_list_of_businesses_where/) tracking businesses that accept DCR in exchange for products or services.
-* A post complaining that the Treasury is being [milked](https://www.reddit.com/r/decred/comments/bsk1l4/the_treasury_is_getting_milked_by_those_useless/) by useless marketing projects, written on the assumption that the "journey to the future of work" proposal would be approved. This post inspired spirited discussion about the merits of that particular proposal and marketing efforts generally.
-* A [post](https://www.reddit.com/r/decred/comments/bnep6p/if_you_were_running_decrediton_at_13_or_earlier/) observing that people who did not update in time had now been forked off the network following a transaction which utilized the new rules. The post explained how to recover from this scenario.
-* Ditto [AMA](https://www.reddit.com/r/decred/comments/bm9as0/ama_livestream_with_liz_and_trey_from_ditto_pr/).
-* [Discussion](https://www.reddit.com/r/decred/comments/bpgv33/why_is_poloniex_delisting_decred/) about the geofencing of DCR on Poloniex. Many links on the topic are indexed in [this issue](https://github.com/decredcommunity/issues/issues/133).
-* A [post](https://www.reddit.com/r/decred/comments/bth5od/microsoft_building_on_bitcoin_is_actually_amazing/) about why Microsoft building on Bitcoin is good news for Decred too inspired in depth discussion of the merits of blockchain-based identity systems.
+* Pojawiło się [źródło](https://www.reddit.com/r/decred/comments/bp035s/decred_accepted_here_the_list_of_businesses_where/) śledzące biznes, które przyjmują DCR w zamian za towary i usługi.
+* Post skarżący się, że Skarbiec jest [dojony](https://www.reddit.com/r/decred/comments/bsk1l4/the_treasury_is_getting_milked_by_those_useless/) przez bezużyteczne projekty marketingowe, napisany przy założeniu, że propozycja "podróży do przyszłości pracy" zostanie zatwierdzona. Ten post zainspirował ożywioną dyskusję na temat zalet tej konkretnej propozycji i działań marketingowych w ogóle.
+* Ten [post](https://www.reddit.com/r/decred/comments/bnep6p/if_you_were_running_decrediton_at_13_or_earlier/) zauważył, że ludzie, którzy nie aktualizowali swojego oprogramowania na czas, zostali teraz odcięci od sieci po transakcji, która wykorzystywała nowe zasady. Post wyjaśnił, jak powrócić do pożądanego stanu rzeczy.
+* Ditto przeprowadziło [AMA](https://www.reddit.com/r/decred/comments/bm9as0/ama_livestream_with_liz_and_trey_from_ditto_pr/).
+* [Dyskusja](https://www.reddit.com/r/decred/comments/bpgv33/why_is_poloniex_delisting_decred/) na temat geofencingu DCR na Poloniexie. Wiele linków na ten temat znajduje się w [tej kwestii](https://github.com/decredcommunity/issues/issues/133).
+* [Post](https://www.reddit.com/r/decred/comments/bth5od/microsoft_building_on_bitcoin_is_actually_amazing/) o tym, dlaczego budowanie przez Microsoft na Bitcoinie jest również dobrą wiadomością dla Decred zainspirował głęboką dyskusję na temat zalet systemów tożsamości opartych na blockchainie.
 
-Selected Twitter discussions:
+Wybrane dyskusje z Twittera:
 
-* @BradyDale live [tweets](https://twitter.com/BradyDale/status/1128670013974622208) @jy-p's presentation at ChangeLog giving an update on Decred's progress over the last year and next steps.
-* @lukebp [tweets](https://twitter.com/lukebp_/status/1132310565093879808) about misalignment of incentives in Bitcoin.
-* @lukebp [tweets](https://twitter.com/lukebp_/status/1132452552317001730) about how Decred makes minority forks expensive to execute.
-* @lukebp [explains](https://twitter.com/lukebp_/status/1124698848654438400) (once again) why "plutocracy" does not apply to blockchains.
+* [Tweety](https://twitter.com/BradyDale/status/1128670013974622208) @BradyDale na żywo z prezentacji @jy-p na ChangeLog na postępów w projekcie Decred na przestrzeni poprzedniego roku oraz kolejnych kroków w rozwoju.
+* @lukebp [tweetuje](https://twitter.com/lukebp_/status/1132310565093879808) o niespasowaniu systemu zachęt w Bitcoinie.
+* @lukebp [tweetuje](https://twitter.com/lukebp_/status/1132452552317001730) o tym, jak Decred sprawia, że mniejszościowe forki są kosztowne do przeprowadzenia.
+* @lukebp [wyjaśnia](https://twitter.com/lukebp_/status/1124698848654438400) (ponownie) dlaczego pojęcie "plutokracji" nie odnosi się i nie ma zastosowania w przestrzeni blockchain.
 
-## Markets
+## Rynki
 
-In May DCR was trading between USD 23.6-35.0 / BTC 0.0032-0.0045. The average daily rate was $27.71.
+W maju DCR kurs wymiany Decred wahał się pomiędzy 23.6-35.0 USD / BTC 0.0032-0.0045. Średni dzienny kurs wynosił 27.71 USD.
 
-Bitcoin rose steadily from USD ~5,500 and even crossed USD 9,000 for a brief amount of time.
+Cena Bitcoina stale rosła z ~5,500 USD a nawet na chwilę przekroczyła 9,000 USD.
 
-## Relevant External
+## Ważne kwestie i wiadomości poboczne
 
-EOS Block Producers [burned](https://www.reddit.com/r/eos/comments/bm75ih/the_mainnet_34m_eos_accumulated_4_inflation_is/) 34 million EOS (~$272 million) from the eosio.saving account. These funds had accumulated from the 4% inflation which was to be used to fund project development through a [Worker Proposal System](https://medium.com/eosys/eos-worker-proposal-system-announcement-6addcfb0134c). This idea fell out of favor with the EOS BPs and community, and 15 BPs supported the proposal to burn accumulated savings [on May 8](https://www.eosx.io/tx/26ca16319febafc0942a8c6e3be26c16b84846b7cfe5f6ade906a0b86a6c2bb7?listView=actions). New tokens are still accumulating in the savings account, but this seems likely to be removed as there is an open [referendum](https://eosauthority.com/polls_details?proposal=inflation_20190307&prev=search) to remove the 4% inflation for development entirely, which has almost unanimous support from around 2.7% of EOS tokens that have voted.
+Producenci bloków EOS [spalili](https://www.reddit.com/r/eos/comments/bm75ih/the_mainnet_34m_eos_accumulated_4_inflation_is/) 34 mln EOS (~272 mln USD) z konta eosio.saving. Środki te pochodziły z 4% inflacji, która miała być wykorzystana do sfinansowania rozwoju projektów poprzez [System Propozycji Pracowników](https://medium.com/eosys/eos-worker-proposal-system-announcement-6addcfb0134c). Pomysł ten stracił przychylność BP EOS i społeczności, a 15 BP poparło propozycję spalenia zgromadzonych oszczędności [8 maja](https://www.eosx.io/tx/26ca16319febafc0942a8c6e3be26c16b84846b7cfe5f6ade906a0b86a6c2bb7?listView=actions). Nowe żetony wciąż odkładają się na koncie oszczędnościowym, ale wydaje się, że zostaną one usunięte, ponieważ istnieje otwarte [referendum](https://eosauthority.com/polls_details?proposal=inflation_20190307&prev=search) w celu całkowitego usunięcia 4% inflacji na rzecz rozwoju, która ma niemal jednogłośne poparcie z około 2,7% żetonów EOS, które brały udział w głosowaniu.
 
-Zooko [commented](https://forum.zcashcommunity.com/t/the-future-of-zcash-in-the-year-2020/32372/173) on a long-running discussion about the future of Zcash development to express support for a new dev fund. Zcash currently allocates 20% of the block rewards to a founders reward but this is due to end in 2020. Zooko and many other advocates think the new dev fund needs to be more decentralized than the founder's reward's reliance on the Electronic Coin Company, and are encouraging community members to present and develop plans for decentralized governance of this fund.
+Zooko [wypowiedział się](https://forum.zcashcommunity.com/t/the-future-of-zcash-in-the-year-2020/32372/173) na temat wieloletniej dyskusji ws. przyszłości rozwoju Zcasha, aby wyrazić poparcie dla nowego funduszu deweloperskiego. Obecnie Zcash przeznacza 20% nagrody blokowej na nagrodę dla fundatorów, co ma się zakończyć w 2020 roku. Zooko i wielu innych zwolenników uważa, że nowy fundusz deweloperski musi być bardziej zdecentralizowany niż poleganie nagrody dla żałożycieli na Electronic Coin Company i zachęca członków społeczności do przedstawienia i opracowania planów zdecentralizowanego zarządzania tym funduszem.
 
-Tezos Athens upgrade [activated](https://www.coindesk.com/in-first-tezos-blockchain-activates-upgrade-by-token-holder-voting) on May 30, marking the end of a process that began in February to select a proposal, endorse it, test it and activate it. One of the lesser discussed aspects of the protocol upgrade was the [generation](https://twitter.com/wisercharlie/status/1134240285238501376) of 100 new XTZ to be claimed by the upgrade's developers for a round of drinks. This has been described as a method of [funding development](https://medium.com/tocqueville-group/why-tezos-is-the-best-platform-for-tokenized-assets-89a960cfa828) through inflation in future, with the developers who make a protocol change proposal incorporating the generation of new XTZ which they can claim as a reward for their work.
+30 maja aktywowany został upgrade [Tezon Athens](https://www.coindesk.com/in-first-tezos-blockchain-activates-upgrade-by-token-holder-voting), zaznaczając koniec procesu, który rozpoczął się w lutym, aby wybrać propozycję, zatwierdzić ją, przetestować i aktywować. Jednym z mniej omówionych aspektów aktualizacji protokołu była [generacja](https://twitter.com/wisercharlie/status/1134240285238501376) 100 nowych XTZ dla twórców aktualizacji celem ufundowania kolejki drinków. Zostało to opisane jako metoda [finansowania rozwoju](https://medium.com/tocqueville-group/why-tezos-is-the-best-platform-for-tokenized-assets-89a960cfa828) poprzez inflację w przyszłości, z deweloperami, którzy złożą propozycję zmiany protokołu obejmującą wygenerowanie nowych XTZ, które mogą odebrac jako nagrodę za swoją pracę.
 
-Dash [Ventures](https://blog.dash.org/introducing-the-dash-investment-foundation-370cafcc48ee) investment foundation is nearing completion, and Dash will be holding an election to select a set of supervisors to oversee its operation. The Dash Investment Foundation will be able to take ownership of equity or other assets in consideration for network funding. The election to fill the remaining 4 of 6 supervisor seats [started](https://blog.dash.org/details-on-the-election-for-dash-investment-foundation-supervisors-25766c55a1f) on May 30, and will be followed by budgetary proposals to fund the foundation's administrative costs and allocate some capital for it to invest.
+Dash [Ventures](https://blog.dash.org/introducing-the-dash-investment-foundation-370cafcc48ee) jest bliska ukończenia, a Dash przeprowadzi wybory w celu wybrania grupy nadzorców nadzorujących jej działalność. Fundacja Inwestycyjna Dash będzie mogła przejąć własność nad kapitałem własnym lub innymi aktywami w zamian za finansowanie sieci. W dniu 30 maja rozpoczęły się wybory na pozostałe 4 z 6 [mandatów nadzorców](https://blog.dash.org/details-on-the-election-for-dash-investment-foundation-supervisors-25766c55a1f), po których zostaną przedstawione propozycje budżetowe w celu sfinansowania kosztów administracyjnych fundacji i przeznaczenia części kapitału na jej inwestycje.
 
-The [Open Money Initiative](https://medium.com/@openmoneyinitiative/announcing-the-open-money-initiative-61422b58ad06) was announced, a research nonprofit which will study how money is used in closed economies with collapsing monetary systems. The initiative's first project is an ethnographic study in Venezuela. The initiative is supported by funding from Zcash, Stellar, Tezos and the Cosmos supported Interchain Foundation - among others.
+Ogłoszono [Open Money Initiative](https://medium.com/@openmoneyinitiative/announcing-the-open-money-initiative-61422b58ad06), organizację non-profit zajmującą się badaniem sposobu wykorzystania pieniędzy w gospodarkach zamkniętych o upadających systemach monetarnych. Pierwszym projektem inicjatywy jest badanie etnograficzne w Wenezueli. Inicjatywa jest wspierana finansowaniem m.in. przez Zcash, Stellar, Tezos i Fundację Interchain.
 
-A Bitcoin Cash hard fork on May 15 was beset by [several](https://blog.bitmex.com/the-bitcoin-cash-hardfork-three-interrelated-incidents/) issues and in the ensuing chaos, 3,391 BCH (~$1.35 million) were double spent. A bug with Bitcoin ABC led to invalid transactions filling up the mempool and a series of empty blocks being mined. Some miners began mining blocks on the pre-hardfork chain, causing a chain split. Immediately after the bug was resolved, a 2 block reorg occurred in which funds that the hardfork made spendable by any miners were double spent. It seems likely the dominant BCH miners reorged the chain to remove transactions in which these coins were claimed by another miner - replacing with transactions where they take custody of these "free to claim" coins.
+Hardfork Bitcoin Cash w dniu 15 maja był nękany przez [kilka](https://blog.bitmex.com/the-bitcoin-cash-hardfork-three-interrelated-incidents/) kwestii i w wynikającym z tego chaosie, 3 391 BCH (~1,35 mln USD) zostało wydane dwukrotnie. Błąd w Bitcoin ABC doprowadził do nieprawidłowych transakcji wypełniających mempool i serii wydobytych pustych bloków. Niektórzy górnicy rozpoczęli wydobycie bloków na łańcuchu przed rozpoczęciem hardforka, powodując podział łańcucha. Natychmiast po rozwiązaniu błędu, wystąpiła reorganizacja lańcucha o głębokości 2 bloków, w której fundusze, które hardfork uczynił wydawalnymi przez wszystkich górników zostały wydane dwukrotnie. Wydaje się prawdopodobne, że dominujący górnicy BCH przeorganizowali łańcuch w celu usunięcia transakcji, w których monety te zostały zgłoszone przez innego górnika - zastępując je transakcjami, w których przejmują kontrolę nad tymi "darmowymi" monetami.
 
-Poloniex has been busy in May, delisting [Peercoin](https://talk.peercoin.net/t/team-update-28-poloniex-delisting-legal-risks-memo-exchange-expansion-plans/9278) and a number of other cryptocurrencies, "[geofencing](https://medium.com/circle-trader/poloniex-to-stop-offering-trading-of-9-assets-to-us-customers-all-assets-remain-available-to-b4c5703c0e9)" DCR and 8 other cryptocurrencies so that US-based customers cannot trade it, and [announcing](https://medium.com/circle-trader/cosmos-atom-staking-is-coming-to-poloniex-d587d6c6615d) support for Cosmos staking. The decision to geofence DCR on the basis of regulatory uncertainty is perplexing, given the many [reasons](https://www.reddit.com/r/decred/comments/ahuawl/decred_launch_security_laws/eeiaa0n/) why DCR should not be considered a security, and Poloniex's concurrent support for ICO projects that seem to better fit the definition of a security. In a follow up [post](https://blog.circle.com/2019/05/20/us-crypto-policy-needs-to-change/), Circle CEO explained that the move is triggered by the [recent guidance](https://www.sec.gov/news/public-statement/statement-framework-investment-contract-analysis-digital-assets) from the SEC. Notably, the linked page says "This framework represents Staff views and is not a rule, regulation, or statement of the Commission. The Commission has neither approved nor disapproved its content. This framework, like other Staff guidance, is not binding on the Divisions or the Commission.". Another [post](https://blog.circle.com/2019/05/23/our-take-interpreting-recent-signals-from-us-regulatory-agencies/) from Circle further elaborated on their position and complained about the difficulties caused by uncertainty from US regulators.
+W maju Poloniex był bardzo zajęty, usuwając [Peercoin](https://talk.peercoin.net/t/team-update-28-poloniex-delisting-legal-risks-memo-exchange-expansion-plans/9278) i kilka innych kryptowalut, poddając "[geofencingowi](https://medium.com/circle-trader/poloniex-to-stop-offering-trading-of-9-assets-to-us-customers-all-assets-remain-available-to-b4c5703c0e9)" DCR i 8 innych kryptowalut, dzięki czemu klienci z USA nie mogą nimi handlować, oraz [ogłaszając](https://medium.com/circle-trader/cosmos-atom-staking-is-coming-to-poloniex-d587d6c6615d) wsparcie dla stakingu Cosmos. Decyzja o geofencingu DCR na podstawie niepewności prawnej jest kłopotliwa, biorąc pod uwagę wiele [powodów](https://www.reddit.com/r/decred/comments/ahuawl/decred_launch_security_laws/eeiaa0n/), dla których DCR nie powinien być uważany za papier wartościowy, oraz równoczesne wsparcie Polonexa dla projektów ICO, które wydają się lepiej pasować do tej definicji. W dalszej części [postu](https://blog.circle.com/2019/05/20/us-crypto-policy-needs-to-change/), dyrektor generalny Circle wyjaśnił, że przeniesienie to jest spowodowane przez [ostatnie wytyczne](https://www.sec.gov/news/public-statement/statement-framework-investment-contract-analysis-digital-assets) z SEC. W szczególności na załączonej stronie napisano: "Ramy te reprezentują poglądy pracowników i nie są regułą, rozporządzeniem ani oświadczeniem Komisji. Komisja nie zatwierdziła ani nie odrzuciła ich treści. Ramy te, podobnie jak inne wytyczne dla pracowników, nie są wiążące dla działów ani dla Komisji". Inny [post](https://blog.circle.com/2019/05/23/our-take-interpreting-recent-signals-from-us-regulatory-agencies/) z Circle rozwinął swoje stanowisko i skarżył się na trudności spowodowane niepewnością amerykańskich organów regulacyjnych.
 
-Kin Foundation [started](https://twitter.com/ResearchCircle/status/1134541879675166722) a [Defend Crypto](https://www.defendcrypto.org/) initiative by which they collect donations to take SEC to court. On Jun 4 the SEC [opened](https://www.coindesk.com/the-sec-is-suing-kik-for-its-2017-ico) formal proceedings against Kik.
+Fundacja Kin [rozpoczęła](https://twitter.com/ResearchCircle/status/1134541879675166722) inicjatywę [Defend Crypto](https://www.defendcrypto.org/), w ramach której zbierają darowizny na wniesienie sprawy przeciwko SEC do sądu. W dniu 4 czerwca SEC [otworzyła](https://www.coindesk.com/the-sec-is-suing-kik-for-its-2017-ico) formalne postępowanie przeciwko Kik.
 
-As part of Bitfinex's engagement with the New York District Attorney, it has [emerged](https://www.coindesk.com/tether-lawyer-confirms-stablecoin-74-percent-backed-by-cash-and-equivalents) that Tether was only 74% backed by USD on Apr 30, according to their legal representative.
+W ramach współpracy Bitfinex z Prokuratorem Okręgowym Nowego Jorku, 30 kwietnia [okazało się](https://www.coindesk.com/tether-lawyer-confirms-stablecoin-74-percent-backed-by-cash-and-equivalents), że Tether był tylko 74% wspierany przez USD według ich prawnego przedstawiciela.
 
-Binance suffered a security [breach](https://binance.zendesk.com/hc/en-us/articles/360028031711) which resulted in the loss of 7,000 BTC. The breach was a result of hackers obtaining a large number of user API keys and 2FA codes. On twitter, @JeremyRubin [suggested](https://twitter.com/JeremyRubin/status/1125919526485254144) that if Binance released their private keys for the hacked coins (or a subset) they could coordinate a reorg to undo the theft. CZ was participating in an AMA soon after the breach was announced and mentioned that he was considering this proposition. This sparked uproar on crypto Twitter, with much discussion of whether this was a viable or advisable approach. The subject also received some in depth [treatment](https://research.circle.com/weekly-recaps/weekly-crypto-recap-to-reorg-or-not-to-reorg). Ultimately CZ decided [not](https://twitter.com/cz_binance/status/1125996194734399488) to pursue an attempted reorg because it would damage BTC's credibility and potentially split the chain/community. The losses would instead be covered by the Binance SAFU fund.
+Binance ucierpiał z powodu [naruszenia bezpieczeństwa](https://binance.zendesk.com/hc/en-us/articles/360028031711), które spowodowało utratę 7000 BTC. Naruszenie to było wynikiem uzyskania przez hakerów dużej liczby kluczy API użytkownika i kodów 2FA. Na twitterze, @JeremyRubin [zasugerował](https://twitter.com/JeremyRubin/status/1125919526485254144), że jeśli Binance wypuści swoje klucze prywatne do zhakowanych monet (lub ich podzestawu), będą mogli skoordynować przeorganizowanie w celu cofnięcia kradzieży. CZ wziął udział w AMA wkrótce po ogłoszeniu naruszenia i wspomniał, że rozważa tę propozycję. Wywołało to wrzawę na kryptotwitterze i wywołało wiele dyskusji na temat tego, czy było to podejście wykonalne, czy też wskazane. Temat ten również został poddany dogłębnej [analizie](https://research.circle.com/weekly-recaps/weekly-crypto-recap-to-reorg-or-not-to-reorg). Ostatecznie CZ podjął decyzję o [niepodejmowaniu](https://twitter.com/cz_binance/status/1125996194734399488) próby reorganizacji, ponieważ zaszkodziłoby to wiarygodności BTC i potencjalnie doprowadziłoby do podziału łańcucha/społeczności. Straty zostałyby pokryte z funduszu Binance SAFU.
 
-One of the articles that [quoted](https://dailyhodl.com/2019/05/07/crypto-economist-behind-the-mit-bitcoin-experiment-is-reportedly-working-on-facebooks-new-coin/) Decred on Facebook's coin had an interesting historic reference. Since 2014 MIT ran an experiment on students where Bitcoin was used to test the spreading of new technologies among the masses. A 2017 [article](http://news.mit.edu/2017/bitcoin-study-period-exclusivity-encourages-early-adopters-0713) outlining the study and conclusions noted that the insights could be used by "tech firms" who "could fulfill the early adopter's need to feel exclusive and capitalize on their potential to encourage wider adoption". A professor from another university commented "This paper helps us understand some of the challenges of launching such a currency, even without a technology-savvy population.". In May this year, CoinDesk [reported](https://www.coindesk.com/mit-economist-christian-catalini-said-to-be-working-on-facebooks-crypto-push) that one of the authors of the experiment is helping Facebook to build a cryptocurrency.
+Jeden z artykułów, który [cytował](https://dailyhodl.com/2019/05/07/crypto-economist-behind-the-mit-bitcoin-experiment-is-reportedly-working-on-facebooks-new-coin/) Decred na temat monety Facebooka miał ciekawe odniesienie historyczne. Od 2014 roku MIT przeprowadzał eksperyment na studentach, gdzie Bitcoin został wykorzystany do przetestowania rozprzestrzeniania się nowych technologii wśród mas. W 2017 r. [artykuł](http://news.mit.edu/2017/bitcoin-study-period-exclusivity-encourages-early-adopters-0713) przedstawiający badania i wnioski odnotował, że spostrzeżenia te mogłyby być wykorzystane przez "firmy technologiczne", które "mogłyby zaspokoić potrzeby early adoptersów do posiadania czegoś na wyłączność i wykorzystać swój potencjał, aby zachęcić do szerszego stosowania". Profesor z innego uniwersytetu skomentował: "Ten artykuł pomaga nam zrozumieć niektóre z wyzwań związanych z wprowadzeniem takiej waluty, nawet bez populacji obeznanej z technologią". W maju tego roku CoinDesk [doniósł](https://www.coindesk.com/mit-economist-christian-catalini-said-to-be-working-on-facebooks-crypto-push), że jeden z autorów eksperymentu pomaga Facebookowi zbudować kryptowalutę.
 
-Another [sad story](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124) surfaced of a person's poor security practices leading to a loss of >$100K in crypto. Hint: SMS 2FA is insecure and of course, don't keep that much on an exchange.
+Kolejna [smutna historia](https://medium.com/coinmonks/the-most-expensive-lesson-of-my-life-details-of-sim-port-hack-35de11517124) ujawniła słabe praktyki bezpieczeństwa danej osoby, prowadząc do utraty >$100K w krypto. Wskazówka: 2FA przez SMS jest niepewne i, oczywiście, nie trzymaj tak dużo środków na giełdzie wymian.
 
-Intel [disclosed](https://www.extremetech.com/computing/291474-intel-discloses-new-speculative-execution-security-vulnerabilities) a [new set](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling) of speculative execution vulnerabilities. Mitigations for major operating systems were released in response.
+Intel [ujawnił](https://www.extremetech.com/computing/291474-intel-discloses-new-speculative-execution-security-vulnerabilities) [nowy zestaw](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling) spekulacyjnych luk w realizacji. W odpowiedzi wydano środki zaradcze dla głównych systemów operacyjnych.
 
-Firefox users went through a frustrating experience of software that worked yesterday suddenly stopped working. Most Firefox addons were disabled around May 3 due to an (unexpected?) expiration of code signing certificate, a bug dubbed ['armagadd-on-2.0'](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973). This included addons that protect user privacy and security by blocking tons of unwanted ad and spyware content on the web. Mozilla published a [notice](https://blog.mozilla.org/addons/2019/05/04/update-regarding-add-ons-in-firefox/) that as a part of the solution, a "fix will be automatically applied in the background" delivered via the Studies system while a more general fix was in the works.
+Użytkownicy Firefoksa przeszli przez frustrujące doświadczenie z oprogramowaniem, które wczoraj nagle przestało działać. Większość dodatków do Firefoksa została wyłączona około 3 maja z powodu (nieoczekiwanego?) upływu ważności certyfikatu podpisywania kodu, błędu nazwanego ['armagadd-on-2.0'](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973). Obejmowały one dodatki, które chronią prywatność i bezpieczeństwo użytkowników, blokując tony niechcianych reklam i zawartości programów szpiegujących w sieci. Mozilla opublikowała [zawiadomienie](https://blog.mozilla.org/addons/2019/05/04/update-regarding-add-ons-in-firefox/), że jako część rozwiązania, "poprawka zostanie automatycznie zastosowana w tle" dostarczona przez system Studies, podczas gdy bardziej ogólna poprawka była w toku.
 
-## About This Issue
+## O tym wydaniu
 
-This is issue 14 of Decred Journal. Index of all issues, mirrors, and translations is available [here](https://xaur.github.io/decred-news/).
+To 14. wydanie Decred Journal. Spis wszystkich wydań, mirrorów i tłumaczeń dostępny jest [tutaj](https://xaur.github.io/decred-news/).
 
-Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
+Większość informacji od stron trzecich jest przekazywana bezpośrednio ze źródła po minimalnym sprawdzeniu poprawności. Autorzy Decred Journal nie mają możliwości zweryfikowania wszystkich publikowanych stwierdzeń. Proszę uważać na oszustwa i przeprowadzać własny research.
 
-Your feedback and contributions are welcome on Reddit, [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
+Wasze opinie i komentarze są mile widziane na portalach Reddit, [GitHub](https://github.com/xaur/decred-news/issues) oraz [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
-Credits (alphabetical order):
+Zasługi (kolejność alfabetyczna):
 
-* writing and editing: bee, degeri, Dustorf, liz\_bagot, richardred, s\_ben
-* reviews and feedback: chappjc, davecgh, dnldd, Haon, jholdstock, lukebp, matheusd, raedah
-* title image: saender
+* redakcja treści: bee, degeri, Dustorf, liz\_bagot, richardred, s\_ben
+* recenzje i komentarze: chappjc, davecgh, dnldd, Haon, jholdstock, lukebp, matheusd, raedah
+* ilustracja tytułowa: saender
