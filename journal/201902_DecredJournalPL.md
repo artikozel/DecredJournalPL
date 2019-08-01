@@ -272,7 +272,7 @@ Kolejny wątek Reddit został [usunięty](https://www.reddit.com/r/decred/commen
 
 ## Rynki
 
-W lutym DCR kurs wymiany Decred wahał się pomiędzy 14,97-18,28 USD / BTC 0,0042-0,0048. Średni dzienny kurs wynosił 16,51 USD.
+W lutym kurs wymiany Decred wahał się pomiędzy 14,97-18,28 USD / BTC 0,0042-0,0048. Średni dzienny kurs wynosił 16,51 USD.
 
 ## Ważne kwestie i wiadomości poboczne
 
