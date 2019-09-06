@@ -1,6 +1,6 @@
 # Decred Journal – Czerwiec 2019
 
-![abstract art](../img/journal-201906-384.jpg)
+![abstrakcja](../img/journal-201906-384.jpg)
 
 _Obraz: "Anomaly" aut. @saender._
 

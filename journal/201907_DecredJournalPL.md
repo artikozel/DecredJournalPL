@@ -1,135 +1,135 @@
 # Decred Journal – July 2019
 
-![Image: Staking discussion at StakingCon 2019 in Beijing](../img/stakingcon2019-384.jpg)
+![Obraz: dyskusja nt. stakingu na StakingCon 2019 w Pekinie](../img/stakingcon2019-384.jpg)
 
-_Image: Staking discussion at StakingCon 2019 in Beijing_
+_Obraz: Dyskusja nt. stakingu na StakingCon 2019 w Pekinie_
 
-Major news of July:
+Główne wiadomości z lipca:
 
-* A draft [specification](https://github.com/decred/dcrdex) for the DEX has been released, marking a major milestone towards its realization. A [proposal](https://proposals.decred.org/proposals/417607aaedff2942ff3701cdb4eff76637eca4ed7f7ba816e5c0bd2e971602e1) to conduct development work was submitted in early August by dcrdata developers, and will be covered in the August edition.
-* 3 proposals from firms offering market making services were published on Aug 7, and a further RFP proposal was published on Aug 10 which asks the stakeholders to first signal whether they want to hire a market maker. These will be covered in Politeia digest (soon) and next month's Journal.
-* TinyDecred, a python toolkit, was released by @buck54321, a contractor who has been working on dcrdata for the last year. TinyDecred was initially a personal interest project for Brian, but over time developed into a useful set of tools [that](https://proposals.decred.org/proposals/20e967dad9e7398901decf3cfe0acf4e0853f6558a62607265c63fe791b8b124) could open up Decred-related development to the large number of Python coders. A proposal was also submitted requesting $8,000 for the work which went into TinyDecred to this point - it seems to have strong support.
-* dcrdata beta v5.1 is now live, packed full of incremental improvements. There has also been good progress on dcrextdata, with more market data being collected and nodes being deployed on the network to collect data about the mempool and block propagation times.
-* Some great Decred in Depth podcasts were released with [@muststopmurad](https://www.youtube.com/watch?v=XkvcdjSH0c0) and [@permabullnino](https://www.youtube.com/watch?v=HxECplK3kAs) talking about why they're into Decred and about the opportunities and challenges they see for the project going forward.
-* Decred-related discussion seems to be increasing on social media, and the circle of people involved in these discussions expanding. This is no doubt bolstered by the #DecredChallenge and associated memes, initiated and popularized by @Checkmate - who also published an [article](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4) about Decred's monetary premium, and submitted a [proposal](https://proposals.decred.org/proposals/78b50f218106f5de40f9bd7f604b048da168f2afbec32c8662722b70d62e4d36) to continue with this line of research (now approved). @Checkmate's article has already been cited by an [investment thesis](https://www.blockheadcap.com/post/decred-investment-thesis) from Blockhead Capital - who also had some other nice things to say about DCR.
+* Projekt [specyfikacji](https://github.com/decred/dcrdex) dla DEX został wydany, co stanowi ważny krok w kierunku jego realizacji. [Propozycja](https://proposals.decred.org/proposals/417607aaedff2942ff3701cdb4eff76637eca4ed7f7ba816e5c0bd2e971602e1) przeprowadzenia prac rozwojowych została złożona na początku sierpnia przez deweloperów dcrdata i zostanie uwzględniona w wydaniu sierpniowym.
+* W dniu 7 sierpnia opublikowano 3 propozycje firm oferujących usługi animatora rynku (market making), a 10 sierpnia opublikowano kolejną propozycję RFP, w której poproszono interesariuszy, aby najpierw zasygnalizowali, czy w ogóle są zainteresowani animacją rynku. Propozycje te zostaną omówione w Politeia Digest (wkrótce) i w przyszłym miesiącu w Dzienniku.
+* TinyDecred, zestaw narzędzi napisanych w jęz. Python, został wydany przez @buck54321, wykonawcę, który pracował nad dcrdata przez ostatni rok. TinyDecred był początkowo osobistym projektem dla Briana, ale z czasem rozwinął się w użyteczny zestaw narzędzi [które](https://proposals.decred.org/proposals/20e967dad9e7398901decf3cfe0acf4e0853f6558a62607265c63fe791b8b124) mogą umożliwić dużej liczbie programistów związanych z Pythonem prace nad projekt. W związku z powyższym została tez złożona propozycja z prośbą o 8000 dolarów za pracę włożoną w TinyDecred do tego momentu i wydaje się mieć silne poparcie.
+* dcrdata beta v5.1 jest już dostępna, pełna przyrostowych ulepszeń. Nastąpił również duży postęp w kwestii dcrextdata, w którym zbierane są większe ilości danych rynkowych, a węzły są wdrażane w sieci w celu zbierania danych o mempoolu i czasach propagacji bloków.
+* Światło dzienne ujrzało parę świetnych podcastów Decred in Depth z [@muststopmurad](https://www.youtube.com/watch?v=XkvcdjSH0c0) i [@permabullnino](https://www.youtube.com/watch?v=HxECplK3kAs) mówiących o tym, dlaczego i jak znaleźli się w Decred i o możliwościach i wyzwaniach, które widzą dla projektu w przyszłości.
+* Dyskusje na tematy związane z Decred wydają się narastać w mediach społecznościowych, a krąg osób zaangażowanych w te dyskusje ciągle się poszerza. Jest to bez wątpienia efekt wywołany i wzmocniony przez #DecredChallenge i związane z nim memy, zainicjowane i spopularyzowane przez @Checkmate - który również opublikował [artykuł](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4) o zabezpieczeniach monetarnych Decred, i złożył [propozycję](https://proposals.decred.org/proposals/78b50f218106f5de40f9bd7f604b048da168f2afbec32c8662722b70d62e4d36) kontynuowania tej linii badań (obecnie zatwierdzoną). Artykuł @Checkmate'a został już zacytowany w [tezie inwestycyjnej](https://www.blockheadcap.com/post/decred-investment-thesis) z Blockhead Capital - który miał również kilka innych miłych rzeczy do powiedzenia na temat DCR.
 
-## Development
+## Rozwój
 
-[dcrd](https://github.com/decred/dcrd): Optimizations and infrastructure additions for various planned upcoming features, code maintenance, bug fixes.
+[dcrd](https://github.com/decred/dcrd): Optymalizacje i uzupełnienia infrastruktury dla różnych planowanych przyszłych funkcji, utrzymanie kodu, poprawki błędów.
 
-New major versions of [rpcclient](https://github.com/decred/dcrd/pull/1807), [database](https://github.com/decred/dcrd/pull/1799), [blockchain/stake](https://github.com/decred/dcrd/pull/1803) and [dcrjson](https://github.com/decred/dcrd/pull/1779) modules were introduced to take advantage of recent improvements in other modules. The new dcrjson module saw a significant overhaul, while retaining a backwards compatible API. This will allow consumer modules to pick up the majority of the improvements via the old API before they fully upgrade to the new one. Opportunity of major version bumps was taken to break tight coupling and remove unused code.
+Wprowadzono nowe główne wersje modułów [rpcclient](https://github.com/decred/dcrd/pull/1807), [bazy danych](https://github.com/decred/dcrd/pull/1799), [blockchain/stake](https://github.com/decred/dcrd/pull/1803) i [dcrjson](https://github.com/decred/dcrd/pull/1779) w celu wykorzystania ostatnich ulepszeń w innych modułach. Nowy moduł dcrjson został poddany gruntownemu przeglądowi, przy jednoczesnym zachowaniu wstecznie kompatybilnego API. Pozwoli to modułom konsumenckim na pobranie większości usprawnień za pośrednictwem starego API, zanim zostaną one w pełni zaktualizowane do nowego API. Zaistniała okazja przejścia na wyższe wersje pozwoliła na zerwanie szczelnego połączenia i usunięcia nieużywanego kodu.
 
-A [workaround](https://github.com/decred/dcrd/pull/1801) for Go compiler's code generation issues was added to avoid the explosion of binary size of chaincfg/v2 module.
+Dodano [obejście](https://github.com/decred/dcrd/pull/1801) do problemów z generowaniem kodu kompilatora Go aby uniknąć eksplozji rozmiaru binarnego modułu chaincfg/v2.
 
-[dcrwallet](https://github.com/decred/dcrwallet): Codebase upgrades and bug fixes. Large [refactoring](https://github.com/decred/dcrwallet/pull/1509) of JSON-RPC code and [removal](https://github.com/decred/dcrwallet/pull/1496) of obsolete gRPC code have been merged.
+[dcrwallet](https://github.com/decred/dcrwallet): Aktualizacje bazy kodowej i poprawki błędów. Scalono dużą [refaktoryzację](https://github.com/decred/dcrwallet/pull/1509) kodu JSON-RPC i [usunięto](https://github.com/decred/dcrwallet/pull/1496) przestarzały kod gRPC.
 
-[Decrediton](https://github.com/decred/decrediton): Minor UI improvements and bug fixes. Responsive purchase ticket view [implemented](https://github.com/decred/decrediton/pull/2146). A ton of dependencies were [upgraded](https://github.com/decred/decrediton/pull/2156) to close a host of vulnerabilities.
+[Decrediton](https://github.com/decred/decrediton): Drobne ulepszenia w zakresie interfejsu użytkownika i poprawki błędów. Wdrożono [responsywny widok kupna biletów](https://github.com/decred/decrediton/pull/2146) i [zmodernizowano](https://github.com/decred/decrediton/pull/2156) tony zależności, aby zamknąć wiele luk.
 
-[Politeia](https://github.com/decred/politeia): Work continues on the [redesign](https://github.com/decred/dcrdesign/issues/77) of Politeia's interface. The other major task in July concerned the [integration](https://github.com/decred/politeia/pull/951) of tlog from Google's open source [Trillian](https://github.com/google/trillian) data store on the backend as a replacement for Git. tlog ([transparent log](https://research.swtch.com/tlog)) will improve scalability, allow records to be timestamped individually, and will allow for switching to a filesystem like [IPFS](https://ipfs.io) in future.
+[Politeia](https://github.com/decred/politeia): Kontynuowane są prace nad [przeprojektowaniem](https://github.com/decred/dcrdesign/issues/77) interfejsu Politei. Drugie ważne zadanie w lipcu dotyczyło [integracji](https://github.com/decred/politeia/pull/951) tloga z otwartego źródła Google [Trillian](https://github.com/google/trillian) przechowywanego w backendzie jako zamiennik tlogu Git. Tlog ([transparent log](https://research.swtch.com/tlog)) poprawi skalowalność, umożliwi indywidualne oznaczanie wpisów czasem i pozwoli w przyszłości na przejście na system plików taki jak [IPFS](https://ipfs.io).
 
-Login by email has been [replaced](https://github.com/decred/politeia/pull/940) to use username as part of the effort to make [email optional](https://github.com/decred/politeia/issues/554) and will be deployed on Politeia during the next update.
+Logowanie poprzez email zostało [zastąpione](https://github.com/decred/politeia/pull/940) w celu wykorzystania nazwy użytkownika jako części wysiłku włożonego w uczynienie [emaila opcjonalnym](https://github.com/decred/politeia/issues/554) i zostanie wdrożone na Politeię podczas następnej aktualizacji.
 
-[dcrstakepool](https://github.com/decred/dcrstakepool): UI and performance improvements, bug fixes. Reworked [Connect to Wallet](https://github.com/decred/dcrstakepool/pull/427) view and added the display of VSP's [block height](https://github.com/decred/dcrstakepool/pull/440) as a health indicator. More work to [decouple](https://github.com/decred/dcrstakepool/issues/227) dcrstakepool and dcrwallet (dcrstakepool should only talk to the stakepoold service that in turn manages the voting wallet).
+[dcrstakepool](https://github.com/decred/dcrstakepool): poprawa wydajności i interfejsu użytkownika, poprawki błędów. Zmieniono widok ["Połącz z portfelem"](https://github.com/decred/dcrstakepool/pull/427) i dodano wyświetlanie wysokości bloku VSP (https://github.com/decred/dcrstakepool/pull/440) jako wskaźnika stanu zdrowia. Trwają prace nad [rozłączeniem](https://github.com/decred/dcrstakepool/issues/227) dcrstakepool i dcrwallet (dcrstakepool powinien rozmawiać tylko z usługą stakepoold, która z kolei zarządza portfelem do głosowania).
 
-Raedah Group has started work to [improve](https://github.com/raedahgroup/dcrstakepool/pull/4) the VSP authentication APIs. This will enable the use of [accountless VSPs](https://github.com/decredcommunity/issues/issues/100), which will greatly simplify the staking setup process for new users and allow to make [email optional](https://github.com/decred/dcrstakepool/issues/274) ([discussion](https://matrix.to/#/!wSdymYrEpBhsWlDJuk:decred.org/$15605505894685ViDcj:decred.org)).
+Grupa Raedah rozpoczęła prace nad [poprawą](https://github.com/raedahgroup/dcrstakepool/pull/4) uwierzytelniania API dla VSP. Umożliwi to korzystanie z [bezkontowych VSP](https://github.com/decredcommunity/issues/issues/100), co znacznie uprości proces konfigurowania stakingu dla nowych użytkowników i pozwoli na uczynienie [emaila opcjonalnym](https://github.com/decred/dcrstakepool/issues/274) ([dyskusja](https://matrix.to/#/!wSdymYrEpBhsWlDJuk:decred.org/$15605505894685ViDcj:decred.org)).
 
-[dcrlnd](https://github.com/decred/dcrlnd): Upstream changes from [lnd](https://github.com/lightningnetwork/lnd) have been [ported](https://github.com/decred/dcrlnd/pull/36#issuecomment-509370199), and private dev branches are mostly in sync with the upstream lnd master branch. The latest upstream [pull request](https://github.com/lightningnetwork/lnd/commit/add905d17f7bbb11d0df2761cdf8accf2fef2b00) to be reviewed was submitted to lnd on Jul 25.
+[dcrlnd](https://github.com/decred/dcrlnd): Zmiany z głównego repozytorium [lnd](https://github.com/lightningnetwork/lnd) zostały [sportowane](https://github.com/decred/dcrlnd/pull/36#issuecomment-509370199), a prywatne gałęzie deweloperów są w większości zsynchronizowane z główną gałęzią lnd w upstreamie. Ostatni zgłoszony dla gałęzi master [pull request](https://github.com/lightningnetwork/lnd/commit/add905d17f7bbb11d0df2761cdf8accf2fef2b00) czekający na przegląd pochodzi z 25 lipca.
 
-The [lightning-faucet](https://github.com/decred/lightning-faucet) repo has migrated from @matheusd's GitHub to the official decred org, where the faucet saw minor improvements this month to the form for generating Lightning [invoices](https://github.com/decred/lightning-faucet/pull/9) and the [addition](https://github.com/decred/lightning-faucet/pull/10) of continuous integration. Work has started on a new Pay Invoice form that will allow users to pay via the faucet (currently users must pay invoices on the command line with `dcrlncli`).
+Repozytorium [lightning-faucet](https://github.com/decred/lightning-faucet) przeniosło się z GitHub @matheusd do oficjalnego, nalezącego do organizacji Decred, gdzie w tym miesiącu w kranie w tym miesiącu wprowadzono niewielkie ulepszenia do formularza generowania [faktur Lightning](https://github.com/decred/lightning-faucet/pull/9) i [dodanie](https://github.com/decred/lightning-faucet/pull/10) ciągłej integracji. Rozpoczęły się prace nad nowym formularzem Pay Invoice, który pozwoli użytkownikom płacić za pośrednictwem kranu (obecnie użytkownicy muszą płacić faktury w wierszu polecenia za pomocą `dcrlncli`).
 
-[dcrandroid](https://github.com/decred/dcrandroid): Minor UI optimizations and bug fixes, as well as the ability to [rename accounts](https://github.com/decred/dcrandroid/pull/386).
+[dcrandroid](https://github.com/decred/dcrandroid): Drobne optymalizacje interfejsu użytkownika i poprawki błędów, a także możliwość zmiany nazwy konta (https://github.com/decred/dcrandroid/pull/386).
 
-Work is in progress to add [biometric authentication](https://github.com/decred/dcrandroid/pull/343), [sound and vibration](https://github.com/decred/dcrandroid/pull/399) to notifications, and a [stats page](https://github.com/decred/dcrandroid/pull/397).
+Trwają prace nad dodaniem [uwierzytelniania biometryczneego](https://github.com/decred/dcrandroid/pull/343), [dźwięku i wibracji](https://github.com/decred/dcrandroid/pull/399) do powiadomień oraz [strony statystyk](https://github.com/decred/dcrandroid/pull/397).
 
-[dcrios](https://github.com/raedahgroup/dcrios): UI optimizations and bug fixes, new translations to [Spanish](https://github.com/raedahgroup/dcrios/pull/500), [Vietnamese](https://github.com/raedahgroup/dcrios/pull/498) and [Portuguese](https://github.com/raedahgroup/dcrios/pull/497).
+[dcrios](https://github.com/raedahgroup/dcrios): Optymalizacja interfejsu użytkownika i poprawki błędów, nowe tłumaczenia na [hiszpański](https://github.com/raedahgroup/dcrios/pull/500), [wietnamski](https://github.com/raedahgroup/dcrios/pull/498) i [portugalski](https://github.com/raedahgroup/dcrios/pull/497).
 
-[dcrdata](https://github.com/decred/dcrdata): v5.1 is now [live](https://explorer.dcrdata.org/). This release adds numerous UI enhancements, including the [addition](https://github.com/decred/dcrdata/pull/1487) of fiat and percent values to the [markets dashboard](https://explorer.dcrdata.org/market), new [styling](https://github.com/decred/dcrdata/pull/1446) on the [proposal page](https://explorer.dcrdata.org/proposal/decentralized-exchange-specification-document), a [tweak](https://github.com/decred/dcrdata/pull/1448) to the "predicted" coin supply chart, fullscreen [address chart](https://github.com/decred/dcrdata/pull/1443) (useful for [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) address), and a [progress bar](https://github.com/decred/dcrdata/pull/1447) for ticket revocations.
+[dcrdata](https://github.com/decred/dcrdata): v5.1 jest teraz [dostępna](https://explorer.dcrdata.org/). To wydanie dodaje liczne ulepszenia w zakresie interfejsu użytkownika, w tym [dodatek](https://github.com/decred/dcrdata/pull/1487) wartości procentowych i fiat do [dashboardu rynków](https://explorer.dcrdata.org/market), nową [stylizację](https://github.com/decred/dcrdata/pull/1446) na [stronie propozycji](https://explorer.dcrdata.org/proposal/decentralized-exchange-specification-document), [korektę](https://github.com/decred/dcrdata/pull/1448) do "przewidywanego" wykresu podaży monet, pełnoekranowy [wykres adresów](https://github.com/decred/dcrdata/pull/1443) (przydatny dla adresu [Skarbca](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx)) oraz [pasek postępu](https://github.com/decred/dcrdata/pull/1447) dla odwołania biletów.
 
-The Insight API has received some attention, with improvements to the [address endpoint](https://github.com/decred/dcrdata/pull/1438), several bug fixes, and [increasing](https://github.com/decred/dcrdata/pull/1481) the maximum number of client connections from 1,000 to 16,384.
+Interfejsowi API Insight poświęcono więcej uwagi poprzez ulepszenia w zakresie [punktu końcowego adresu](https://github.com/decred/dcrdata/pull/1438), kilka poprawek błędów oraz [zwiększenie](https://github.com/decred/dcrdata/pull/1481) maksymalnej liczby połączeń z klientami z 1000 do 16384.
 
-> dcrdata is now the official Insight API for Decred. Exodus wallet now uses the host insight.dcrdata.decred.org for their Insight API needs. There are roughly 800 socket.io client connections (the Insight websocket bits) to dcrdata at any given time, and we've had no complaints from those users. (@chappjc in [chat](https://matrix.to/#/!LmKzrmxJIXNHNiEmIh:decred.org/$15651246158457opycs:decred.org))
+> dcrdata jest teraz oficjalnym API Insight dla Decred. Portfel Exodus wykorzystuje teraz host insight.dcrdata.decred.org dla potrzeb Insight API. W każdej chwili istnieje około 800 połączeń klienckich socket.io (bitów sieciowych Insight) z dcrdata i nie mieliśmy od tych użytkowników żadnych zastrzeżeń. (@chappjc in [chat](https://matrix.to/#/!LmKzrmxJIXNHNiEmIh:decred.org/$15651246158457opycs:decred.org))
 
-Changes in dcrd have been [incorporated](https://github.com/decred/dcrdata/pull/1491). npm dependencies were [updated](https://github.com/decred/dcrdata/pull/1467) to close known vulnerabilities.
+[Wcielono](https://github.com/decred/dcrdata/pull/1491) zmiany w dcrd. Zależności npm zostały [zaktualizowane](https://github.com/decred/dcrdata/pull/1467) w celu usunięcia znanych luk.
 
-Work continues to finish removing [sqlite](https://github.com/decred/dcrdata/pull/1480).
+Prace nad usunięciem [sqlite](https://github.com/decred/dcrdata/pull/1480) są kontynuowane.
 
-Raedah Group continues work on [dcrextdata](https://github.com/raedahgroup/dcrextdata), a package for collecting external (off-chain) data not yet found on dcrdata. Progress has been made on collecting node-level data about the mempool and block propagation times. These are being tracked now from a single node and the full history of tracked data will be made available (with charts) when it has been polished. dcrextdata also pulls in and stores data from PoW pools and VSPs, which will allow a historical record of these attributes to be maintained. Demo of the live data is available [here](http://dcrextdata.raedahgroup.com/).
+Grupa Raedah kontynuuje prace nad [dcrextdata](https://github.com/raedahgroup/dcrextdata), pakietem do zbierania zewnętrznych (poza łańcuchem [*off-chain*]) danych, które nie znalazły się jeszcze na dcrdata. Poczyniono postępy w gromadzeniu danych na poziomie węzłów na temat czasu propagacji mempoolu i bloków. Teraz  są one śledzone z jednego węzła, a pełna historia śledzonych danych zostanie udostępniona (wraz z wykresami) po dodatkowych pracach kosmetycznych. Dcrextdata pobiera i przechowuje również dane z puli PoW i VSP, co pozwoli na zachowanie historycznego zapisu tych atrybutów. Demo danych na żywo jest dostępne [tutaj](http://dcrextdata.raedahgroup.com/).
 
-Other:
+Pozostałe:
 
-* Draft of the DEX specification has been released and added to the new [dcrdex](https://github.com/decred/dcrdex) repository.
-* Raedah Group is working on a mobile app for local person-to-person BTC/DCR trading (the work is in private repos for now).
-* [Bug bounty](https://bounty.decred.org/) website [update](https://twitter.com/degeri_crypto/status/1154776087374770176): added details for 3 new vulnerabilities. The program has processed a total of 67 submissions, with 9 being eligible for a payout, of which 8 have been patched and disclosed.
+* Projekt specyfikacji DEX został wydany i dodany do nowego repozytorium [dcrdex](https://github.com/decred/dcrdex).
+* Grupa Raedah pracuje nad aplikacją mobilną dla lokalnego handlu BTC/DCR face-to-face (praca jest obecnie w prywatnych repozytoriach).
+* [Zaktualizowano](https://twitter.com/degeri_crypto/status/1154776087374770176) stronę internetową [nagród za znalezienie błędów](https://bounty.decred.org/): dodano szczegóły dotyczące 3 nowych podatności. Program przetworzył łącznie 67 zgłoszeń, z czego 9 kwalifikuje się do wypłaty, z których 8 zostało poprawionych i ujawnionych.
 
-Dev activity stats for July: 51 active PRs, 219 master commits, 50K added and 29K deleted lines spread across 15 repositories. Contributions came from 1-6 developers per repository.
+Statystyki aktywności deweloperskiej na lipiec: 51 aktywnych PR-ów, 219 master commitów, 50 tys. dodanych i 29 tys. usuniętych linijek kodu spośród 15 repozytoriów. Wkład pochodził od 1-6 programistów na każde repozytorium.
 
-## People
+## Ludzie
 
-Welcome to new first time contributors with code merged to master: bgptr ([decrediton](https://github.com/decred/decrediton/commits?author=bgptr)), emesterhazy ([decrediton](https://github.com/decred/decrediton/commits?author=emesterhazy)), ReevesAk ([dcrwallet](https://github.com/decred/dcrwallet/commits?author=ReevesAk)).
+Witamy nowych, początkujących współpracowników, których kod scalono z głównymi gałęziami repozytoriów Decred na GitHubie: bgptr ([decrediton](https://github.com/decred/decrediton/commits?author=bgptr)), emesterhazy ([decrediton](https://github.com/decred/decrediton/commits?author=emesterhazy)), ReevesAk ([dcrwallet](https://github.com/decred/dcrwallet/commits?author=ReevesAk)).
 
-Congratulations to the 4 contributors listed on [decred.org](https://decred.org/contributors/):
+Gratulacje dla 6 nowych współpracowników wymienionych na stronie [decred.org](https://decred.org/contributors/):
 
-* Akin Sawyerr (@akinsawyerr, Africa Lead & Strategy)
-* Kevin Hebert (@klebe, Developer)
-* Leslie Ankney (@cryptoleslie, Public Relations)
-* Victor Guedes (@VictorGuedes, Developer)
+* Akin Sawyerr (@akinsawyerr, kierownik obsz. afrykańskiego & strategia)
+* Kevin Hebert (@klebe, deweloper)
+* Leslie Ankney (@cryptoleslie, relacje publiczne)
+* Victor Guedes (@VictorGuedes, deweloper)
 
-Decred Australia community has been building nicely. An [update](https://medium.com/@sahand.bagheri/decred-australia-building-a-community-brick-by-brick-89928041687e) shared last month recaps partnerships established, events organized, people attracted as well as next goals. This was covered in [June](201906.md)'s Media but turned out bigger than just an article.
+Australijska społeczność Decred kształtuje się bardzo prężnie. [Aktualizacja](https://medium.com/@sahand.bagheri/decred-australia-building-a-community-brick-by-brick-89928041687e) udostępniona w zeszłym miesiącu podsumowuje nawiązane partnerstwa, zorganizowane wydarzenia, przyciągnięte osoby, a także kolejne cele. Zostało to omówione w [czerwcowym wydaniu](201906.md) w sekcji "media", ale okazało się czymś więcej, niż tylko artykuł.
 
-Community stats as of Aug 1:
+Statystyki społeczności na dzień 1 sierpnia:
 
-* Politeia users: 154 (-35, adjusted by new more accurate counting method)
-* Twitter followers: 40,572 (+93)
-* Reddit subscribers: 9,556 (+51)
-* Matrix users: 384 (+20)
-* Slack users: 6,809 (+40)
-* Discord users: 2,377 (+67), verified to post: 281 (+35)
-* Telegram users: 3,290 (-115)
-* YouTube subscribers: 3,800 (+13)
-* Facebook followers: 3,253 (+23), likes: 2,983 (+19)
-* LinkedIn followers: 591 (+24)
-* GitHub dcrd stars: 498 (+4), forks: 1,365 (+28)
+* Użytkownicy platformy Politeia: 154 (-35, wzięto poprawkę dzięki bardziej dokładnej metodzie pomiaru)
+* Obserwujący na Twitterze: 40,572 (+93)
+* Subskrybenci na Reddit: 9,556 (+51)
+* Użytkownicy na Matrixie: 384 (+20)
+* Użytkownicy na Slacku: 6,809 (+40)
+* Użytkownicy na Discordzie: 2,377 (+67), zweryfikowani z możliwością pisania postów: 281 (+35)
+* Użytkownicy na Telegramie: 3,290 (-115)
+* Subskrybenci na YouTube: 3,800 (+13)
+* Obserwujący na Facebooku: 3,253 (+23), polubień: 2,983 (+19)
+* Obserwujący na LinkedIn: 591 (+24)
+* GitHub: 498 gwiazdek (+4) i 1,365 forków repozytorium dcrd (+28)
 
-## Governance
+## Zarządzanie
 
-In July the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received 15,517 DCR and spent 10,344 DCR. Using July's daily average DCR/USD rate of $28.97, this is $450K received and $300K spent. These payments were for work completed in June at the rate of $28.90, so the billed amount is almost the same. As of Aug 1, Treasury balance is 627,514 DCR (16.8 million USD at $26.75).
+W lipcu [Skarbiec](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) otrzymał 15517 DCR i wydał 10344 DCR. Wykorzystując dzienną średnią dzienną stawkę DCR/USD w lipcu, wynoszącą 28,97 USD, jesto to odpowiednio 450 tys. dolarów USD i 300 tys. dolarów. Są to opłaty za pracę wykonaną w czerwcu po stawce w wysokości 28,90 dolarów, więc kwota na fakturze jest prawie taka sama. Na dzień 1 sierpnia saldo Skarbca wynosi 627 514 DCR (16,8 mln USD po kursie 26,75 USD).
 
-In July, 2 new proposals were submitted:
+W lipcu złożono 2 nowe propozycje:
 
-* [Decred Fundamental Metrics Research Proposal - Phase 1](https://proposals.decred.org/proposals/78b50f218106f5de40f9bd7f604b048da168f2afbec32c8662722b70d62e4d36) by @Checkmate, a new contributor, requesting $12,000 for 3 months work on research and social media presence, plus $2,000 for work completed prior to this ([monetary premiums](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4) article). Voting has concluded and the proposal approved with 92% support.
+* [Faza 1 - badania nad fundamentalnymi metrykami Decred](https://proposals.decred.org/proposals/78b50f218106f5de40f9bd7f604b048da168f2afbec32c8662722b70d62e4d36) autorstwa @Checkmate, nowego współpracownika, wnoszącego o 12 tys. dolarów na 3-miesięczną pracę nad badaniami i obecnością w mediach społecznościowych, plus 2000 dolarów za wcześniej wykonaną pracę (nad artykułem o [zabezpieczeniach pieniężnych](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4)). Głosowanie zostało zakończone, a wniosek został zatwierdzony przy 92% poparciu.
 
-* [TinyDecred: A Python Toolkit for Decred](https://proposals.decred.org/proposals/20e967dad9e7398901decf3cfe0acf4e0853f6558a62607265c63fe791b8b124) by @buck54321, a contractor working on dcrdata for the last year, requests $8,000 for work already completed on TinyDecred, a set of tools for interacting with the Decred blockchain in Python. Proposal voting opened on Aug 6, it currently has 89% approval.
+* [TinyDecred: A Python Toolkit for Decred](https://proposals.decred.org/proposals/20e967dad9e7398901decf3cfe0acf4e0853f6558a62607265c63fe791b8b124), aut. @buck54321, wykonawcy pracującego nad dcrdata w zeszłym roku, który wnosi o 8 tys. dolarów za pracę już wykonaną nad TinyDecred, zestawem narzędzi do interakcji z blockchainem Decred napisanym w jęz. Python. Głosowanie nad propozycją otwarto 6 sierpnia, obecnie ma 89% poparcia.
 
-A further 5 proposals were submitted in August, 4 relating to market makers and 1 related to DEX development. A forthcoming issue of Politeia digest will cover these in depth, and they will also be covered in the August edition of the Journal.
+Kolejne 5 propozycji zostało złożonych w sierpniu, 4 dotyczące animatorów rynku i 1 związana z rozwojem DEX. Najbliższe wydanie magazynu Politeia Digest omówi je dogłębnie a ponadto zostaną one również omówione w sierpniowym wydaniu Dziennika.
 
-[Issue 19](https://medium.com/politeia-digest/issue-19-june-30-july-31-2019-c591fcb79d98) of Politeia Digest has more detail on July's proposal activity and discussions.
+[Wydanie 19](https://medium.com/politeia-digest/issue-19-june-30-july-31-2019-c591fcb79d98) Politeia Digest zawiera więcej szczegółów na temat lipcowej działalności propozycyjnej i dyskusji.
 
-A [dataset](https://github.com/RichardRed0x/pi-research/blob/master/data/comments-and-updown-votes/pi-users.csv) and [short report](https://github.com/RichardRed0x/pi-research/blob/master/analysis/comments-and-updown-votes/users-review.md) has been prepared which aggregates the Politeia data on the basis of username, producing accurate figures for how often each user has commented and voted, and how well their comments have scored.
+Przygotowano [zbiór danych](https://github.com/RichardRed0x/pi-research/blob/master/data/comments-and-updown-votes/pi-users.csv) i [krótki raport](https://github.com/RichardRed0x/pi-research/blob/master/analysis/comments-and-updown-votes/users-review.md), który agreguje dane Politei na podstawie nazwy użytkownika, dając dokładne dane liczbowe dotyczące tego, jak często każdy użytkownik komentował i głosował oraz tego, jak dobrze jego komentarze zostały ocenione.
 
-## Network
+## Sieć
 
-Hashrate: July's hashrate opened at ~503 Ph/s and closed ~583 Ph/s, bottoming at 319 Ph/s and peaking at 687 Ph/s throughout the month. Pool hashrate distribution as of Aug 2: F2Pool 21%, UUPool 19%, lab.antpool.com 16.5%, Poolin 9.5%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08% and others 24% per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
+Hashrate: lipcowy hashrate na początku miesiąca wyniósł ~503 Ph/s a zamknął miesiąc w ok. ~583 Ph/s, zaliczając niż w ok. 319 Ph/s oraz szczyt w wys. 687 Ph/s w ciągu miesiąca. Dystrybucja mocy obliczeniowej na 2 sierpnia wyglądała następująco: F2Pool 21%, UUPool 19%, lab.antpool.com 16,5%, Poolin 9,5%, BTC.com 7,3%, Luxor 2,2%, BeePool 0,14%, Coinmine 0,12%, suprnova 0,08% i pozostałę 24%, za danymi z [dcrstats.com](https://dcrstats.com/pow). Są to liczby jedynie szacunkowe i nie można ich dokładnie określić.
 
-Sharp drop in hashrate from 550 to 319 Ph/s was observed on Jul 5 according to dcrstats.com, followed by a quick recovery within ~20 hours. There was a long [discussion](https://matrix.to/#/!NNzHoaSdnsbZDQOXJr:decred.org/$156238052013967KGajR:decred.org) on the possible reasons for the drop and on its [accuracy](https://matrix.to/#/!NNzHoaSdnsbZDQOXJr:decred.org/$156245221914434sRKEL:decred.org).
+5 lipca według dcrstats.com zaobserwowany ostry spadek mocy obliczeniowej z 550 do 319 Ph/s, który w przeciągu ~20 godzin wrócił do stanu poprzedniego. Odbyła się długa [dyskusja](https://matrix.to/#/!NNzHoaSdnsbZDQQOXJr:decred.org/$156238052013967KGajR:decred.org) na temat możliwych przyczyn spadku i jego [dokładności](https://matrix.to/#/!NNzHoaSdnsbZDQDQOXJr:decred.org/$1562452219144sRKEL:decred.org).
 
-Staking: 30-day average ticket price was 125.8 DCR (+5.8) per dcrstats.com. The price varied between 118.8-129.5 DCR. Locked amount was 4.83-5.06 million DCR, which corresponded to 48.25-49.84% of the available supply.
+Staking: średnia cena biletu z okresu 30 dni wynosiła 125,8 DCR (+5,8) za danymi z dcrstats.com. Cena wahała się między 118,8-129,5 DCR. Zablokowana kwota wynosiła 4,83-5,06 mln DCR, co odpowiadało 48,25-49,84% dostępnej podaży.
 
-The ticket price got to the highest levels (129.46) since the difficulty algorithm consensus chage in July 2017. An [argument](https://matrix.to/#/!kdpEDksmOMNrlMqffD:decred.org/$156359151625133psHEo:decred.org) was made that this value should not be considered an "ATH", because the ticket price has been as high as 238.9 DCR before the algorithm was changed.
+Cena biletu osiągnęła najwyższy poziom (129,46) od czasu algorytmu trudności w lipcu 2017 roku. Wysunięto [argument](https://matrix.to/#/!kdpEDksmOMNrlMqffD:decred.org/$156359151625133psHEo:decred.org), że wartość ta nie powinna być uważana za "ATH", ponieważ cena biletu wyniosła nawet i 238,9 DCR przed zmianą algorytmu.
 
-Historical charts of [VSP data](https://charts.dcr.farm/d/000000016/proof-of-stake-pools?orgId=1&from=1514764800000&to=now) are available at dcr.farm. Similar data was recently made available at [dcrextdata](http://dcrextdata.raedahgroup.com/), but dcr.farm has data since Jan 2018. Setting a long time interval reveals interesting trends in VSP competition:
+Historyczne wykresy [danych VSP](https://charts.dcr.farm/d/000000016/proof-of-stake-pools?orgId=1&from=1514764800000&to=now) są dostępne na dcr.farm. Podobne dane zostały ostatnio udostępnione na stronie [dcrextdata](http://dcrextdata.raedahgroup.com/), jednakże dcr.farm dysponuje danymi od stycznia 2018 roku. Ustalenie długiego odstępu czasowego ujawnia interesujące trendy w konkurencji między VSP:
 
-* dcr.stakeminer.com bottomed at 14% in June and since recovered above 15% of live tickets
-* stakey.net grew from 2.8% to 6.9% live tickets in 2019 which correlates with the increase of its user count from 300 to 500
-* megapool grew to 3.5% since inception in Oct 2018
-* tokensmart had a bumpy road: since inception in Apr 2018 it grew to 2%, went down to 0.8% in Apr 2019, then a quick rise to nearly 3% in June, followed by another decline to 0.8%
+* dcr.stakeminer.com osiągnął najniższy poziom 14% w czerwcu i od tego czasu odzyskał poprzedni poziom z ponad 15% biletów w puli.
+* Stakey.net wzrósł z 2,8% do 6,9% biletów w puli w 2019 roku, co koreluje ze wzrostem liczby użytkowników z 300 do 500.
+* Megapool wzrósł do 3,5% od momentu powstania w październiku 2018 roku.
+* tokensmart miał wyboistą drogę: od momentu powstania w kwietniu 2018 r. wzrosł do 2%, w kwietniu 2019 r., spadł do 0,8%, następnie szybko wybił do prawie 3% w czerwcu, po czym ponownie zaliczył  spadek do 0,8%.
 
-The chart of moving average of missed ticket proportion is interesting too and can be useful for choosing a VSP.
+Interesujący jest również wykres średniej kroczącej odsetka pominiętych biletów, który może być przydatny przy wyborze VSP.
 
-Nodes: Throughout [July](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1561939200000&to=1564617600000) there were around 173 listening nodes and 360-530 total nodes per dcr.farm. As of Aug 2, roughly 70% run dcrd v1.4.0, 7.5% are dcrwallet v1.4.0, and 6% are v1.5.0(pre) dev builds.
+Węzły: Przez cały [lipiec](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1561939200000&to=1564617600000) było około 173 węzłów nasłuchujących i 360-530 węzłów normalnych za danymi z dcr.farm. Na dzień 2 sierpnia, około 70% korzysta z dcrd v1.4.0, 7,5% to dcrwallet v1.4.0, a 6% używa v1.5.0(pre) dev.
 
-As of Aug 2, the DCR [testnet LN](https://charts.dcr.farm/d/DHPdAO4Wz/lightning-network?orgId=1) shows 18 nodes, 52 channels and a total capacity of 410 DCR.
+Na dzień 2 sierpnia, [testnet LN](https://charts.dcr.farm/d/DHPdAO4Wz/lightning-network?orgId=1) DCR pokazuje 18 węzłów i 52 kanały z łączną pojemnością 410 DCR.
 
-## Integrations
+## Integracje
 
 [Everstake](https://everstake.one/), provider of staking services, [announced](https://medium.com/everstake/welcome-decred-voting-on-everstake-b2d0371426ad) the launch of their Decred VSP at [decred.everstake.one](https://decred.everstake.one/).
 
