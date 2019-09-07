@@ -1,4 +1,4 @@
-# Decred Journal – July 2019
+# Decred Journal – Lipiec 2019
 
 ![Obraz: dyskusja nt. stakingu na StakingCon 2019 w Pekinie](../img/stakingcon2019-384.jpg)
 
@@ -131,80 +131,80 @@ Na dzień 2 sierpnia, [testnet LN](https://charts.dcr.farm/d/DHPdAO4Wz/lightning
 
 ## Integracje
 
-[Everstake](https://everstake.one/), provider of staking services, [announced](https://medium.com/everstake/welcome-decred-voting-on-everstake-b2d0371426ad) the launch of their Decred VSP at [decred.everstake.one](https://decred.everstake.one/).
+[Everstake](https://everstake.one/), dostawca usług stakingowych, [ogłosił](https://medium.com/everstake/welcome-decred-voting-on-everstake-b2d0371426ad) uruchomienie VSP dla Decred pod adresem [decred.everstake.one](https://decred.everstake.one/).
 
-[Exodus](https://www.exodus.io/) wallet [gained](https://twitter.com/exodus_io/status/1148593861549334528) Trezor support for managing and exchanging of DCR.
+Portfel [Exodus](https://www.exodus.io/) [zyskał](https://twitter.com/exodus_io/status/1148593861549334528) wsparcie dla urządzeń Trezor do zarządzania i wymiany DCR.
 
-[Vertbase](https://www.vertbase.com/), an exchange offering DCR with a fiat gateway, [announced](https://twitter.com/vertbase/status/1147840898564120577) that they will be starting a foundation. An interesting event in the space, the foundation will donate to the development of projects that Vertbase lists and supports, and have its board composed of volunteer core team members from these project.
+[Vertbase](https://www.vertbase.com/), giełda oferująca DCR z bramką fiat, [zapowiedział](https://twitter.com/vertbase/status/1147840898564120577), że będzie zakładać fundację. Jest to ciekawe wydarzenie w przestrzeni, ponieważ Fundacja przekazywać będzie środki na rozwój projektów, które Vertbase wymienia i wspiera, a jej zarząd będzie się składał z kluczowych członków zespołu wolontariuszy z tego projektu.
 
-[MixinNetwork](https://twitter.com/Mixin_Network/status/1153272304790433793) integrated Decred. From their [website](https://mixin.one/), "Mixin is a publicly distributed ledger aimed to help other publicly distributed ledgers gain trillions of TPS, achieve sub second final confirmations, zero transaction fees, enhanced privacy, and unlimited extensibility.".
+[MixinNetwork](https://twitter.com/Mixin_Network/status/1153272304790433793) zintegrowało Decred ze swoją platformą. Wzmianka z ich [strony internetowej](https://mixin.one/) głosi: "Mixin jest publicznie rozpowszechnioną księgą, której celem jest pomoc innym publicznie rozpowszechnianym księgom w uzyskaniu trylionów TPS, uzyskaniu ostatecznych potwierdzeń w czasie poniżej sekundy, zerowych opłat transakcyjnych, zwiększonej prywatności i nieograniczonej rozszerzalności".
 
-Warning: the authors of Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
+Uwaga: autorzy Decred Journal nie są w stanie ocenić wiarygodności żadnego z powyższych podmiotów czy ich usług. Uprasza się o dołożenie należnych starań i własnoręczną weryfikację informacji przed powierzeniem jakichkolwiek środków innym stronom.
 
-## Adoption
+## Adopcja
 
-Portuguese unprocessed honeybee products maker DrApis [announced](https://twitter.com/drapiscom/status/1146539277028909058) that they accept DCR.
+Portugalski producent nieprzetworzonych produktów pszczelich DrApis [ogłosił](https://twitter.com/drapiscom/status/1146539277028909058), że akceptuje DCR.
 
-Blockhead Capital [announced](https://twitter.com/jyashouafar/status/1152238301593657344) their investment in Decred and shared a [research paper](https://www.blockheadcap.com/post/decred-investment-thesis). Their conclusion:
+Blockhead Capital [ogłosił](https://twitter.com/jyashouafar/status/1152238301593657344) swoją inwestycję w Decred i udostępnił [artykuł badawczy](https://www.blockheadcap.com/post/decred-investment-thesis). Ich wnioski:
 
-> Decred is an adaptive cryptocurrency with a rigid monetary policy. The rigid monetary policy provides the base required to achieve monetary premium while the adaptive nature of its on-chain governance allows for integration of more dynamic features. The hybrid consensus mechanism creates adequate checks and balances between the various ecosystem parties while eliminating contentious hardforks as the primary method to resolve disputes - a highly desirable feature for an aspiring global reserve asset. Further, the hybrid consensus creates for more secure blockspace, making the blockspace more valuable, and provides for a more censorship resistant currency. Decred iterates on Bitcoin's strengths and shores up many of its shortcomings, putting it in a position to complement or compete with it as a digital store of value.
+> Decred jest adaptacyjną kryptowalutą o sztywnej polityce pieniężnej. Sztywna polityka pieniężna stanowi podstawę niezbędną do uzyskania zabezpieczenia monetarnego, podczas gdy adaptacyjny charakter zarządzania bezpośrednio na łańcuchu (*on-chain*) pozwala na integrację bardziej dynamicznych cech. Hybrydowy mechanizm konsensusu tworzy odpowiednie mechanizmy kontroli i równowagi pomiędzy różnymi stronami w ekosystemie, eliminując jednocześnie kontrowersyjne rozłamy sieci jako podstawową metodę rozwiązywania sporów, co jest wysoce pożądaną cechą aspirujących globalnych aktywów rezerwowych. Ponadto hybrydowy konsensus tworzy bezpieczniejszą przestrzeń blokową, czyniąc przestrzeń blokową bardziej wartościową i zapewnia walutę bardziej odporną na cenzurę. Decred buduje w oparciu o mocne strony Bitcoina i stanowi przeciwwagę do jego wad, umożliwiając mu uzupełnienie go lub konkurowanie z nim jako cyfrowym środkiem przechowania wartości.
 
-## Outreach
+## Nawiązywanie kontaktów
 
-Infrastructure continued to build in July that will help Decred streamline outreach and education. The website update is close to complete, and should be live by the end of August with new subpages on Decred's Security, Adaptability, Self-Funding, and History. Additionally, we've agreed upon a schema and are currently assembling a resource repository building on Max Bronstein's [Canon](https://github.com/maxbron08/Decred-Canon) that will help form a natural funnel of learning for people taking the #DecredChallenge.
+W lipcu kontynuowano budowę infrastruktury, która pomoże Decred w usprawnieniu działań informacyjnych i edukacyjnych. Aktualizacja strony internetowej jest bliska ukończenia i powinna być gotowa do końca sierpnia z nowymi podstronami dotyczącymi bezpieczeństwa, zdolności adaptacyjnych, samofinansowania i historii Decred. Dodatkowo, uzgodniliśmy schemat i obecnie tworzymy repozytorium zasobów na podstawie [kanonu Maxa Bronsteina](https://github.com/maxbron08/Decred-Canon), które pomoże w naturalny sposób pokierować procesem odkrywczym dla osób podejmujących #DecredChallenge.
 
-In order to achieve this, we're slightly refining the messaging, focusing largely on the fundamental principles of Decred, as all messaging flows from there. That will appear in chat within the next week for community input. Other resources for the community that have been in the works include the Social Media Playbook, featuring best practices for how to engage with others in a constructive way that reflects well on Decred and helps educate others about the project.
+Aby to osiągnąć, udoskonalamy nieco nasz przekaz, skupiając się głównie na podstawowych zasadach Decred, ponieważ stąd właśnie wypływa. Zaktualizowana jego wersja pojawi się na czacie w ciągu najbliższego tygodnia, aby uzyskać wkład i komentarze od społeczności. Inne zasoby dla społeczności, nad którymi trwały prace, obejmują Social Media Playbook, zawierający najlepsze praktyki, jak zaangażować się w kontakt z innymi i dotrzeć do nich w konstruktywny sposób, który przedstawia Decred w odpowiednim świetle i pomaga edukować innych o projekcie.
 
-Additionally, a Community Organizer Handbook will be shared for community input shortly. This well help clarify roles and responsibilities in order to gain alignment, improve efficiency, and share best practices around the world. Along these lines, Decred is looking for geographic marketing leads to help run areas of the world. Various proposals from different regions are in the works, and should hit Politeia in the next couple of months. We are still looking for leaders in Europe and Asia, so join us in #marketing or #local\_ops in Matrix to discuss helping to decentralize the organization.
+Dodatkowo, wkrótce zostanie udostępniony Podręcznik dla organizatorów społeczności, w celu uzyskania wkładu społeczności. Pomoże on w wyjaśnieniu ról i obowiązków w celu uzyskania zgodności, poprawy wydajności i dzielenia się najlepszymi praktykami stosowanymi na całym świecie. Zgodnie z tymi założeniami Decred poszukuje osób gotowych by przewodzić wysiłkom marketingowym w paru obszarach geograficznych, aby pomóc w zarządzaniu obszarami na świecie. Różne propozycje z wielu regionów są aktualnie w toku i powinny trafić na Politeię w ciągu najbliższych kilku miesięcy. Nadal poszukujemy liderów w Europie i Azji, więc dołącz do nas na kanale #marketing lub #local_ops na Matrixie, aby omówić pomoc w decentralizacji organizacji.
 
-We're also working to coordinate a week-long events blitz in October featuring various Decred community members in some of the most important cities across Asia. Details should be released within the next month.
+Pracujemy również nad koordynacją burzy tygodniowych wydarzeń, które odbędą się w październiku i w których udział wezmą różni członkowie społeczności Decred w najważniejszych miastach w Azji. Szczegóły powinny zostać opublikowane w ciągu najbliższego miesiąca.
 
-Decred in Depth episodes featuring [Murad Mahmudov](https://soundcloud.com/decredindepth/murad-mahmudov-dcr-investment-thesis-sov-narrative-crypto-economics) and [Permabull Nino](https://soundcloud.com/decredindepth/ep-5-decred-as-strong-accounting-ticket-metrics-with-permabull-nino) were released which were very well received and created a lot of chatter about Decred on social media.
+Odcinki Decred in Depth z udziałem [Murada Mahmudova](https://soundcloud.com/decredindepth/murad-mahmudov-dcr-investment-thesis-sov-narrative-crypto-economics) i [Permabull Nino](https://soundcloud.com/decredindepth/ep-5-decred-as-strong-accounting-ticket-metrics-with-permabull-nino) zostały opublikowane. Zostały one bardzo dobrze przyjęte i wywołały wiele dyskusji na temat Decred w mediach społecznościowych.
 
-Ditto's July achievements:
+Lipcowe osiągnięcia Ditto:
 
-* Escalated our work with various community members on strategies and tactics for engaging in a productive/educational way on Twitter.
-* Built out a wider list of Decred spokespeople, along with a new wish list of media targets.
-* Strategized with the community on how to best build visibility for the Decred tagline.
-* Secured four interviews, and will share more details when published.
-* Secured an article in financial advisory newsletter, Legacy Research, as a result of an interview we hosted with @moo31337.
-* Secured a 10-minute segment on [BlockTV](https://blocktv.com/watch/2019-07-30/5d404e65ea3f5-decred-s-jake-yocom-piatt-talks-decentralized-governance) with @jy-p discussing his take on Libra and how Decred's progress towards becoming a DAO.
-* Secured publication of @jy-p's byline on Libra in [CCN](https://www.ccn.com/news/libra-friend-or-foe/2019/07/21/).
-* Worked with the community to amplify/engage with the [#DEX tweet storm](https://twitter.com/decredproject/status/1156652694502817793) announcing Decred's DEX spec.
-* Began a messaging refresh, adding FAQs to counter common misunderstandings.
-* Put the finishing touches on the schema for an educational resources repository for the Decred website that makes it easier for journalists and newbies to find out about us in one place.
-* Put together a long-term media relations plan that targets all of Decred's audiences (investors, developers, crypto enthusiasts), as well as media who haven't covered Decred in the past.
-* Did media training refresher with @jy-p to prepare for broadcast interviews.
+* Poszerzyliśmy zakres naszych prac z różnymi członkami społeczności odnośnie strategii i sposobów produktywnego angażowania się w dyskusje na Twitterze.
+* Stworzyliśmy szerszą listę rzeczników Decred wraz z nową listą celów medialnych.
+* Wspólnie ze społecznością ustaliliśmy, w jaki sposób najlepiej zbudować widoczność dla Decred i jego przekazu.
+* Zabezpieczyliśmy przestrzeń dla czterech wywiadów a po ich opublikowaniu podzielimy się większą ilością szczegółów.
+* Umieściliśmy artykuł w biuletynie doradztwa finansowego, Legacy Research, w wyniku wywiadu, który przeprowadziliśmy z @moo31337.
+* Zabezpieczyliśmy 10-minutowy segment w [BlockTV](https://blocktv.com/watch/2019-07-30/5d404e65ea3f5-decred-s-jake-yocom-piatt-talks-decentralized-governance) z @jy-p omawiając jego podejście do Libry i postępy Decred w kierunku przemiany w DAO.
+* Zabezpieczyliśmy publikację wzmianki @jy-p na temat Libry w [CCN](https://www.ccn.com/news/libra-friend-or-foe/2019/07/21/).
+* Pracowaliśmy wraz ze społecznością, aby wzmocnić/zaangażować się w [burzę tweetów na temat #DEX](https://twitter.com/decredproject/status/1156652694502817793) ogłaszając specyfikację zdecentralizowanej giełdy wymian Decred.
+* Rozpoczęliśmy odświeżanie przekazu medialnego, dodając FAQ, aby wyjść naprzeciw powszechnym nieporozumieniom.
+* Dodaliśmy ostatnie szlify do schematu repozytorium zasobów edukacyjnych dla strony Decred, który ułatwi dziennikarzom i nowicjuszom poznanie bez nawigowania po przeróżnych stronach.
+* Opracowaliśmy długoterminowy plan relacji z mediami, który skierowany jest do wszystkich odbiorców Decred (inwestorów, deweloperów, entuzjastów kryptografii), jak również do mediów, które nie pisały o Decred w przeszłości.
+* Odświeżyliśmy szkolenie medialne z @jy-p, aby przygotować się do wywiadów telewizyjnych.
 
-## Events
+## Eventy
 
-Attended:
+Na których byliśmy:
 
-* Jul 4-5 - [Blockchain Summit Latam](https://twitter.com/Decred_ES/status/1146093986806976513) - Mexico City, Mexico. Ana Dalia [represented](https://twitter.com/AnaDaliacd23/status/1146873685229416450) Decred. After the conference there was a [dinner](https://twitter.com/Decred_ES/status/1147522846513618945) sponsored by Decred.
-* Jul 10 - [Decred meetup](https://twitter.com/Decred_BR/status/1147201276058505216) - São Paulo, Brazil. Organized by @guisso.
-* Jul 10 - [StakingCon](https://twitter.com/BlockBeatsChina/status/1147570186519638017) - Beijing, China. @Dominic "managed to charm the organizer to slot in a Decred video and particpated in the roundtable discussion". Organized by @BlockBeatsChina. ([photos](https://twitter.com/DecredCN/status/1148983482732830720))
-* Jul 11 - [Staked US event](https://twitter.com/staked_us/status/1148687292032323584) - New York, USA. Fireside chat with @joshuam, co-hosted by Staked and TokenTax.
-* Jul 19 - Meetup - Buenos Aires, Argentina. The meetup was a preparation for the upcoming Crypto Monday on Aug 12. [@Camilolwi](https://twitter.com/Camilolwi) [presented](https://twitter.com/cryptorocketok/status/1152260099072778240) Decred. Hosted by [Crypto Rocket Group](https://twitter.com/cryptorocketok).
-* Jul 21 - [OKEx meetup](https://twitter.com/wanbihou/status/1151704823533723648) - Qingdao, China. Chat with @Dominic.
-* Jul 25 - [Computational Law + Blockchain Festival CDMX 2019](https://twitter.com/LegalHackersMX/status/1153832499333795840) - Mexico City, Mexico. @elian [represented](https://twitter.com/elianhuesca/status/1154452590983299073) the project.
-* Jul 25-26 - Cointime Summit 2019 - Ho Chi Minh City, Vietnam. Duyen Em introduced Decred to individuals in the conference area. Some guest speakers from other projects were already familiar and spoke highly of Decred, but most Vietnamese speakers are just learning about it. Duyen Em suggests that Decred deserves a much bigger presence in the thriving cryptocurrency space of Vietnam and shares ideas for establishing connections and growing the community. Full report will be published on Reddit.
-* Jul 28 - Vietnam Staking Economy - Ho Chi Minh City, Vietnam. Duyen Em represented Decred and answered questions to many young people interested in cryptocurrencies. The details are in the report for Cointime Summit.
-* Jul 31 - [Open Banking Summit](https://theopenbankingsummit.com/) preliminary meetup - Mexico City, Mexico. @elian represented the project and [gave a talk](https://twitter.com/elianhuesca/status/1157313830969630725) on Decred. The summit will start on Nov 13.
+* 4-5 lipca - [Blockchain Summit Latam](https://twitter.com/Decred_ES/status/1146093986806976513) - Mexico City, Meksyk. Ana Dalia [reprezentowała](https://twitter.com/AnaDaliacd23/status/1146873685229416450) Decred. Po konferencji odbyła się [kolacja](https://twitter.com/Decred_ES/status/1147522846513618945) sponsorowana przez Decred.
+* 10 lipca - [Meetup Decred](https://twitter.com/Decred_BR/status/1147201276058505216) - São Paulo, Brazylia. Zorganizowane przez @guisso.
+* 10 lipca - [StakingCon](https://twitter.com/BlockBeatsChina/status/1147570186519638017) - Pekin, Chiny. @Dominic "oczarował organizatora na tyle, by przedstawić wideo o Decred i wziął udział w dyskusji przy okrągłym stole". Wydarzenie zorganizowane przez @BlockBeatsChina. ([zdjęcia](https://twitter.com/DecredCN/status/1148983482732830720))
+* Jul 11 - [Event Staked US ](https://twitter.com/staked_us/status/1148687292032323584) - Nowy Jork, USA. Pogawędka z @joshuam, której współgospodarzami byli Staked i TokenTax.
+* 19 lipca - Meetup - Buenos Aires, Argentyna. Spotkanie było przygotowaniem do zbliżającego się krypto poniedziałku 12 sierpnia. [@Camilolwi](https://twitter.com/Camilolwi) [przedstawił](https://twitter.com/cryptorocketok/status/1152260099072778240) Decred. Wydarzenie prowadzone przez [Crypto Rocket Group](https://twitter.com/cryptorocketok).
+* 21 lipca - [Spotkanie OKEx](https://twitter.com/wanbihou/status/1151704823533723648) - Qingdao, Chiny. Czat z @Dominic.
+* 25 lipca - [Prawo komputerowe + Blockchain Festival CDMX 2019](https://twitter.com/LegalHackersMX/status/1153832499333795840) - Mexico City, Meksyk. Projekt [reprezentował](https://twitter.com/elianhuesca/status/1154452590983299073) @elian.
+* 25-26 lipca - Cointime Summit 2019 - Ho Chi Minh City, Wietnam. Duyen Em przedstawił Decred osobom z obszaru konferencji. Niektórzy prelegenci z innych projektów byli już dobrze z nim zapoznani i mówili dużo o Decred, lecz większość wietnamskich prelegentów dopiero uczy się o Decred. Duyen Em sugeruje, że Decred zasługuje na znacznie większą obecność w tętniącej życiem przestrzeni kryptowalutowej Wietnamu i dzieli się pomysłami na nawiązanie kontaktów i rozwój społeczności. Pełny raport zostanie opublikowany na Reddicie.
+* 28 lipca - Vietnam Staking Economy - Ho Chi Minh City, Wietnam. Duyen Em reprezentował Decred i odpowiadał na pytania wielu młodych ludzi zainteresowanych kryptowalutami. Szczegóły znajdują się w raporcie z Cointime Summit.
+* 31 lipca - [Otwarty Szczyt Bankowy](https://theopenbankingsummit.com/) wstępne spotkanie - Mexico City, Meksyk. @elian reprezentował projekt i [wygłosił przemówienie](https://twitter.com/elianhuesca/status/1157313830969630725) na temat Decred. Szczyt rozpocznie się 13 listopada.
 
-Upcoming:
+Nadchodzące:
 
-* Aug 8 - [Blockchain Bajio](https://www.eventbrite.com/e/blockchain-bajio-2do-meetup-tickets-66510186759) - Leon, Guanajuato, Mexico.
-* Aug 12 - [Crypto Monday](https://www.meetup.com/Bitcoin-Argentina/events/263594472) - Buenos Aires, Argentina. Crypto Monday is a monthly event hosted at Espacio Bitcoin, a local coworking space with a strong bond with the main Argentina Bitcoin NGO, Bitcoin Argentina.
-* Aug 13-14 - [Futurist Conference](https://eventmobi.com/futurist/) - Toronto, Canada. Decred announced as a sponsor and has a slot on the [panel](https://twitter.com/decredproject/status/1157416657670868997) "Blockchain Social Impact & Governance for Good", where @zubair will represent the project.
-* Aug 16-18 - [Campus Party Natal](https://brasil.campus-party.org/campus-party-natal/) - Natal, Brazil. @guisso will talk about how Decred works as an organization.
-* Aug 20 - [Crypto Alchemy: Mining and Staking Decred](https://www.meetup.com/Philadelphia-Technology-for-Blockchain-and-Cryptocurrency/events/ffssfryzlbbc/) - Philadelphia, USA. Hosted by [@mikeghen](https://twitter.com/mikeghen/status/1155594343702511616).
-* Aug 28 - [Blockchain Bootcamp](https://www.blockchainbootcamp.net/) - Docklands, Australia. @zohand and co have been [invited](https://matrix.to/#/!aNPTuiryMFmdMQWUzb:decred.org/$15644812201506dzVgU:decred.org) to run a blockchain governance event as part of one of the main streams. The event is part of the annual [Digital Innovation Festival](https://dif.vic.gov.au/) hosted by Victorian State Government.
-* Sep 30 - Oct 1 - [Voice of Blockchain](https://twitter.com/BlockchainVoice/status/1154772731575099392) - Chicago, USA. @jy-p will present a keynote "Why Direct Sovereignty & Multi-Stakeholder Inclusive Governance Will Last".
-* Nov 4-7 - [Websummit](https://websummit.com/) - Lisbon, Portugal. @moo31337 will speak on a panel TBD, and Decred will have a 2x2m exhibit booth.
+* 8 sierpnia - [Blockchain Bajio](https://www.eventbrite.com/e/blockchain-bajio-2do-meetup-tickets-66510186759) - Leon, Guanajuato, Meksyk.
+* Aug 12 - [Crypto Monday](https://www.meetup.com/Bitcoin-Argentina/events/263594472) - Buenos Aires, Argentyna. Crypto Monday jest comiesięcznym wydarzeniem organizowanym w Espacio Bitcoin, lokalnej przestrzeni współpracy z główną argentyńską organizacją pozarządową Bitcoin, Bitcoin Argentina.
+* 13-14 sierpnia - [Konferencja Futurystów](https://eventmobi.com/futurist/) - Toronto, Kanada. Decred został ogłoszony sponsorem i ma miejsce w [panelu dyskusyjnym](https://twitter.com/decredproject/status/1157416657670868997) "Społeczny wpływ Blockchaina i zarządzanie w imieniu dobra", podczas którego @zubair będzie reprezentował projekt.
+* 16-18 sierpnia - [Campus Party Natal](https://brasil.campus-party.org/campus-party-natal/) - Natal, Brazylia. @guisso opowie o tym, jak działa Decred jako organizacja.
+* 20 sierpnia - [Kryptoalchemia: wydobycie i staking Decred](https://www.meetup.com/Philadelphia-Technology-for-Blockchain-and-Cryptocurrency/events/ffssfryzlbbc/) - Filadelfia, USA. Prowadzony przez [@mikeghen](https://twitter.com/mikeghen/status/1155594343702511616).
+* 28 sierpnia - [Blockchain Bootcamp](https://www.blockchainbootcamp.net/) - Docklands, Australia. @zohand i spółka zostali [zaproszeni](https://matrix.to/#/!aNPTuiryMFmdMQWUzb:decred.org/$15644812201506dzVgU:decred.org) do przeprowadzenia wydarzenia o zarządzaniu blockchainem jako części jednego z głównych strumieni. Wydarzenie to jest częścią corocznego [Festiwalu Innowacji Cyfrowych](https://dif.vic.gov.au/) organizowanego przez samorząd obszaru Victoria.
+* 30 września - 1 października - [Głos Blockchain](https://twitter.com/BlockchainVoice/status/1154772731575099392) - Chicago, USA. @jy-p zaprezentuje hasło przewodnie "Dlaczego bezpośrednia suwerenność i multiinkluzywność stron przetrwa próbę czasu".
+* 4-7 listopada - [Websummit](https://websummit.com/) - Lizbona, Portugalia. @moo31337 będzie przemawiać na panelu TBD, a Decred będzie miał stoisko wystawowe 2x2m.
 
 ## Media
 
-Selected articles:
+Wybrane artykuły:
 
 * Decred: What Gold and Bitcoin Wanted to Be by Pascal Thellmann ([seekingalpha.com](https://seekingalpha.com/instablog/49962360-pascal-thellmann/5324856-decred-gold-bitcoin-wanted))
 * Monetary Premiums, Can Altcoins Compete with Bitcoin? by @Checkmate ([medium](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4))
@@ -214,12 +214,12 @@ Selected articles:
 * Introduction to Crypto-Accounting: An Analysis of Decred as an Accounting System by Permabull Nino ([medium](https://medium.com/@permabullnino/introduction-to-crypto-accounting-an-analysis-of-decred-as-an-accounting-system-4d3e67fce28))
 * Blockhead Capital: Decred Investment Thesis ([blockheadcap.com](https://www.blockheadcap.com/post/decred-investment-thesis))
 
-Translations:
+Tłumaczenia:
 
 * @Dominic translated the whole [Decred DEX spec](https://github.com/decred/dcrdex/blob/master/README.mediawiki) draft into [Chinese](https://github.com/DominicTing/dcrdexStandard-CN-/blob/master/README.mediawiki). The link was submitted to Chinese Binance [info page](https://info.binance.com/cn/currencies/decred).
 * May and June issues of Decred Journal were translated to Arabic (@arij), Chinese (@Dominic, @guang, @changhugo), Italian and Russian (@DZ), Polish (@kozel) and Vietnamese (Duyen Em). Thank you all.
 
-Videos:
+Wideo:
 
 * Libra: Friend or Foe? - @jy-p interview on [Block TV](https://blocktv.com/watch/2019-07-30/5d404e65ea3f5-decred-s-jake-yocom-piatt-talks-decentralized-governance)
 
