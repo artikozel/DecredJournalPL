@@ -1,4 +1,4 @@
-# Decred Journal – May 2019
+# Decred Journal – Maj 2019
 
 ![abstract art](../img/journal-201905-384.jpg "Tap Into the Source by @saender. Movements and hierarchy of cubes on the volumetric grid remind of programming or the logic of it. Cubes flow upwards to where the light shines (the source).")
 
@@ -74,7 +74,7 @@ Złożono 6 nowych propozycji:
 
 * [Podróż ku przyszłości pracy - opowiadanie historii DCR przez platformę Politeia](https://proposals.decred.org/proposals/b9f342a0f917abb7a2ab25d5ed0aca63c06fe6dcc9d09565a9cde3b6fe7e6737) aut. @jer979, propozycja napisania artykułu o Politei i podróży autora w celu złożenia propozycji. Propozycja ta początkowo wydawała się mieć dobre poparcie, ale po [komentarzach](https://proposals.decred.org/proposals/b9f342a0f917abb7a2ab25d5ed0aca63c06fe6dcc9d09565a9cde3b6fe7e6737/comments/29) o przesłych konszachtach @jer979 z IOTA straciła część tego poparcia i została ostatecznie odrzucona z aprobatą na poziomie 48,6% (i udziałem wyborców na poziomie 44%, drugim co do wielkości udziałem w historii Politei).
 
-  Choć propozycja została odrzucona, @jer979 mimo to [opublikował](https://www.neverstopmarketing.com/a-tale-of-two-daos-and-the-rise-of-contributor-experience/) relację swojej podróży na swojej stronie internetowej. W artykule argumentował, że "doświadczenia wykonawcy" (ang. *contributor experience* - CX) są ważne i porównał doświadczenia związane ze składaniem propozycji DAOstack i Decred, przedstawiając kilka punktów spornych. W następstwie [wymiany](https://twitter.com/lukebp_/status/1131195413925925638144) na Twitterze, @lukebp zebrał komentarze w [kwestii](https://github.com/decred/politeiagui/issues/1221) na GitHub.
+Choć propozycja została odrzucona, @jer979 mimo to [opublikował](https://www.neverstopmarketing.com/a-tale-of-two-daos-and-the-rise-of-contributor-experience/) relację swojej podróży na swojej stronie internetowej. W artykule argumentował, że "doświadczenia wykonawcy" (ang. *contributor experience* - CX) są ważne i porównał doświadczenia związane ze składaniem propozycji DAOstack i Decred, przedstawiając kilka punktów spornych. W następstwie [wymiany](https://twitter.com/lukebp_/status/1131195413925925638144) na Twitterze, @lukebp zebrał komentarze w [kwestii](https://github.com/decred/politeiagui/issues/1221) na GitHub.
 
 1 dodatkowa propozycja zakończyła głosowanie i została przyjęta:
 
@@ -98,7 +98,7 @@ Węzły: na dzień 2. czerwca istniało 270 publicznych węzłów. W owym snapsh
 
 Koleżnym uzytecznym źródłem statystyk węzłów jest dcr.farm. Na przestrzeni maja pokazuje ono dużą wariację w ilości węzłów wersji v1.4.0 (103-237), lecz posiada świetny [wykres](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1556582400000&to=1559390400000) historii wersji węzłów, który pokazuje, że sieć jest aktualnie oparta głównie na wersjach v1.4.0+.
 
-Źródło, którego używaliśmy poprzednio w celach raportowania odn. węzłów (dcred.eu) zostało zamknięte. Jesteśmy wdzięczni za wszystkie podane informacje, z których skorzystaliśmy przy tworzeniu Journala; jest nam niezmiernie przykro żegnać się z tym portalem. Pomysł dodania podobnej funkcjonalności do dcrdata omawiany jest  [tutaj](https://github.com/decred/dcrdata/issues/1214).
+Źródło, którego używaliśmy poprzednio w celach raportowania odn. węzłów (dcred.eu) zostało zamknięte. Jesteśmy wdzięczni za wszystkie podane informacje, z których skorzystaliśmy przy tworzeniu Journala; jest nam niezmiernie przykro żegnać się z tym portalem. Pomysł dodania podobnej funkcjonalności do dcrdata omawiany jest [tutaj](https://github.com/decred/dcrdata/issues/1214).
 
 Wkrótce po aktywacji nowych zasad konsensusu miała miejsce [transakcja](https://www.reddit.com/r/decred/comments/bnep6p/if_you_were_running_decrediton_at_13_or_earlier/) właśnie z nich korzystająca. Węzły, które nie rozpoznały jej jako poprawnej zostały odcięte od sieci i utknęły na bloku 342 913. Zauważyliśmy przyrost ludzi odwiedzających kanał #support w ciągu misiąca wraz z tym, jak wiele z ich portfeli przestawało się synchronizować, jednakże nie zaobserwowano żadnych awarii na poziomie sieci.
 
@@ -110,7 +110,7 @@ Mining pool ViaBTC [ogłosił](https://pool.viabtc.com/announcements/85) wsparci
 
 Giełda HitBTC [dodała](https://twitter.com/hitbtc/status/1128226645280788480) pary DCR/BTC, DCR/ETH oraz DCR/USDT.
 
-[Nomiddleman Crypto](https://nomiddlemancrypto.io/) [dodało](https://www.reddit.com/r/decred/comments/buhl35/decred_woocommerce_payment_gateway_open) wsparcie dla Decred w swojej wtyczce WooCommerce, która umożliwia płatności krypto wprost do portfeli sprzedawców bez wykorzystywania trzecich stron. Kod źródłowy dostępny jest na  [GitHubie](https://github.com/nomiddleman/nomiddleman-woocommerce).
+[Nomiddleman Crypto](https://nomiddlemancrypto.io/) [dodało](https://www.reddit.com/r/decred/comments/buhl35/decred_woocommerce_payment_gateway_open) wsparcie dla Decred w swojej wtyczce WooCommerce, która umożliwia płatności krypto wprost do portfeli sprzedawców bez wykorzystywania trzecich stron. Kod źródłowy dostępny jest na [GitHubie](https://github.com/nomiddleman/nomiddleman-woocommerce).
 
 [Ownbit](https://twitter.com/bitbillwallet/status/1126659323893968896) (poprzednio BitBill) dodało wsparcie dla DCR w swoim cold wallecie.
 
@@ -148,7 +148,6 @@ Majowe osiągnięcia Ditto:
 * Zabezpieczyliśmy wystąpienie @jy-p na temat decentralizacji i mechanizmu finansowania Decred w Voice of Blockchain - wydarzeniu, które odbędzie się jesienią tego roku w Chicago.
 * Współpracowaliśmy ze społecznością w celu sfinalizowania zbiorowego podejścia Decred do stakingu.
 * Złożyliśmy propozycję PR do Politei na najbliższe sześć miesięcy finansowania.
-
 
 ## Eventy
 
@@ -247,11 +246,7 @@ Wybrane dyskusje z Twittera:
 
 ## Rynki
 
-<<<<<<< HEAD
-W maju DCR kurs wymiany Decred wahał się pomiędzy 23.6-35.0 USD / BTC 0.0032-0.0045. Średni dzienny kurs wynosił 27.71 USD.
-=======
-W maju kurs wymiany Decred wahał się pomiędzy 23.6-35.0 USD / BTC 0.0032-0.0045. Średni dzienny kurs wynosił 27.71 USD.
->>>>>>> testbranch
+W maju kurs wymiany Decred wahał się pomiędzy 23,6-35,0 USD / BTC 0,0032-0,0045. Średni dzienny kurs wynosił 27,71 USD.
 
 Cena Bitcoina stale rosła z ~5,500 USD a nawet na chwilę przekroczyła 9,000 USD.
 
