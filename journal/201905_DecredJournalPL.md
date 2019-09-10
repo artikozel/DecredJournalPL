@@ -48,11 +48,11 @@ Pozostałe:
 * dcrstakepool (oprogramowanie VSP) zostało poddane [redesignowi](https://github.com/decred/dcrstakepool/pull/339).
 * dcrd z powodzeniem [synchronizuje się](https://twitter.com/marco_peereboom/status/1128763544118362112) na procesorach z architekturą RISC-V QEMU. [RISC-V](https://en.wikipedia.org/wiki/RISC-V) jest nadzieją na mniej okropną architekturę jednostek CPU.
 
-Statystyki aktywności deweloperskiej na maj: 88 aktywnych PR-ów, 272 master commity, 52 tys. dodanych 57 tys. usuniętych linijek kodu spośród 15 repozytoriów. Wkład pochodził od 2-7 programistów na każde repozytorium.
+Statystyki aktywności deweloperskiej na maj: 88 aktywnych PR-ów, 272 master commity, 52 tys. dodanych i 57 tys. usuniętych linijek kodu spośród 15 repozytoriów. Wkład pochodził od 2-7 programistów na każde repozytorium.
 
 ## Ludzie
 
-Witamy nowych, początkujących współpracowników, których kod scalono z głównymi gałęziami rezpotyrowiów Decred na GitHubie: duyenemdo ([dcrandroid](https://github.com/decred/dcrandroid/commits?author=duyenemdo)), njirap ([dcrdata](https://github.com/decred/dcrdata/commits?author=njirap)), Nelson Dornelas Jr ([politeiagui](https://github.com/decred/politeiagui/commits?author=dornelasN)) oraz Youssef Boukenken ([dcrtime](https://github.com/decred/dcrtime/commits?author=sefbkn)).
+Witamy nowych, początkujących współpracowników, których kod scalono z głównymi gałęziami repozytoriów Decred na GitHubie: duyenemdo ([dcrandroid](https://github.com/decred/dcrandroid/commits?author=duyenemdo)), njirap ([dcrdata](https://github.com/decred/dcrdata/commits?author=njirap)), Nelson Dornelas Jr ([politeiagui](https://github.com/decred/politeiagui/commits?author=dornelasN)) oraz Youssef Boukenken ([dcrtime](https://github.com/decred/dcrtime/commits?author=sefbkn)).
 
 ## Zarządzanie
 
@@ -92,7 +92,7 @@ Bardziej dogłębny opis tych propozycji i związanych z nimi zmian znajduje si�
 
 Hashrate: majowy hashrate na początku miesiąca wyniósł ~524 Ph/s a zamknął miesiąc w ok. ~574 Ph/s, zaliczając niż w ok. 364 Ph/s oraz szczyt w wys. 626 Ph/s w ciągu miesiąca. Dystrybucja mocy obliczeniowej na 1 czerwca wyglądała następująco: Poolin 20%, lab.antpool.com 18%, BTC.com 8,7%, F2Pool 7,7%, UUPool 7,7%, Luxor 2%, BeePool 0,86%, CoinMine 0.28%, suprnova 0,02% oraz pozostałe 35.4%, za danymi z [dcrstats.com](https://dcrstats.com/pow). Są to liczby jedynie szacunkowe i nie można ich dokładnie określić.
 
-Staking: średnia cena biletu z okresu 30 dni wynosiła 116 DCR (-1.2) za danymi z dcrstats.com. TCena wahała się między 109,7-124,7 DCR. Zablokowana kwota wynosiła 4,68-4,83 mln DCR, co odpowiadało 47,60-49,17% dostępnej podaży, za danymi z [dcr.farm](https://charts.dcr.farm/d/000000003/proof-of-stake).
+Staking: średnia cena biletu z okresu 30 dni wynosiła 116 DCR (-1.2) za danymi z dcrstats.com. Cena wahała się między 109,7-124,7 DCR. Zablokowana kwota wynosiła 4,68-4,83 mln DCR, co odpowiadało 47,60-49,17% dostępnej podaży, za danymi z [dcr.farm](https://charts.dcr.farm/d/000000003/proof-of-stake).
 
 Węzły: na dzień 2. czerwca istniało 270 publicznych węzłów. W owym snapshocie, 168 węzłów stanowiły węzły IPv4 z następującą dystrybucją pośród kontynentów: Europa 53%, Ameryka Północna 39%, Azja 7%. Czołowe kraje: USA 31,6%, Niemcy 14%, Francja 10%, Kanada 7,8%, Wielka Brytania 5,4%, Holandia 5,4%. Dzięki za snapshot należą się @chappjc.
 
@@ -247,7 +247,11 @@ Wybrane dyskusje z Twittera:
 
 ## Rynki
 
+<<<<<<< HEAD
 W maju DCR kurs wymiany Decred wahał się pomiędzy 23.6-35.0 USD / BTC 0.0032-0.0045. Średni dzienny kurs wynosił 27.71 USD.
+=======
+W maju kurs wymiany Decred wahał się pomiędzy 23.6-35.0 USD / BTC 0.0032-0.0045. Średni dzienny kurs wynosił 27.71 USD.
+>>>>>>> testbranch
 
 Cena Bitcoina stale rosła z ~5,500 USD a nawet na chwilę przekroczyła 9,000 USD.
 
