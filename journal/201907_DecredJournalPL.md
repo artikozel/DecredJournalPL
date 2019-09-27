@@ -92,7 +92,7 @@ Statystyki społeczności na dzień 1 sierpnia:
 
 ## Zarządzanie
 
-W lipcu [Skarbiec](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) otrzymał 15517 DCR i wydał 10344 DCR. Wykorzystując dzienną średnią dzienną stawkę DCR/USD w lipcu, wynoszącą 28,97 USD, jesto to odpowiednio 450 tys. dolarów USD i 300 tys. dolarów. Są to opłaty za pracę wykonaną w czerwcu po stawce w wysokości 28,90 dolarów, więc kwota na fakturze jest prawie taka sama. Na dzień 1 sierpnia saldo Skarbca wynosi 627 514 DCR (16,8 mln USD po kursie 26,75 USD).
+W lipcu [Skarbiec](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) otrzymał 15517 DCR i wydał 10344 DCR. Wykorzystując dzienną średnią dzienną stawkę DCR/USD w lipcu, wynoszącą 28,97 USD, jest to odpowiednio 450 tys. dolarów i 300 tys. dolarów. Są to opłaty za pracę wykonaną w czerwcu po stawce w wysokości 28,90 dolarów, więc kwota na fakturze jest prawie taka sama. Na dzień 1 sierpnia saldo Skarbca wynosi 627 514 DCR (16,8 mln USD po kursie 26,75 USD).
 
 W lipcu złożono 2 nowe propozycje:
 

@@ -39,85 +39,89 @@ Zasięg testów został zwiększony i wzmocniony w wielu obszarach bazy kodowej.
 
 [Rozpoczęto prace](https://github.com/decred/dcrd/pull/1829) nad maksymalizacją opłat za szablony blokowe w oparciu o łańcuchy transakcji w mempoolu.
 
-[dcrwallet](https://github.com/decred/dcrwallet): A new [RPC](https://github.com/decred/dcrwallet/pull/1522) has been added that allows the user to abandon (or remove) an unconfirmed transaction from the wallet, and any other transactions dependent on its outputs. Another new RPC allows export of the [extended private key](https://github.com/decred/dcrwallet/pull/1533) of an account after unlocking the wallet.
+[dcrwallet](https://github.com/decred/dcrwallet): Dodano nowy [RPC](https://github.com/decred/dcrwallet/pull/1522), który umożliwia użytkownikowi porzucenie (lub usunięcie) niepotwierdzonej transakcji z portfela, a także wszelkich innych transakcji zależnych od jej danych wyjściowych. Kolejne nowe RPC umożliwia eksport [rozszerzonego klucza prywatnego](https://github.com/decred/dcrwallet/pull/1533) konta po odblokowaniu portfela.
 
-Code maintenance: updated to use the new modules in dcrd and [removed](https://github.com/decred/dcrwallet/pull/1531) usages of old modules, [improved](https://github.com/decred/dcrwallet/pull/1539) compatibility with Go 1.13 errors.
+Utrzymanie kodu: aktualizacja w celu wykorzystania nowych modułów w dcrd i [usunięcie](https://github.com/decred/dcrwallet/pull/1531) wykorzystania starych modułów, [ulepszenie](https://github.com/decred/dcrwallet/pull/1539) kompatybilności z błędami Go 1.13.
 
-Work has begun to add [support](https://github.com/decred/dcrwallet/pull/1541) for creating CoinJoin transactions for ticket purchasing "split" transactions, as well as mixing of individual mix change outputs into smaller standard denominations.
+Rozpoczęto prace nad dodaniem [wsparcia](https://github.com/decred/dcrwallet/pull/1541) do tworzenia transakcji CoinJoin dla transakcji zakupu biletów "split", jak również mieszania poszczególnych transakcji reszt na mniejsze standardowe ilości.
 
-[Decrediton](https://github.com/decred/decrediton): UI tweaks, bug fixes, code cleanup.
+[Decrediton](https://github.com/decred/decrediton): ulepszenia w interfejsie użytkownika, poprawki błędów, oczyszczanie kodu.
 
-Initial [dark mode](https://github.com/decred/decrediton/issues/2089) has been [completed](https://github.com/decred/decrediton/pull/2163). Work continues on making the UI responsive, with four new responsive views [added](https://github.com/decred/decrediton/pull/2174).
+Wstępna wersja [ciemnego trybu](https://github.com/decred/decrediton/issues/2089) została [zakończona](https://github.com/decred/decrediton/pull/2163). Kontynuowane są prace nad tym, aby interfejs użytkownika reagował w sposób elastyczny, z dodanymi [czterema nowymi widokami](https://github.com/decred/decrediton/pull/2174).
 
-[Politeia](https://github.com/decred/politeia): Work on the Politeia redesign is proceeding at pace, with a [number](https://github.com/decred/politeiagui/pull/1356) [of](https://github.com/decred/politeiagui/pull/1338) [PRs](https://github.com/decred/politeiagui/pull/1360) merged that add existing functionality to the redesigned interface. On the backend, significant work laying the foundations for the [DCC process](https://proposals.decred.org/proposals/fa38a3593d9a3f6cb2478a24c25114f5097c572f6dadf24c78bb521ed10992a4), to be incorporated in the CMS, has been [merged](https://github.com/decred/politeia/pull/980).
+[Politeia](https://github.com/decred/politeia): Prace nad nowym designem Politei postępują w tempie, ze [scaleniem](https://github.com/decred/politeiagui/pull/1356) [szeregu](https://github.com/decred/politeiagui/pull/1338) [PRów](https://github.com/decred/politeiagui/pull/1360), które dodają istniejącą funkcjonalność do przeprojektowanego interfejsu. Na backendzie istotne prace nad stworzeniem podstaw dla procesu [DCC](https://proposals.decred.org/proposals/fa38a3593d9a3f6cb2478a24c25114f5097c572f6dadf24c78bb521ed10992a4), który ma zostać włączony do CMS, zostały [scalone](https://github.com/decred/politeia/pull/980).
 
-The question of how to support RFP type proposals on Politeia has been the subject of discussion in this [issue](https://github.com/decred/politeia/issues/966) and in #politeia (see Governance for more detail).
+Kwestia, w jaki sposób wspierać propozycje typu RFP na platformie Politeia, była przedmiotem dyskusji w tym [zagadnieniu](https://github.com/decred/politeia/issues/966) oraz na kanale #politeia (więcej szczegółów sekcji poświęconej zarządzaniu).
 
-Login by username was switched back to email to prevent [targeted locking](https://github.com/decred/politeia/issues/860#issuecomment-520871500) of accounts. [2FA](https://github.com/decred/politeia/issues/544) will solve this issue and allow logins without email.
+Logowanie za pomocą nazwy użytkownika zostało przełączony z powrotem na e-mail, aby zapobiec [celowemu blokowaniu](https://github.com/decred/politeia/issues/860#issuecomment-520871500) kont. [Uwierzytelnianie dwuskładonikowe](https://github.com/decred/politeia/issues/544) rozwiąże ten problem i zezwoli na logowanie bez użycia adresu email.
 
-[dcrdex](https://github.com/decred/dcrdex): The dcrdex repository was [announced](https://twitter.com/decredproject/status/1156652694502817793) in July to house the DEX [specification](https://github.com/decred/dcrdex/tree/master/spec), and the first substantive PRs are already [open](https://github.com/decred/dcrdex/pull/17). A new [#dexdev](https://riot.im/app/#/room/!EzTSRQITaqHuFBDFhM:decred.org) room was also created for DEX development chat on Matrix.
+[dcrdex](https://github.com/decred/dcrdex): W lipcu ogłoszono [repozytorium dcrdex](https://twitter.com/decredproject/status/1156652694502817793), które miało pomieścić [specyfikację DEX](https://github.com/decred/dcrdex/tree/master/spec), i pierwsze merytoryczne PR są już [otwarte](https://github.com/decred/dcrdex/pull/17). Stworzono również nowy kanał [#dexdev](https://riot.im/app/#/room/!EzTSRQITaqHuFBDFhM:decred.org) na Matrixie aby właśnie tam prowadzić rozmowy dotyczące rozwoju platformy.
 
-[cspp](https://github.com/decred/cspp): This new repository provides client and server implementations to execute the [CoinShuffle++](https://crypsys.mmci.uni-saarland.de/projects/FastDC/paper.pdf) mixing protocol. While intended to be used to create Decred CoinJoin transactions, the client and server packages are generic enough to anonymously mix and join elements of any group.
+[cspp](https://github.com/decred/cspp): To nowe repozytorium zawiera implementacje klienckie i serwerowe potrzebne do umożliwienia protokołu mieszania [CoinShuffle++](https://crypsys.mmci.uni-saarland.de/projects/FastDC/paper.pdf). Pakiety klienta i serwera są wystarczająco ogólne, aby anonimowo mieszać i łączyć elementy dowolnej grupy.
 
-Before CoinShuffle++, Company 0 developed a Go implementation of TumbleBit protocol. Despite not integrating it into Decred, the code was released for the public benefit in [tumblebit](https://github.com/decred/tumblebit) repository.
+Przed CoinShuffle++, Company 0 opracowała implementację protokołu TumbleBit w Go. Pomimo niezintegrowania protokoł€ z Decred, kod został wydany dla korzyści publicznej w repozytorium [tumblebit](https://github.com/decred/tumblebit).
 
-[dcrstakepool](https://github.com/decred/dcrstakepool): The large [effort](https://github.com/decred/dcrstakepool/pulls?q=is%3Apr+is%3Aclosed+227) to [decouple](https://github.com/decred/dcrstakepool/issues/227) dcrstakepool from dcrwallet, started in April, has finally come to [completion](https://github.com/decred/dcrstakepool/pull/470). This change decreases code complexity and reduces the quantity of RPC calls over the network, which in turn enhances performance and increases security.
+[dcrstakepool](https://github.com/decred/dcrstakepool): Duży [wysiłek](https://github.com/decred/dcrstakepool/pulls?q=is%3Apr+is%3Aclosed+227) by [odłączyć](https://github.com/decred/dcrstakepool/issues/227) działanie dcrstakepool od dcrwallet, rozpoczęty w kwietniu, wreszcie [został zakończony](https://github.com/decred/dcrstakepool/pull/470). Zmiana ta zmniejsza złożoność kodu i zmniejsza ilość połączeń RPC w sieci, co z kolei zwiększa wydajność i bezpieczeństwo.
 
-VSP operators gained support for SMTPS to send registration and account recovery emails via encrypted connections (including [self-signed certificates](https://github.com/decred/dcrstakepool/pull/486)), improved [status page](https://github.com/decred/dcrstakepool/pull/484) and better error reporting.
+Operatorzy VSP uzyskali wsparcie dla SMTPS w zakresie wysyłania wiadomości e-mail dotyczących rejestracji i odzyskiwania konta za pośrednictwem szyfrowanych połączeń (w tym [certyfikaty z własnym podpisem](https://github.com/decred/dcrstakepool/pull/486)), ulepszonych [stron statusu](https://github.com/decred/dcrstakepool/pull/484) oraz lepszego raportowania błędów.
 
-tmux [test harness](https://github.com/decred/dcrstakepool/pull/476) has been added to boost productivity of testing.
+W celu zwiększenia produktywności testowania dodano [uprząż testową](https://github.com/decred/dcrstakepool/pull/476) tmux.
 
-[30 PRs](https://github.com/decred/dcrstakepool/pulls?q=is%3Apr+is%3Aclosed+merged%3A2019-08-01..2019-08-31) were merged in total.
+W sumie [30 PRów](https://github.com/decred/dcrstakepool/pulls?q=is%3Apr+is%3Aclosed+merged%3A2019-08-01..2019-08-31) zostało scalonych.
 
-[dcrlnd](https://github.com/decred/dcrlnd): Merged work in August concerns improvements to the stability of tests and initial work to support using existing wallets (only a wallet embedded in dcrlnd is supported for now).
+[dcrlnd](https://github.com/decred/dcrlnd): Prace scalone w sierpniu dotyczą poprawy stabilności testów i wstępnych prac nad wsparciem przy użyciu istniejących portfeli (obecnie obsługiwany jest tylko portfel wbudowany w dcrlnd).
 
-More upstream lnd work was [ported](https://github.com/decred/dcrlnd/pull/36#issuecomment-526721084) and is being tested before merging in dcrlnd. A total of 400+ PRs and 1700+ lines of code were adjusted.
+Więcej prac z głównego repozytorium zostało [przeniesione](https://github.com/decred/dcrlnd/pull/36#issuecomment-526721084) i jest testowane przed scaleniem z dcrlnd. W sumie dostosowano 400+ PR-ów i 1700+ linijek kodu.
 
-> to keep in sync we needed to adapt pretty much every single commit after our merge point on Jan 10 ([@matheusd](https://twitter.com/matheusd_tech/status/1169194706636615680))
+> Aby zachować synchronizację, musieliśmy dostosować prawie każdy pojedynczy commit po naszym punkcie scalenie z 10 stycznia ([@matheusd](https://twitter.com/matheusd_tech/status/1169194706636615680)).
 
-LN faucet gained a form to [pay invoices](https://github.com/decred/lightning-faucet/pull/8) and new config [parameters](https://github.com/decred/lightning-faucet/pull/14).
+Kran LN uzyskał formularz do [płacenia faktur](https://github.com/decred/lightning-faucet/pull/8) oraz nowe [parametry](https://github.com/decred/lightning-faucet/pull/14) konfiguracyjne.
 
-[dcrandroid](https://github.com/decred/dcrandroid): Work is being done to implement the [new UI](https://github.com/decred/dcrandroid/pull/400) which will bring the app into alignment with the standard app design recommendations for Android. Work on the backend is also ongoing for [multi-wallet](https://github.com/decred/dcrandroid/issues/188) support which will enable [watch only](https://github.com/decred/dcrandroid/issues/393) wallets for ticket monitoring.
+[dcrandroid](https://github.com/decred/dcrandroid): Trwają prace nad wdrożeniem [nowego interfejsu użytkownika](https://github.com/decred/dcrandroid/pull/400), który dostosuje aplikację do standardowych zaleceń dotyczących projektowania aplikacji dla systemu Android. Na backendzie w toku są również prace nad [wsparciem dla wielu portfeli](https://github.com/decred/dcrandroid/issues/188), które umożliwi korzystanie z portfeli [typu "watch-only"](https://github.com/decred/dcrandroid/issues/393) (tylko do podglądu) do monitorowania biletów.
 
-[dcrios](https://github.com/raedahgroup/dcrios): Work is in progress on the improved UI and watch-only wallet support similar to the Android app.
+[dcrios](https://github.com/raedahgroup/dcrios): Trwają prace nad ulepszonym interfejsem użytkownika i obsługą portfeli tylko do podglądu, podobnie jak w przypadku aplikacji dla systemu Android.
 
-[dcrdata](https://github.com/decred/dcrdata): incorporated upgrades from dcrd, UI tweaks, optimizations and bug fixes.
+[dcrdata](https://github.com/decred/dcrdata): wcielono aktualizacje z dcrd, ulepszenia UI, optymalizacje i poprawki błędów.
 
-A big change that had been on the Todo list for a long time is [dropping SQLite](https://github.com/decred/dcrdata/pull/1480). This makes the database architecture much simpler, only requiring PostgreSQL, and makes the build cgo-free (pure Go, no C).
+Dużą zmianą, która była na liście rzeczy do zrobienia przez długi czas, była [rezygnacja z SQLite](https://github.com/decred/dcrdata/pull/1480). To sprawia, że architektura bazy danych jest znacznie prostsza, wymaga jedynie PostgreSQL i sprawia, że budowa jest wolna od błędów (czyste Go, bez C).
 
-A redesign is ramping up, but the backend development is mostly in maintenance mode now as key contributors shift focus to dcrdex. There is still much room for dcrdata improvement and expansion, especially with mixed transactions.
-
-[docs](https://github.com/decred/dcrdocs): [Added](https://github.com/decred/dcrdocs/pull/968) a new page detailing [atomic swaps](https://docs.decred.org/advanced/atomic-swap/), [updated](https://github.com/decred/dcrdocs/pull/979) [hardware wallet](https://docs.decred.org/wallets/hardware-wallets/) support info, minor cleanups.
+Prace nad przeprojektowaniem coraz bardziej nabierają tempa, lecz rozwój backendu znajduje się teraz głównie w trybie konserwacji, ponieważ kluczowi współpracownicy przenoszą punkt ciężkości w pracach rozwojowych na dcrdex. Nadal jest wiele miejsca na poprawę i rozbudowę dcrdata, zwłaszcza w przypadku transakcji mieszanych.
 
 Work has started on a long-asked-for separate [developer documentation](https://github.com/decredcommunity/issues/issues/135) site. Initial work is occurring in a personal repo that will be moved under the main Decred GitHub org when the site is launched.
 
 [decred.org](https://github.com/decred/dcrweb): Roadmap has been [updated](https://github.com/decred/dcrweb/pull/695) with new developments, the [press coverage page](https://github.com/decred/dcrweb/pull/706) was updated with recent coverage, and privacy has been [added](https://github.com/decred/dcrweb/pull/712) to the homepage and roadmap.
 
-Dev activity stats for August: 244 active PRs, 274 master commits, 46K added and 24K deleted lines spread across 15 repositories. Contributions came from 2-9 developers per repository.
+[docs](https://github.com/decred/dcrdocs): [dodano](https://github.com/decred/dcrdocs/pull/968) nową stronę w szczegółach opisującą [atomic swaps](https://docs.decred.org/advanced/atomic-swap/), [zaktualizowano](https://github.com/decred/dcrdocs/pull/979) dane dotyczące wsparcia [portfeli sprzętowych](https://docs.decred.org/wallets/hardware-wallets/), oraz wdrożono drobne poprawki.
+
+Rozpoczęły się prace nad oddzielną, od dawna wyczekiwaną stroną internetową poświęconą [dokumentacji deweloperskiej](https://github.com/decredcommunity/issues/issues/135). Początowe stadium rozwoju strony ma miejsce w osobistym repozytorium, które zostanie przeniesione pod główną organizację Decred na GitHub, gdy strona zostanie uruchomiona.
+
+[decred.org](https://github.com/decred/dcrweb): Mapa rozwoju została [zaktualizowana](https://github.com/decred/dcrweb/pull/695) z wraz nowymi aktualizacjami, strona prasowa z ostatnimi relacjami [została zaktualizowana](https://github.com/decred/dcrweb/pull/706), oraz [dodano](https://github.com/decred/dcrweb/pull/712) sekcję prywatności do strony głównej i mapy rozwoju.
+
+Statystyki aktywności deweloperskiej na sierpień: 244 aktywne PR-y, 274 master commitów, 46 tys. dodanych i 24 tys. usuniętych linijek kodu spośród 15 repozytoriów. Wkład pochodził od 2-9 programistów na każde repozytorium.
 
 ## Ludzie
 
-Welcome to new first time contributors with code merged to master: aarcamp ([dcrd](https://github.com/decred/dcrd/commits?author=aarcamp)), skipcheru ([dcrandroid](https://github.com/decred/dcrandroid/commits?author=skipcheru)), RyanBRiley ([politeia](https://github.com/decred/politeia/commits?author=RyanBRiley)), UferePease ([dcrstakepool](https://github.com/decred/dcrstakepool/commits?author=UferePease)), fguisso ([lightning-faucet](https://github.com/decred/lightning-faucet/commits?author=fguisso)).
+Witamy nowych, początkujących współpracowników, których kod scalono z głównymi gałęziami repozytoriów Decred na GitHubie: aarcamp ([dcrd](https://github.com/decred/dcrd/commits?author=aarcamp)), skipcheru ([dcrandroid](https://github.com/decred/dcrandroid/commits?author=skipcheru)), RyanBRiley ([politeia](https://github.com/decred/politeia/commits?author=RyanBRiley)), UferePease ([dcrstakepool](https://github.com/decred/dcrstakepool/commits?author=UferePease)), fguisso ([lightning-faucet](https://github.com/decred/lightning-faucet/commits?author=fguisso)).
 
-Community stats:
+Statystyki społeczności:
 
-* Politeia users: 174 (+20)
-* Twitter followers: 40,597 (+25)
-* Reddit subscribers: 9,594 (+38)
-* Matrix users: 412 (+28)
-* Slack users: 6,834 (+25)
-* Discord users: 2,442 (+65), verified to post: 310 (+29)
-* Telegram users: 3,148 (-142)
-* YouTube subscribers: 3,819 (+19)
-* Facebook followers: 3,271 (+18), likes: 2,999 (+16)
-* LinkedIn followers: 603 (+12)
-* GitHub dcrd stars: 516 (+18), forks: 1,383 (+18)
+* Użytkownicy platformy Politeia: 174 (+20)
+* Obserwujący na Twitterze: 40,597 (+25)
+* Subskrybenci na Reddit: 9,594 (+38)
+* Użytkownicy na Matrixie: 412 (+28)
+* Użytkownicy na Slacku: 6,834 (+25)
+* Użytkownicy na Discordzie: 2,442 (+65), zweryfikowani z możliwością pisania postów: 310 (+29)
+* Użytkownicy na Telegramie: 3,148 (-142)
+* Subskrybenci na YouTube: 3,819 (+19)
+* Obserwujący na Facebooku: 3,271 (+18), polubień: 2,999 (+16)
+* Obserwujący na LinkedIn: 603 (+12)
+* GitHub: 516 gwiazdek (+18) i 1,383 forki repozytorium dcrd (+18)
 
-Following the [events](https://github.com/decredcommunity/events/blob/master/reports/20190725-cointime-summit-ho-chi-minh-city-vietnam.md) in Ho Chi Minh City, Vietnamese [Telegram](https://t.me/decredvietnam), [Twitter](https://twitter.com/DecredVietnam) and [Facebook](https://www.facebook.com/Decred-DCR-Vietnam-108991833777572/) accounts have been created. A list of all Decred social media groups is [here](https://github.com/decredcommunity/wiki/blob/master/wiki/social-media.md).
+W następstwie [wydarzeń](https://github.com/decredcommunity/events/blob/master/reports/20190725-cointime-summit-ho-chi-minh-city-vietnam.md) w Ho Chi Minh City utworzono konta na platformach [Telegram](https://t.me/decredvietnam), [Twitter](https://twitter.com/DecredVietnam) i [Facebook](https://www.facebook.com/Decred-DCR-Vietnam-108991833777572/) w języku wietnamskim [Telegram](https://t.me/decredvietnam). Lista wszystkich grup w mediach społecznościowych znajduje się na [tej stronie](https://github.com/decredcommunity/wiki/blob/master/wiki/social-media.md).
 
-## Governance
+## Zarządzanie
 
-In August the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received 15,278 DCR and spent 8,223 DCR. Using August's daily average DCR/USD rate of $26.23, this is $401K received and $216K spent. As these payments were for work completed in July, it is also informative to consider them in the context of the July average daily rate of $28.97 - in which case the USD spent figure is $238K. As of Aug 9, Treasury balance is 638K DCR (15.8 million USD at $24.80).
+W sierpniu [Skarbiec](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) otrzymał 15278 DCR i wydał 8223 DCR. Wykorzystując dzienną średnią dzienną stawkę DCR/USD w sierpniu, wynoszącą 26,23 USD, jest to odpowiednio 401 tys. dolarów i 216 tys. dolarów. Są to opłaty za pracę wykonaną w lipcu po stawce w wysokości 28,97 dolarów, co przekłada się na wydatki na sumę 238 tys. dolarów. Na dzień 9 września saldo Skarbca wynosi 638 tys. DCR (15,8 mln USD po kursie 24,80 USD).
 
 A DEX development [proposal](https://proposals.decred.org/proposals/417607aaedff2942ff3701cdb4eff76637eca4ed7f7ba816e5c0bd2e971602e1) from @chappjc and @buck54321 (who work on dcrdata), with support from Company 0, was submitted - and approved with 90% Yes votes. This proposal has an estimated cost of $230,000 to deliver a command-line interface application, which can be extended by future proposals to offer a user interface using the Electron framework.
 
