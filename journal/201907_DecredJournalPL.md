@@ -108,7 +108,7 @@ Przygotowano [zbiór danych](https://github.com/RichardRed0x/pi-research/blob/ma
 
 ## Sieć
 
-Hashrate: lipcowy hashrate na początku miesiąca wyniósł ~503 Ph/s a zamknął miesiąc w ok. ~583 Ph/s, zaliczając niż w ok. 319 Ph/s oraz szczyt w wys. 687 Ph/s w ciągu miesiąca. Dystrybucja mocy obliczeniowej na 2 sierpnia wyglądała następująco: F2Pool 21%, UUPool 19%, lab.antpool.com 16,5%, Poolin 9,5%, BTC.com 7,3%, Luxor 2,2%, BeePool 0,14%, Coinmine 0,12%, suprnova 0,08% i pozostałę 24%, za danymi z [dcrstats.com](https://dcrstats.com/pow). Są to liczby jedynie szacunkowe i nie można ich dokładnie określić.
+Hashrate: lipcowy hashrate na początku miesiąca wyniósł ~503 Ph/s a zamknął miesiąc w ok. ~583 Ph/s, zaliczając niż w ok. 319 Ph/s oraz szczyt w wys. 687 Ph/s w ciągu miesiąca. Dystrybucja mocy obliczeniowej na 2 sierpnia wyglądała następująco: F2Pool 21%, UUPool 19%, lab.antpool.com 16,5%, Poolin 9,5%, BTC.com 7,3%, Luxor 2,2%, BeePool 0,14%, Coinmine 0,12%, suprnova 0,08% i pozostałe 24%, za danymi z [dcrstats.com](https://dcrstats.com/pow). Są to liczby jedynie szacunkowe i nie można ich dokładnie określić.
 
 5 lipca według dcrstats.com zaobserwowany ostry spadek mocy obliczeniowej z 550 do 319 Ph/s, który w przeciągu ~20 godzin wrócił do stanu poprzedniego. Odbyła się długa [dyskusja](https://matrix.to/#/!NNzHoaSdnsbZDQQOXJr:decred.org/$156238052013967KGajR:decred.org) na temat możliwych przyczyn spadku i jego [dokładności](https://matrix.to/#/!NNzHoaSdnsbZDQDQOXJr:decred.org/$1562452219144sRKEL:decred.org).
 
@@ -183,7 +183,7 @@ Na których byliśmy:
 * 4-5 lipca - [Blockchain Summit Latam](https://twitter.com/Decred_ES/status/1146093986806976513) - Mexico City, Meksyk. Ana Dalia [reprezentowała](https://twitter.com/AnaDaliacd23/status/1146873685229416450) Decred. Po konferencji odbyła się [kolacja](https://twitter.com/Decred_ES/status/1147522846513618945) sponsorowana przez Decred.
 * 10 lipca - [Meetup Decred](https://twitter.com/Decred_BR/status/1147201276058505216) - São Paulo, Brazylia. Zorganizowane przez @guisso.
 * 10 lipca - [StakingCon](https://twitter.com/BlockBeatsChina/status/1147570186519638017) - Pekin, Chiny. @Dominic "oczarował organizatora na tyle, by przedstawić wideo o Decred i wziął udział w dyskusji przy okrągłym stole". Wydarzenie zorganizowane przez @BlockBeatsChina. ([zdjęcia](https://twitter.com/DecredCN/status/1148983482732830720))
-* Jul 11 - [Event Staked US ](https://twitter.com/staked_us/status/1148687292032323584) - Nowy Jork, USA. Pogawędka z @joshuam, której współgospodarzami byli Staked i TokenTax.
+* Jul 11 - [Event Staked US](https://twitter.com/staked_us/status/1148687292032323584) - Nowy Jork, USA. Pogawędka z @joshuam, której współgospodarzami byli Staked i TokenTax.
 * 19 lipca - Meetup - Buenos Aires, Argentyna. Spotkanie było przygotowaniem do zbliżającego się krypto poniedziałku 12 sierpnia. [@Camilolwi](https://twitter.com/Camilolwi) [przedstawił](https://twitter.com/cryptorocketok/status/1152260099072778240) Decred. Wydarzenie prowadzone przez [Crypto Rocket Group](https://twitter.com/cryptorocketok).
 * 21 lipca - [Spotkanie OKEx](https://twitter.com/wanbihou/status/1151704823533723648) - Qingdao, Chiny. Czat z @Dominic.
 * 25 lipca - [Prawo komputerowe + Blockchain Festival CDMX 2019](https://twitter.com/LegalHackersMX/status/1153832499333795840) - Mexico City, Meksyk. Projekt [reprezentował](https://twitter.com/elianhuesca/status/1154452590983299073) @elian.
@@ -207,16 +207,16 @@ Nadchodzące:
 Wybrane artykuły:
 
 * Decred: To, czym złoto i Bitcoin chciały być, aut. Pascal Thellmann ([seekingalpha.com](https://seekingalpha.com/instablog/49962360-pascal-thellmann/5324856-decred-gold-bitcoin-wanted))
-* Zabezpieczenia monetarne; czy altcoiny mogą konkurowac z Bitcoinem?, aut. @Checkmate ([medium](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4))
+* Zabezpieczenia monetarne; czy altcoiny mogą konkurować z Bitcoinem?, aut. @Checkmate ([medium](https://medium.com/@_Checkmatey_/monetary-premiums-can-altcoins-compete-with-bitcoin-54c97a92c6d4))
 * Libra: Sprzymierzeniec czy wróg?, aut. @jy-p ([ccn.com](https://www.ccn.com/news/libra-friend-or-foe/2019/07/21/))
-* Bitcoin & Decred / Historyczne dokumenty cyfrowej rewolucji finansowej, aut. BlackBearXVII ([medium](https://medium.com/@imagnusholdings/bitcoin-decred-historical-documents-of-a-digital-financial-revolution-4debfa0d10d9))
+* Bitcoin & Decred/Historyczne dokumenty cyfrowej rewolucji finansowej, aut. BlackBearXVII ([medium](https://medium.com/@imagnusholdings/bitcoin-decred-historical-documents-of-a-digital-financial-revolution-4debfa0d10d9))
 * Niezależne (krypto) sieci, aut. Joel Monegro ([placeholder.vc](https://www.placeholder.vc/blog/2019/7/31/lvhpfydo4m3uoezhwhicyxo06og0mn)) - wymienia Decred jako przykład
 * Wprowadzenie do kryptorachunkowości: Analiza Decred jako systemu rachunkowego, aut. Permabull Nino ([medium](https://medium.com/@permabullnino/introduction-to-crypto-accounting-analysis-of-decred-as-an-accounting-system-4d3e67fce28)).
 * Blockhead Capital: Teza inwestycyjna Decred ([blockheadcap.com](https://www.blockheadcap.com/post/decred-investment-thesis))
 
 Tłumaczenia:
 
-* @Dominic przetłumaczył cały szkic dokumentu [specyfikacyjnego Decred DEX ](https://github.com/decred/dcrdex/blob/master/README.mediawiki) na [jęz. chiński](https://github.com/DominicTing/dcrdexStandard-CN-/blob/master/README.mediawiki). Link został zgłoszony do chińskiej   [strony informacyjnej Binance](https://info.binance.com/cn/currencies/decred).
+* @Dominic przetłumaczył cały szkic dokumentu [specyfikacyjnego Decred DEX ](https://github.com/decred/dcrdex/blob/master/README.mediawiki) na [jęz. chiński](https://github.com/DominicTing/dcrdexStandard-CN-/blob/master/README.mediawiki). Link został zgłoszony do chińskiej [strony informacyjnej Binance](https://info.binance.com/cn/currencies/decred).
 * Majowe i czerwcowe wydania Decred Journal zostały przetłumaczone na jęz. arabski (@arij), chiński (@Dominic, @guang, @changhugo), włoski oraz rosyjski (@DZ), polski (@kozel) i wietnamski (Duyen Em). Dziękujemy wszystkim tłumaczom.
 
 Wideo:
