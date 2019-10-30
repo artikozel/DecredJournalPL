@@ -214,11 +214,7 @@ Wybrane artykuły:
 
 * Decred: Teza inwestycyjna, aut. Wally Hansen ([medium](https://medium.com/coinmonks/decred-an-investment-thesis-bf9ba3cd1042)) - To wyczerpujące streszczenie Decred oraz ocena możliwości i ryzyka pojawiły się znikąd, zestawione ze źródeł publicznych przez entuzjastyczną zainteresowaną stronę.
 * Przedstawiamy dcrpool, aut. @dnldd ([blog.decred.org](https://blog.decred.org/2019/09/25/Introducing-Dcrpool/)) - Wpis na blogu przedstawiający i opisujący przesłanki budowy mining poola stratum typu open source dla Decred.
-<<<<<<< HEAD
 * Zasypuję Was swoimi monetami, aut. @s\_ben ([medium](https://medium.com/@seth.benton/i-dump-coins-on-you-ee6db4331e18))
-=======
-* Zasypuję Was swoimi monetami, aut. @s\_ben ([medium](_COPY11@seth.benton/i-dump-coins-on-you-ee6db4331e18))
->>>>>>> ed61a33a566c467d41ccca13d53573b2b428df6e
 * Prywatność Decred - dłuższa droga do celu, aut. @Dustorf ([medium](https://medium.com/decred/decred-privacy-taking-the-long-road-62d218223db6))
 * Pisanie propozycji na platformie Politeia (Pi) , aut. Decred Dragon ([medium](https://medium.com/@decreddragon/writing-proposals-on-politeia-pi-e345621652a2))
 * Jak Decred dąży do zbudowania zdecentralizowanego modelu zarządzania, aut. @evok3d ([bitsonline](https://bitsonline.com/decred-decentralized-governance/))
