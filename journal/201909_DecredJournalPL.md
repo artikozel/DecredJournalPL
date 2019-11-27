@@ -199,7 +199,7 @@ Na których byliśmy:
 Na których będziemy:
 
 * 17 października - Blockchain and Decred - Morelia, Meksyk. @luisantoniocrag i @francov_ będą mówić o blockchainie i Decred na uniwersytecie w mieście Morelia.
-* 29-31 października - [Światowa Konferencja Krypto](https://worldcryptocon.com/) - Las Vegas, USA. @akinsawyerr wystąpi na panelu zatytułowanym "Praktyki zarządzania" oraz wygłosi prezentację zatytułowaną: "Zarządzanie częściami wspólnymi krypto. Prezentacja będzie uwydatniać proces zarządzania Decred w przeciwieństwie do innych działań w przestrzeni publicznych blockchainów.
+* 29-31 października - [Światowa Konferencja Krypto](https://worldcryptocon.com/) - Las Vegas, USA. @akinsawyerr wystąpi na panelu zatytułowanym "Praktyki zarządzania" oraz wygłosi prezentację zatytułowaną: "Zarządzanie wspólnymi zasobami krypto". Prezentacja będzie uwydatniać proces zarządzania Decred w przeciwieństwie do innych działań w przestrzeni publicznych blockchainów.
 * 31 października - Blockchain APAC - Do potwierdzenia i ogłoszenia.
 * 4-7 listopada - [Web Summit](https://websummit.com/) - Lizbona, Portugalia. Decred będzie miał stoisko.
 * 16 listopada - [BitConf](https://www.bitconf.com.br/portal/) - São Paulo, Brazylia. Jest to jedno z największych wydarzeń branży krypto w Ameryce Łacińskiej. Zespół Decred zaprezentuje około 3 wykłady.
