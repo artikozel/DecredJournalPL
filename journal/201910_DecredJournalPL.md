@@ -306,7 +306,7 @@ Nowinki z platform komunikacyjnych:
 - Pasek boczny Reddit został zaktualizowany poprzez dodanie nowego repozytorium [textassets](https://github.com/decredcommunity/textassets/pull/1) i przy użyciu najnowszej wersji [przekazu medialnego](https://github.com/decredcommunity/pr/blob/release/foundational-messaging.md). Być może będziesz musiał skorzystać z [old.reddit.com](https://old.reddit.com/r/decred/) aby go zobaczyć.
 - Dodano nowe aliasy czatu, aby zredukować klepanie w klawiaturę i lepiej odzwierciedlać zawartość kanału: #events (było #event\_planning), #media (było #social\_media) i #writers (było #writers\_room).
 
-Wybrane wątki z Reddita::
+Wybrane wątki z Reddita:
 
 - Rozważna [dyskusja](https://www.reddit.com/r/decred/comments/dku88o/what_does_decreds_governance_model_incentivize/) pomiędzy @bee i @oiezz na temat zachęt związanych z zarządzaniem Decred.
 - [Post](https://reddit.com/r/decred/comments/dgycc3/long_term_decred_believer_and_investor_any/) o dużym spadku cen przyciągnął 40 komentarzy.
