@@ -261,7 +261,7 @@ Wybrane dyskusje z Twittera:
 - @permabullnino [tweetuje](https://twitter.com/PermabullNino/status/1195356846778912769) o aspektach przewagi konkurencyjnej Decred.
 - @ammarooni [na temat](https://twitter.com/Ammarooni/status/1199804834133762054) przełomu gospodarczego.
 - [Tweet](https://twitter.com/jessewldn/status/1194632275389898753) Jesse Waldena o raporcie z działaności platformy Politeia po roku istnienia.
-- @lukebp [tweetuje](https://twitter.com/lukebp_/status/1199134933773500416) o tym, jak to jest pracować dla Decred, zaczyna  hashtag #cryptodevs z wieloma innymi ludźmi, którzy dodali swoje obserwacje na ten temat.
+- @lukebp [tweetuje](https://twitter.com/lukebp_/status/1199134933773500416) o tym, jak to jest pracować dla Decred, zaczyna hashtag #cryptodevs z wieloma innymi ludźmi, którzy dodali swoje obserwacje na ten temat.
 
 > - Praca z zespołem światowej klasy
 > - Budowa najnowocześniejszej technologii open source
