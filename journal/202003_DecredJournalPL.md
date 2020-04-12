@@ -1,172 +1,180 @@
 # Decred Journal – Marzec 2020
 
-![abstract art](../img/journal-202003-384.png)
+![abstrakcja](../img/journal-202003-384.png)
 
-_Image: Expand Vector by @saender_
+_Obraz: Wektor ekspansji, aut. @saender_
 
-Highlights for March:
+Najważniejsze wydarzenia z marca:
 
-- DCP-0005 activated, bringing arguably the most secure and privacy preserving SPV implementation for lightweight clients to the Decred network. Any v1.4 nodes that were still running have been forked off the network.
-- The first order-driven atomic swap trade on testnet was coordinated by the DEX.
-- There has been spectacular progress across just about all of the key software repositories this month, check it out below.
-- Yearly budgets for US/English and Brazilian outreach were approved for $286K in total, including some funding to continue production of the Journal.
-- This is issue 24 of the Decred Journal and marks two years of uninterrupted monthly coverage of the Decred project!
+- Zmiana zasad konsensusu określona w DCP-0005 została aktywowana, wprowadzając do sieci Decred prawdopodobnie najbardziej bezpieczną i chroniącą prywatność implementację SPV dla lekkich klientów. Wszystkie węzły v1.4, które nadal działały, zostały odłączone od sieci.
+- Budowany DEX skoordynował zlecenie pierwszej transakcji wymiany z wykorzystaniem atomic swaps w sieci testnet.
+- W tym miesiącu nastąpił spektakularny postęp w prawie wszystkich kluczowych repozytoriach oprogramowania, o czym ze szczegółami można przeczytać poniżej.
+- Roczne budżety na czynności w zakresie nawiązywania kontaktów i promocji dla społeczności amerykańsko-angielskich oraz brazylijskich zostały zatwierdzone na łączną kwotę 286 tys. dolarów, w tym część środków na kontynuację produkcji Dziennika.
+- Jest to 24. wydanie Decred Journal, co oznacza dwa lata nieprzerwanego, comiesięcznego raportowania o projekcie Decred!
 
-## Development
 
-Unless otherwise noted, the work reported here has the "merged to master" status. It means that the work is completed, reviewed and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
+## Rozwój
+
+O ile nie zaznaczono inaczej, prace zgłaszane poniżej mają status "scalonych z repozytorium głównym (master)". Oznacza to, że prace są ukończone, zrecenzowane i zintegrowane z kodem źródłowym, który zaawansowani użytkownicy mogą kompilować i uruchamiać, ale ich efekty nie są jeszcze dostępne w wersji plików binarnych dla zwykłych użytkowników.
+
 
 [dcrd](https://github.com/decred/dcrd):
 
-- ECDSA signatures [decoupled](https://github.com/decred/dcrd/pull/2139) from secp256k1 package to make it clear that ECDSA is only one possible digital signature algorithm, and to enable Schnorr signatures to be made first-class citizens of the codebase
-- exported [field value type](https://github.com/decred/dcrd/pull/2134) to allow external callers to perform optimized field math
-- signature verification further optimized by minimizing expensive operations
-- added method to [clear](https://github.com/decred/dcrd/pull/2117) private key from memory and [reduced](https://github.com/decred/dcrd/pull/2131) number of internal copies of private keys to enhance security against memory scraping
-- big integers [removed](https://github.com/decred/dcrd/pull/2107) completely from signature parsing and signing operations in favor of the specialized mod n scalar code
-- schnorr verification tests [reworked](https://github.com/decred/dcrd/pull/2128) to resolve multiple issues
-- prevented the misuse of code in several areas
-- removed unused code
+- podpisy ECDSA zostały [odłączone](https://github.com/decred/dcrd/pull/2139) od pakietu secp256k1, aby wyraźnie zaznaczyć, że ECDSA jest tylko jednym z możliwych algorytmów podpisu cyfrowego oraz aby umożliwić sygnaturom Schnorr stanie się obywatelem pierwszej kategorii bazy kodowej
+- wyeksportowano [typ wartości pola](https://github.com/decred/dcrd/pull/2134), aby umożliwić zewnętrznym wywoływaczom wykonywanie zoptymalizowanej matematyki pól
+- weryfikacja podpisu została dodatkowo zoptymalizowana poprzez minimalizację kosztownych operacji
+- dodano metodę [czyszczenia](https://github.com/decred/dcrd/pull/2117) kluczy prywatnych z pamięci oraz [zredukowano](https://github.com/decred/dcrd/pull/2131) liczbę wewnętrznych kopii kluczy prywatnych w celu zwiększenia bezpieczeństwa przed scrapingiem pamięci
+- duże liczby całkowite zostały [usunięte](https://github.com/decred/dcrd/pull/2107) całkowicie z operacji parsowania i podpisywania na rzecz specjalistycznego kodu skalarnego mod n
+- testy weryfikacyjne Schnorra zostały [przerobione](https://github.com/decred/dcrd/pull/2128) w celu rozwiązania wielu problemów
+- zapobieżenie niewłaściwemu wykorzystaniu kodu w kilku obszarach
+- usunięto nieużywany kod
 
-A vulnerability was [disclosed](https://bounty.decred.org/2020/03/status-update/) that allowed a potential multi-day memory exhaustion attack that could lead to a node crash in dcrd v1.4.0. On Mar 13 the network forked to new consensus rules implemented in dcrd v1.5.0 which means all nodes on the network are required to run that as a minimum version. Since this and later versions contain a fix for the vulnerability, it is now mitigated.
 
-dcrd has less than 16% code overlap with btcd meaning that 84% is the new development work, according to an [analysis](https://coincode.sh/c/dcr/) by CoinCode.sh. @davecgh [confirmed](https://matrix.to/#/!HEeJkbPRpAqgAwhXWO:decred.org/$15862843869377LGlSK:decred.org) that the numbers look plausible given how much new code has been written and noted that the divergence is even more pronounced in dcrwallet (which was not analyzed).
+Ujawniono [lukę w oprogramowaniu](https://bounty.decred.org/2020/03/status-update/), która pozwalała na potencjalny wielodniowy atak wyczerpujący pamięć, który mógł doprowadzić do awarii węzła w dcrd v1.4.0. 13 marca sieć forkowała na nowe zasady konsensusowe, zaimplementowane w dcrd v1.5.0, co oznacza, że wszystkie węzły w sieci są zobowiązane do korzystania z conajmniej tej wersji oprogramowania. Ponieważ ta i późniejsze wersje zawierają poprawkę łatającą tę lukę, jej szkodliwość została teraz zneutralizowana.
+
+dcrd pokrywa się kodem z btcd w mniej niż 16%, co oznacza, że pozostałe 84% to nowa praca deweloperska, według [analizy](https://coincode.sh/c/dcr/) autorstwa CoinCode.sh. @davecgh [potwierdził](https://matrix.to/#/!HEeJkbPRpAqgAwhXWO:decred.org/$15862843869377LGlSK:decred.org), że liczby wyglądają wiarygodnie, biorąc pod uwagę, jak dużo nowego kodu zostało napisane i zauważył, że rozbieżność ta jest jeszcze bardziej widoczna w dcrwallet (który nie był analizowany).
+
 
 [dcrwallet](https://github.com/decred/dcrwallet):
 
-- `fundrawtransaction` command [implemented](https://github.com/decred/dcrwallet/pull/1706) that adds unsigned inputs and change output to a raw transaction
-- wallet operations [switched](https://github.com/decred/dcrwallet/pull/1648) to use version 2 committed filters (v1 filters are deprecated but are still served by the network and used by dcrwallet, next release will use v2 filters)
-- `getaddressesbyaccount` command [fixed](https://github.com/decred/dcrwallet/pull/1695) to also return imported addresses for the `imported` account
-- unencrypted P2SH redeem scripts are [moved](https://github.com/decred/dcrwallet/pull/1688) to address manager storage (this simplifies storage and removes the requirement to unlock the wallet to view or store the scripts)
-- internal improvements to efficiency and semantics
-- cleanup to remove deprecated and unused code
+- polecenie` fundrawtransaction` zostało [wdrożone](https://github.com/decred/dcrwallet/pull/1706); dodaje ono niepodpisane wejścia i zmienia wyjście do surowej transakcji
+- operacje w portfelu zostały [przełączone](https://github.com/decred/dcrwallet/pull/1648) na korzystające z 2. wersji scommitowanych filtrów (filtry v1 są przestarzałe, ale nadal są obsługiwane przez sieć i używane przez dcrwallet; następne wydanie będzie korzystać z filtrów v2)
+- polecenie `getaddressesbyaccount` zostało [naprawione](https://github.com/decred/dcrwallet/pull/1695), aby zwracać również zaimportowane adresy dla konta `imported`
+- nieszyfrowane skrypty P2SH do wykupu biletów (redeem scripts) zostają [przeniesione](https://github.com/decred/dcrwallet/pull/1688) do pamięci menedżera adresów (upraszcza to przechowywanie i usuwa wymóg odblokowania portfela w celu przeglądania lub przechowywania skryptów)
+- wewnętrzne udoskonalenia w zakresie efektywności i semantyki
+- czyszczenie w celu usunięcia przestarzałego i nieużywanego kodu
+
 
 [Decrediton](https://github.com/decred/decrediton):
 
-- support for [cold staking](https://github.com/decred/decrediton/pull/2424) (also required for staking with hardware wallets)
-- support for [importing scripts](https://github.com/decred/decrediton/pull/2423) in watch-only wallets
-- retrieve passed [agendas](https://github.com/decred/decrediton/pull/2442) from dcrdata
-- check for [new proposals](https://github.com/decred/decrediton/pull/2420) on the Governance tab
-- responsive [proposal view](https://github.com/decred/decrediton/pull/2444), [address](https://github.com/decred/decrediton/pull/2416) display on overview and transaction views, and other UI tweaks
+- wsparcie dla [stakingu offline (cold staking)](https://github.com/decred/decrediton/pull/2424) (wymagane również dla stakingu z wykorzystaniem portfeli sprzętowych)
+- wsparcie dla [importowania skryptów](https://github.com/decred/decrediton/pull/2423) w portfelach typu tylko do obserwacji (watch-only)
+- pobranie przegłosowanych [propozycji](https://github.com/decred/decrediton/pull/2442) z dcrdata
+- sprawdzanie w poszukiwaniu [nowych propozycji](https://github.com/decred/decrediton/pull/2420) w zakładce "Zarządzanie"
+- responsywny [widok propozycji](https://github.com/decred/decrediton/pull/2444), wyświetlanie [adresów](https://github.com/decred/decrediton/pull/2416) w trybie podglądu i widoku transakcji oraz inne ulepszenia interfejsu użytkownika
 
-In development:
 
-- [CoinShuffle++](https://github.com/decred/decrediton/pull/2452) support
+Prace w toku:
+
+- wsparcie dla [CoinShuffle++](https://github.com/decred/decrediton/pull/2452)
 
 [Politeia](https://github.com/decred/politeia):
 
-- [invalidate](https://github.com/decred/politeia/pull/1159) sessions on password change
-- test improvements and bug fixes
+- [unieważnienie](https://github.com/decred/politeia/pull/1159) sesji przy zmianie hasła
+- ulepszenia testów oraz poprawki błędów
 
-tlog integration has begun and is [projected](https://github.com/decred/politeia/issues/1112#issuecomment-606147106) to take ~2 months. In [July 2019](201907.md#development) we've inaccurately reported the start of tlog integration but that work was actually a reference implementation to serve as a proof of concept and demonstrate that Google's [Trillian](https://github.com/google/trillian) data store can replace existing Git backend. It was [merged](https://github.com/decred/politeia/pull/951) in August and contained a [client/server](https://github.com/decred/politeia/tree/master/tlog) with basic functionality for storing documents. This experience gave enough insight to know that it will work. The next step is to write a Politeia backend that uses Trillian.
+Rozpoczęła się integracja tlog, która ma potrwać [~2 miesiące](https://github.com/decred/politeia/issues/1112#issuecomment-606147106). W [lipcu 2019](201907.md#development) niedokładnie poinformowaliśmy o rozpoczęciu integracji tlogów, ale praca ta była w rzeczywistości wdrożeniem odniesienia, które miało służyć jako weryfikacja pomysłu i pokazać, że googlowski magazyn danych [Trillian](https://github.com/google/trillian) może zastąpić istniejący backend Gita. Został on [scalony](https://github.com/decred/politeia/pull/951) w sierpniu i zawierał [klienta/serwer](https://github.com/decred/politeia/tree/master/tlog) z podstawową funkcjonalnością do przechowywania dokumentów. To doświadczenie dało wystarczający wgląd, aby stwierdzić, że będzie działać. Następnym krokiem jest napisanie backendu Politeia, który korzysta z Trilliana.
 
-The major advantage of the tlog backend is it will make Politeia more scalable and allow censoring content after it's been made public while keeping the audit trail of all data ever submitted. It will also allow a proper fix of the duplicate comments bug.
+Główną zaletą backendu tlog jest to, że uczyni on Politeię bardziej skalowalną i pozwoli na cenzurowanie treści po jej upublicznieniu, zachowując jednocześnie ścieżkę audytu wszystkich przesłanych danych. Pozwoli to również na poprawne usunięcie błędu zduplikowanych komentarzy.
 
 CMS:
 
-- ability to assign proposal [ownership](https://github.com/decred/politeia/pull/1135), which will be used in upcoming changes to let proposal owners see what is billed against their proposal
-- ability to [deactivate](https://github.com/decred/politeia/pull/1154) temporary contractor account on paid invoice and require admin approval to allow another invoice
-- redesign work started in October finally [merged](https://github.com/decred/politeiagui/pull/1828). This large change adds 9K and deletes 24K lines of code.
+- dodano możliwość przypisania [autorstwa (własności)](https://github.com/decred/politeia/pull/1135) propozycji, która zostanie wykorzystana w nadchodzących zmianach, aby właściciele propozycji mogli zobaczyć, co jest rozliczane w ramach ich wniosków
+- dodano możliwość [dezaktywacji](https://github.com/decred/politeia/pull/1154) konta wykonawcy tymczasowego na fakturze, która wymaga zgody administratora w celu dopuszczenia go do rozliczenia w kolejnej fakturze
+- prace nad redesignem rozpoczęte w październiku wreszcie zostały [scalone](https://github.com/decred/politeiagui/pull/1828). Ta duża zmiana dodaje 9K i kasuje 24K linijek kodu.
 
-Behind the visual updates, redesign of the CMS concludes the [process](https://matrix.to/#/!VFRvyndKpzcLrVslQD:decred.org/$158644942810878cUwaw:decred.org) of migrating politeiagui code from [snew-classic-ui](https://github.com/decred/snew-classic-ui) to [pi-ui](https://github.com/decred/pi-ui) library. Back in 2018 snew allowed to get Politeia out quickly with Reddit-style look and feel, but it quickly became hard to develop with. Building pi-ui and switching to it improved code modularization and gave flexibility to compose and style the UI components the way it was required to match the design specs, as well as performance gains.
+Za aktualizacjami wizualnymi, przeprojektowanie CMS zamyka [proces](https://matrix.to/#/!VFRvyndKpzcLrVslQD:decred.org/$158644942810878cUwaw:decred.org) migracji kodu politeiagui z biblioteki [snew classic-ui](https://github.com/decred/snew-classic-ui) do [pi-ui](https://github.com/decred/pi-ui). W 2018 roku snew pozwolił na szybkie wydanie Politei z redditopodobnym wyglądem i odczuciem, ale szybko stała się trudna do rozwijania w ten sposób. Zbudowanie pi-ui i przejście na nie poprawiło modularyzację kodu i dało elastyczność w komponowaniu i stylizowaniu komponentów UI w sposób, jaki był wymagany do dopasowania ich do specyfikacji projektowych, a także zwiększyło wydajność.
+
 
 [dcrstakepool](https://github.com/decred/dcrstakepool):
 
-- code maintenance to improve error handling and cancellation, added documentation, upgraded dependencies and added tests
+- utrzymanie kodu celem poprawienia obsługi oraz anulowania błędów, dodano dokumentację, zaktualizowano zależności oraz dodano testy
 
 [dcrpool](https://github.com/decred/dcrpool):
 
-- support for [Obelisk DCR1](https://github.com/decred/dcrpool/issues/110)
-- pool database is [backed up](https://github.com/decred/dcrpool/pull/164) before shutdown
-- [pagination](https://github.com/decred/dcrpool/pull/163) for mined blocks
-- connection code [refactored](https://github.com/decred/dcrpool/pull/171) to simplify testing
-- increased test coverage
-- smaller improvements to UX, config and a few bug fixes
-- the work is a preparation for an upcoming 1.1.0 release
+- wsparcie dla koparek [Obelisk DCR1](https://github.com/decred/dcrpool/issues/110)
+- baza danych przeprowadza [backup](https://github.com/decred/dcrpool/pull/164) przed zamknięciem
+- dodano [paginację](https://github.com/decred/dcrpool/pull/163) dla wydobytych bloków
+- zrefaktoryzowano [kod połączenia](https://github.com/decred/dcrpool/pull/171) aby uprościć testowanie
+- zwiększono pokrycie testami
+- drobne usprawnienia w UX, konfiguracji oraz parę poprawek błędów
+- powyższe prace są przygotowaniem do nadchodzącego wydania 1.1.0
 
 [dcrlnd](https://github.com/decred/dcrlnd):
 
-- build system [improvements](https://github.com/decred/dcrlnd/pull/84)
+- ulepszenia w [systemie builda](https://github.com/decred/dcrlnd/pull/84)
 
-In development:
+Prace w toku:
 
-- new [chainscan](https://github.com/decred/dcrlnd/pull/83) package that uses committed filters to detect transactions relevant for the LN node more efficiently and can also operate in SPV mode
-- [implementations](https://github.com/decred/dcrlnd/pull/92) for chainntnfs package that use embedded and remote dcrwallet as a source of chain events. This allows to further decouple dcrlnd from an underlying dcrd, which is a requirement for having a dcrlnd instance running in SPV mode.
-- building on the above, enable and test [SPV mode](https://github.com/decred/dcrlnd/pull/95) for remote wallets ("remote wallet" is the connection mode where dcrlnd connects to an already running dcrwallet instance, i.e. does not need its own embedded wallet with a separate seed)
+- nowa paczka [chainscan](https://github.com/decred/dcrlnd/pull/83), która wykorzystuje dedykowane filtry do skuteczniejszego wykrywania transakcji istotnych dla węzła LN i może również działać w trybie SPV
+- [implementacje](https://github.com/decred/dcrlnd/pull/92) dla paczek chainntnfs, które wykorzystują wbudowany i zdalny dcrwallet jako źródło wydarzeń łańcucha. Pozwala to na dalsze odseparowanie dcrlnd od bazowego dcrd, co jest wymogiem dla posiadania instancji dcrlnd działającej w trybie SPV.
+- bazując na powyższym, możliwość włączenia i testowania [trybu SPV](https://github.com/decred/dcrlnd/pull/95) dla zdalnych portfeli ("remote wallet" jest trybem połączenia, w którym dcrlnd łączy się z już uruchomioną instancją dcrwallet, tzn. nie potrzebuje własnego wbudowanego portfela z oddzielnym seedem)
 
-> SPV mode is a requirement for mobile LN wallets. It's likely SPV will be the dominant sync mode even in desktop wallets, so it's essential for dcrlnd to support SPV mode. It's also the last item of the "immediate work" section of my "roadmap" of sorts that I outlined in the [announcement post](https://matheusd.com/post/announcing-dcrlnd/) for LN, so this concludes the majority of the porting effort from lnd to dcrlnd. Concluding SPV means we can start exploring more exotic changes that are available in Decred (such as [PTLCs](https://suredbits.com/payment-points-monotone-access-structures/) which depend on the Schnorr work that @davecgh is also concluding). ([@matheusd](https://matrix.to/#/!HEeJkbPRpAqgAwhXWO:decred.org/$1586258547807544APZNe:matrix.org))
+ > tryb SPV jest wymagany dla mobilnych portfeli LN. Jest prawdopodobne, że SPV będzie dominującym trybem synchronizacji nawet w portfelach stacjonarnych, więc niezbędne jest, aby dcrlnd obsługiwało tryb SPV. Jest to również ostatnia pozycja w sekcji prac "na już" w mojej swoistej "mapie rozwoju", którą nakreśliłem w [poście ogłaszającym](https://matheusd.com/post/announcing-dcrlnd/) LN, więc jest to podsumowanie większości wysiłków związanych z portowaniem z lnd do dcrlnd. Ukończenie prac nad SPV oznacza, że możemy zacząć badać bardziej egzotyczne zmiany, które są dostępne w Decred (takie jak [PTLC](https://suredbits.com/payment-points-monotone-access-structures/), które zależą od prac nad Schnorrem, które @davecgh również ma na ukończeniu). ([@matheusd](https://matrix.to/#/!HEeJkbPRpAqgAwhXWO:decred.org/$1586258547807544APZNe:matrix.org))
 
 [dcrdex](https://github.com/decred/dcrdex):
 
-- command-line [control app](https://github.com/decred/dcrdex/pull/181) for the DEX client
-- ability to [place orders](https://github.com/decred/dcrdex/pull/195) through the client in-browser GUI
-- [backup and restore](https://github.com/decred/dcrdex/pull/210) for client keys and other account data (an earlier [#183](https://github.com/decred/dcrdex/pull/183) added backup of client order data)
-- client tracking of [epoch orders](https://github.com/decred/dcrdex/pull/188) and verification of order [shuffling and matching](https://github.com/decred/dcrdex/pull/189) performed at the end of the epoch
-- [cancellation ratio](https://github.com/decred/dcrdex/pull/206) computation that allows the server to reliably track user's completed vs canceled orders, with the ability to reconstruct any user's recent order history from the database. This is an important part of community conduct enforcement.
-- codebase refactoring and cleanup
+- [aplikacja kontrola](https://github.com/decred/dcrdex/pull/181) wiersza polecenia dla klienta DEX
+- możliwość [składania zleceń](https://github.com/decred/dcrdex/pull/195) za pośrednictwem wbudowanego w klienta graficznego interfejsu użytkownika
+- tworzenie [kopii zapasowych i odtwarzanie](https://github.com/decred/dcrdex/pull/210) dla kluczy klientów i innych danych konta (wcześniejszy [PR #183](https://github.com/decred/dcrdex/pull/183) dodał kopię zapasową danych zamówień klienta)
+- śledzenie przez klienta [zamówień z epoki](https://github.com/decred/dcrdex/pull/188) oraz weryfikacja [tasowania i dopasowywania](https://github.com/decred/dcrdex/pull/189) zamówień przeprowadzona pod koniec epoki
+- obliczenia [współczynnika anulowania](https://github.com/decred/dcrdex/pull/206), które pozwalają serwerowi na niezawodne śledzenie zrealizowanych przez użytkownika zamówień w stosunku do anulowanych, z możliwością rekonstrukcji z bazy danych historii ostatnich zamówień dowolnego użytkownika. Jest to ważny element w egzekwowaniu pożądanych zachowań społeczności.
+- refaktoryzacja i oczyszczenie bazy kodowej
 
-A major milestone is the completion of [match negotiation](https://github.com/decred/dcrdex/pull/213). This is the last big piece of the client that finally lets it execute a swap. The PR specifically makes the client go through the entire swap process (match negotiation), communicating with the server, performing necessary auditing of counterparty transactions, and creating and broadcasting the client's own contract and redeem transactions as required by the swap process.
 
-A total of 19 pull requests merged from 6 contributors adding 11K and deleting 3K lines of code (commit summary [here](https://github.com/decred/dcrdex/compare/94310f66c06fdf5ca31eeb80c9f6af7aecf4c31d...d3bd07f822200041092bdc85f5c1b752b3c9ee24)).
+Ważnym kamieniem milowym jest zakończenie [negocjacji dopasowań](https://github.com/decred/dcrdex/pull/213). Jest to ostatni duży kawałek klienta, który w końcu pozwala mu dokonać wymiany. Ten PR konkretnie sprawia, że klient przechodzi przez cały proces wymiany (match negotiation), komunikuje się z serwerem, dokonuje niezbędnego audytu transakcji drugiej strony transakcji (kontrahenta) oraz tworzy i przesyła własny kontrakt i transakcje wykupu zgodnie z wymogami procesu wymiany.
 
-Congratulations to the dcrdex team for [coordinating](https://twitter.com/chappjc/status/1245075450625511425) the first order-driven atomic swap on testnet!
+Łącznie scalono 19 pull requestów od 6 programistów, dodających 11K i usuwających 3K linijek kodu (podsumowanie commitów znajduje się [tutaj](https://github.com/decred/dcrdex/compare/94310f66c06fdf5ca31eeb80c9f6af7aecf4c31d...d3bd07f822200041092bdc85f5c1b752b3c9ee24)).
+
+Gratulujemy zespołowi dcrdex za [koordynację](https://twitter.com/chappjc/status/1245075450625511425) pierwszego atomic swapa w wyniku zlecenia wymiany na testnet!
 
 [dcrandroid](https://github.com/decred/dcrandroid):
 
-- added [statistics page](https://github.com/decred/dcrandroid/pull/440)
-- UI tweaks and fixes
+- dodano [stronę statystyk](https://github.com/decred/dcrandroid/pull/440)
+- ulepszenia UI i poprawki błędów
 
-Testnet version of the next release is available [here](https://play.google.com/apps/testing/com.decred.dcrandroid.testnet).
+Testnetowa wersja następnego wydania dostępna jest [tutaj](https://play.google.com/apps/testing/com.decred.dcrandroid.testnet).
 
 [dcrios](https://github.com/raedahgroup/dcrios):
 
-- revamped [Send page](https://github.com/raedahgroup/dcrios/pull/557)
-- new UI for [More menu](https://github.com/raedahgroup/dcrios/pull/559)
-- new [wallet selector](https://github.com/raedahgroup/dcrios/pull/600) widget for Transactions page
-- reading DCR amount from [QR codes](https://github.com/raedahgroup/dcrios/pull/581)
-- multiple bug fixes and UI tweaks
+- odnowiona [strona wysyłania](https://github.com/raedahgroup/dcrios/pull/557)
+- nowy interfejs użytkownika dla [menu "więcej"](https://github.com/raedahgroup/dcrios/pull/559)
+- nowy widżet [wyboru portfela](https://github.com/raedahgroup/dcrios/pull/600) dla strony "transakcje"
+- odczytywanie ilości DCR z [kodów QR](https://github.com/raedahgroup/dcrios/pull/581)
+- poprawki wielu błędów oraz usprawnienia interfejsu użytkownika
 
-Testnet version of the next release is available [here](https://testflight.apple.com/join/7KL4VnB2).
+Testnetowa wersja następnego wydania dostępna jest [tutaj](https://testflight.apple.com/join/7KL4VnB2).
 
 [dcrdata](https://github.com/decred/dcrdata):
 
-- a commonly requested URL for [raw JSON](https://github.com/decred/dcrdata/pull/1716) chart data was added to chart pages
-- small tweaks and bug fixes
+- URL dla danych do wykresów w [surowym formacie JSON](https://github.com/decred/dcrdata/pull/1716), o który często pytacie, został dodany do strony wykresów
+- drobne usprawnienia i poprawki błędów
 
 [tinydecred](https://github.com/decred/tinydecred):
 
-- [staking view](https://github.com/decred/tinydecred/pull/53) showing spent, unspent and live tickets
-- simple [accounts view](https://github.com/decred/tinydecred/pull/94)
-- simple [views](https://github.com/decred/tinydecred/pull/125) to create accounts and send DCR
-- [account discovery](https://github.com/decred/tinydecred/pull/124)
-- changed tests to use [in-memory](https://github.com/decred/tinydecred/pull/116) databases
-- increased overall test coverage [to 98%](https://github.com/decred/tinydecred/issues/70#issuecomment-606669036) and fixed a few bugs uncovered in the process, all files now have at least 94% coverage
+- [widok stakingu](https://github.com/decred/tinydecred/pull/53) pokazuje bilety w stanach: wydany (spent), niewydany (unspent) oraz gotowy do głosowania (live)
+- prosty [widok kont](https://github.com/decred/tinydecred/pull/94)
+- proste [widoki](https://github.com/decred/tinydecred/pull/125) tworzenia kont oraz wysyłania DCR
+- [odkrywanie kont](https://github.com/decred/tinydecred/pull/124)
+- zmieniono testy na wykorzystujące bazy danych [in-memory](https://github.com/decred/tinydecred/pull/116)
+- zwiększono całkowite pokrycie testami [do 98%](https://github.com/decred/tinydecred/issues/70#issuecomment-606669036) oraz naprawiono przy tej okazji parę błędów; na wszystkie pliki jest obecnie 94% pokrycia testami
 
-A total of 56 pull requests merged from 3 contributors adding 11K and deleting 6K lines of code (commit summary [here](https://github.com/decred/tinydecred/compare/fa081e7f17d303f0eea31e9f07499db4e0acc53a...e1ef1ff72cb924d27098f9df151f6805d5db3e90)).
+Łącznie scalono 56 pull requestów od 3 programistów, dodających 11K i usuwających 6K linijek kodu (podsumowanie commitów znajduje się [tutaj](https://github.com/decred/tinydecred/compare/fa081e7f17d303f0eea31e9f07499db4e0acc53a...e1ef1ff72cb924d27098f9df151f6805d5db3e90)).
 
 [docs](https://github.com/decred/dcrdocs):
 
-- [dcrlnd](https://docs.decred.org/lightning-network/overview/) docs [updated](https://github.com/decred/dcrdocs/pull/1083) for latest release 0.2.1, commands grouped into categories
-- [guide](https://docs.decred.org/getting-started/joining-matrix-channels/) on how to join Matrix [added](https://github.com/decred/dcrdocs/pull/1081)
-- Inflation page [renamed](https://github.com/decred/dcrdocs/issues/1074) to [Issuance](https://docs.decred.org/advanced/issuance/) to remove ambiguity
-- [documented](https://github.com/decred/dcrdocs/pull/1073) accessing CoinShuffle++ server as a [Tor hidden service](https://docs.decred.org/privacy/cspp/how-to-cspp/#tor-hidden-service)
+- dokumentacja [dcrlnd](https://docs.decred.org/lightning-network/overview/) została [zaktualizowana](https://github.com/decred/dcrdocs/pull/1083) do najnowszego wydania 0.2.1, polecenia zostały pogrupowane w kategorie
+- dodano [poradnik](https://docs.decred.org/getting-started/joining-matrix-channels/) na temat tego, jak dołączyć do [Matrixa](https://github.com/decred/dcrdocs/pull/1081)
+- strona "inflacja" została [przemianowana](https://github.com/decred/dcrdocs/issues/1074) na ["emisja"](https://docs.decred.org/advanced/issuance/) aby uniknąć dwuznaczności
+- [udokumentowano](https://github.com/decred/dcrdocs/pull/1073) dostęp do serwera CoinShuffle++ jako [ukrytej usługi Tor](https://docs.decred.org/privacy/cspp/how-to-cspp/#tor-hidden-service)
 
 [decred.org](https://github.com/decred/dcrweb):
 
 - large cleanup pass fixing minor issues with the new website
 - updated VSP [copy](https://github.com/decred/dcrweb/pull/853)
-- recruiting page removed and decred.org/recruiting now redirects to the [Contributing](https://docs.decred.org/contributing/overview/) page
-- roadmap page [removed](https://github.com/decred/dcrweb/pull/857)
+- strona rekrutacji została usunięta, a decred.org/recruiting od teraz przekierowuje do strony [wnoszenia wkładu](https://docs.decred.org/contributing/overview/)
+- usunięto stronę [mapy rozwoju](https://github.com/decred/dcrweb/pull/857)
 
-Other:
+Pozostałe:
 
-- most projects upgraded to build with Go 1.14 and dropped support of Go 1.12
-- @mm released DigiSign Oracle, a free and open source web app that helps end users verify digital signatures. It was created to help Decred users verify package signatures without having to use complicated command line programs. You can access it at [stakey.club](https://stakey.club/digisign-oracle/) or download the [source code](https://github.com/mmartins000/digisign-oracle) to your computer and open with a web browser.
+- większość projektów została zaktualizowana, aby budować się na Go 1.14 i porzuciła wsparcie dla Go 1.12
+- @mm wypuścił na świat DigiSign Oracle, darmową aplikację webową typu open source, która pomaga użytkownikom w weryfikacji podpisów cyfrowych. Narzędzie to zostało stworzone, aby pomóc użytkownikom Decred w weryfikacji podpisów paczek bez konieczności korzystania ze skomplikowanych narzędzi wiersza polecenia. Można z niego skorzystać po wejściu na stronę [stakey.club](https://stakey.club/digisign-oracle/), lub pobrać [kod źródłowy](https://github.com/mmartins000/digisign-oracle) na swój komputer i odpalić go w przeglądarce.
 
-## Plans for v1.6
+## Plany co do wersji v1.6
 
 > The rough plan is for v1.6 to get released at end of Q2. We're planning to include: decentralized treasury consensus change, Decrediton staking and non-staking CSPP support, ticket-based VSP support, and a myriad dcrd improvements. (@jy-p on [2020-03-20](https://matrix.to/#/!MgQoetFiyjrHAywokv:decred.org/$15855719584400kpyNr:decred.org))
 
-## People
+## Ludzie
 
 Welcome to new first time contributors with code merged to master: @unimere ([decrediton](https://github.com/decred/decrediton/commits?author=unimere)).
 
