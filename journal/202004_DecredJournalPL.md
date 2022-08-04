@@ -269,7 +269,7 @@ Wybrane artykuły:
 
 Tłumaczenia:
 
-- „Sekrety przeoczone na DevConie: jak naprawdę wygląda działające DAO” - [w jęz. portugalskim](https://stakey.club/translated/working-dao/) by @mm.
+- „Sekrety przeoczone na DevConie: jak naprawdę wygląda działające DAO” - [w jęz. portugalskim](https://stakey.club/translated/working-dao/), aut. @mm.
 - Wydanie Decred Journal z marca 2020 przetłumaczone zostało na jęz. arabski (@arij), jęz. chiński (@Dominic), jęz. polski (@kozel), oraz jęz. hiszpański (@francov\_). @kozel powraca z czterema przetłumaczonymi wydaniami od grudnia. Skrócone wersje w jęz. hiszpańskim dostępne są na [Medium](https://medium.com/decred-es/revista-2020/home). Dziękujemy Wam za szerzenie świadomości o projekcie!
 
 Wideo:
