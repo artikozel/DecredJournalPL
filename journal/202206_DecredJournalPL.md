@@ -277,31 +277,31 @@ Zapraszamy do lektury [majowego wydania](202205.md#governance) odnośnie odbytyc
 
 ## Sieć
 
-**Hashrate**: czerwcowy [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&zoom=l3n3qjwe-l5batou0&bin=block&axis=time&visibility=true-false) na początku miesiąca wyniósł ~117 Ph/s a zamknął go na poziomie ~85 Ph/s, zaliczając niż w ok. 68 Ph/s  oraz szczyt w wys. 132 Ph/s w ciągu miesiąca.
+**Hashrate**: czerwcowy [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&zoom=l3n3qjwe-l5batou0&bin=block&axis=time&visibility=true-false) na początku miesiąca wyniósł ~117 Ph/s, a zamknął go na poziomie ~85 Ph/s, zaliczając niż w ok. 68 Ph/s oraz szczyt w wys. 132 Ph/s w ciągu miesiąca.
 
 ![](../img/202206.4.github.png)
 
 _Obraz: Moc obliczeniowa sieci niejako ustabilizowała się w okolicach 100 Ph/s._
 
-Dystrybucja mocy obliczeniowej [zadeklarowana](https://miningpoolstats.stream/decred) przez pule wydobywcze na dzień 1. lipca: Poolin 51%, ViaBTC 20%, F2Pool, 17%, AntPool 7%, BTC.com 4%, LuxorTech 1.2%, CoinMine 0.5%.
+Dystrybucja mocy obliczeniowej [zadeklarowana](https://miningpoolstats.stream/decred) przez pule wydobywcze na dzień 1. lipca: Poolin 51%, ViaBTC 20%, F2Pool, 17%, AntPool 7%, BTC.com 4%, LuxorTech 1,2%, CoinMine 0,5%.
 
-Podział 1000 bloków [wydobytych](https://miningpoolstats.stream/decred) przed 1. lipca: Poolin 50%, ViaBTC 20%, BTC.com 5%, LuxorTech 1.3%, CoinMine 0.3%, nieznane 24.1%.
+Podział 1000 bloków [wydobytych](https://miningpoolstats.stream/decred) przed 1. lipca: Poolin 50%, ViaBTC 20%, BTC.com 5%, LuxorTech 1,3%, CoinMine 0,3%, nieznane 24,1%.
 
 **Staking**: [Cena biletów](https://dcrdata.decred.org/charts?chart=ticket-price&zoom=l3n3qjwe-l5batou0&axis=time&visibility=true-true&mode=stepped) wahała się między 216 a 235 DCR, a jej 30-dniowa [średnia](https://dcrstats.com/) wyniosła 223,7 DCR (+0,1).
 
-[Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&zoom=l3n3qjwe-l5batou0&scale=linear&bin=block&axis=time) to pomiędzy 8,97-9,17 miliona DCR, co oznacza, że 62,9-**64,2%** podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&zoom=l3n3qjwe-l5batou0&scale=linear&bin=block&axis=time) w elemencie Proof of Stake
+[Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&zoom=l3n3qjwe-l5batou0&scale=linear&bin=block&axis=time) to pomiędzy 8,97-9,17 miliona DCR, co oznacza, że 62,9-**64,2%** podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&zoom=l3n3qjwe-l5batou0&scale=linear&bin=block&axis=time) w elemencie Proof of Stake.
 
 ![](../img/202206.5.github.png)
 
 _Obraz: Uczestnictwo w stakingu stopniowo rośnie._
 
-**VSP**: Na 1. lipca, ~7150 (+250) biletów w puli zarządzanych było przez [oficjalne](https://decred.org/vsp/) serwery vspd. Wspólni, 16 serwerów miało pod sobą 17,3% puli biletów (+0,5%).
+**VSP**: Na 1. lipca, ~7150 (+250) biletów w puli zarządzanych było przez [oficjalne](https://decred.org/vsp/) serwery vspd. Wspólnie, 16 serwerów miało pod sobą 17,3% puli biletów (+0,5%).
 
 Najwięcej biletów zyskały: stakey.com (+408, +19%), ultravsp.uk (+295, +101%), oraz stakeminer.com (+127, +23%).
 
 **Węzły**: Przez cały czerwiec w sieci było około ~18 dostępnych węzłów według [PD Analytics](https://analytics.planetdecred.org/nodes).
 
-[Migawka](https://nodes.jholdstock.uk/user_agents) wersji węzłów na dzień 1. lipca (118 ogółem, tylko dcrd): v1.7.1 - 41%, v1.7.2 - 26%, v1.7.0 - 12%, v1.7.0 dev buildy - 8%, v1.8.0 dev buildy - 3.4%, wersje v1.6 - 6.8%, wersje v1.5- 0.9%, wersje v1.4- 2.5%.
+[Migawka](https://nodes.jholdstock.uk/user_agents) wersji węzłów na dzień 1. lipca (118 ogółem, tylko dcrd): v1.7.1 - 41%, v1.7.2 - 26%, v1.7.0 - 12%, v1.7.0 dev buildy - 8%, v1.8.0 dev buildy - 3,4%, wersje v1.6 - 6,8%, wersje v1.5- 0,9%, wersje v1.4- 2,5%.
 
 Ilość [monet mieszanych](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) wahała się w granicach 59,8-**60,2%**. Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&zoom=l3n3qjwe-l5batou0&bin=day&axis=time) oscylowała w granicach 160-455K DCR.
 
