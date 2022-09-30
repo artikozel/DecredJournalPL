@@ -246,7 +246,7 @@ Gratulacje dla nowych współpracowników, którym przyznano licencje wykonawcó
 
 Deweloperzy [@dreacot (GoDCR)](https://www.decredmagazine.com/introducing-decred-developer-dreacot/) oraz [@VictorGuedes (Politeia)](https://www.decredmagazine.com/introducing-decred-developer-victorguedes/) udzielili wywiadów dla @phoenixgreen na łamach Decred Magazine.
 
-Statystyki społeczności na dzień 1. sierpnia (w porównaniu z 1. lipca 1):
+Statystyki społeczności na dzień 1. sierpnia (w porównaniu z 1. lipca):
 
 - Obserwujący na [Twitterze](https://twitter.com/decredproject): 54306 (-74)
 - Subskrybenci na [Reddit](https://www.reddit.com/r/decred/): 12633 (-3)
@@ -299,7 +299,7 @@ _Obraz: Najwyższy poziom uczestnictwa w elemencie Proof of Stake._
 
 _Obraz: Dystrybucja biletów zarządzanych przez VSP._
 
-**Węzły**: Wersje węzłów wyłapane przez [Decred Mapper](https://nodes.jholdstock.uk/user_agents) dn 9. sierpnia (127 ogółem, tylko dcrd): v1.7.1 - 39%, v1.7.2 - 25%, v1.7.0 - 11%, v1.7.0 dev buildy - 7%, v1.8.0 dev buildy - 4%, wersje v1.6 - 3%, wersje v1.5 - 0,7%, wersje v1.4 - 0,7%.
+**Węzły**: Wersje węzłów wyłapane przez [Decred Mapper](https://nodes.jholdstock.uk/user_agents) na 9. sierpnia (127 ogółem, tylko dcrd): v1.7.1 - 39%, v1.7.2 - 25%, v1.7.0 - 11%, v1.7.0 dev buildy - 7%, v1.8.0 dev buildy - 4%, wersje v1.6 - 3%, wersje v1.5 - 0,7%, wersje v1.4 - 0,7%.
 
 ![](../img/202207.10.github.png)
 
@@ -323,7 +323,6 @@ Według doniesień @jz Binance [zmniejszyło liczbę wymaganych potwierdzeń DCR
 Użytkownicy nie mają kontroli nad preferencjami głosowania na ich bilety na BisonPool.
 
 Należy zauważyć, że jest to usługa powiernicza, co oznacza, że BisonPool ma kontrolę nad funduszami użytkownika. Istnieje ryzyko, że Twoje środki mogą zostać skradzione, jeśli zdecydujesz się skorzystać z tej usługi. Tożsamość tego, kto prowadzi BisonPool, jest nieznana społeczności Decred. Pamiętaj, nie Twoje klucze, nie Twoje monety.
-
 
 Uwaga: autorzy Decred Journal nie są w stanie ocenić wiarygodności żadnego z powyższych podmiotów czy ich usług. Uprasza się o dołożenie należnych starań i własnoręczną weryfikację informacji przed powierzeniem jakichkolwiek środków innym stronom.
 
