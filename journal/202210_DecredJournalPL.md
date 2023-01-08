@@ -241,7 +241,7 @@ _Obraz: Dystrybucja mocy obliczeniowej pul wydobywczych._
 
 **Staking**: [Cena biletów](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) wahała się między 224 a 246 DCR, a jej 30-dniowa [średnia](https://dcrstats.com/) wyniosła 233,7 DCR (+4,6).
 
-[Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) to pomiędzy 9,33 a 9,51 miliona DCR, co oznacza, że 64.0-65,0% podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) w elemencie Proof of Stake.
+[Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) to pomiędzy 9,33 a 9,51 miliona DCR, co oznacza, że 64,0-65,0% podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) w elemencie Proof of Stake.
 
 ![](../img/202210.6.github.png)
 
@@ -257,7 +257,7 @@ Największe wzrosty w październiku odnotowały 99split.com (+790), decredcommun
 
 _Obraz: Wersje wykrywalnych węzłów dcrd ._
 
-Ilość [monet mieszanych](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) wahała się w granicach 60,7-61,0%.  Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 293-461K DCR.
+Ilość [monet mieszanych](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) wahała się w granicach 60,7-61,0%. Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 293-461K DCR.
 
 Na dzień 1. listopada sieć [Lightning Network](https://ln-map.jholdstock.uk/) projektu Decred odnotowała 69 węzłów (-1), 112 kanałów (+7) oraz całkowitą pojemność 46,9 DCR (+4,4). Dziękujemy @karamble za udostępnienie danych, podczas gdy [mapa LN](https://ln-map.jholdstock.uk/) jest poddawana pracom konserwacyjnym.
 
