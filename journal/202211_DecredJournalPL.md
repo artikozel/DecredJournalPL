@@ -297,7 +297,7 @@ Statystyki społeczności na dzień 2. grudnia (w porównaniu z 1. listopada):
 
 ## Zarządzanie
 
-W listopadzie nowy [Skarbiec](https://dcrdata.decred.org/treasury) otrzymał 8473 DCR o wartości 186 tys. USD po średnim wrześniowym kursie wymiany $21,92. 2646 DCR zostało wydane, aby zapłacić kontrahentom, co stanowiło wartość $58K po listopadowym kursie wymiany, lub $70K po październikowym kursie rozliczeniowym $26,27.
+W listopadzie nowy [Skarbiec](https://dcrdata.decred.org/treasury) otrzymał 8473 DCR o wartości 186 tys. USD po średnim listopadowym kursie wymiany $21,92. 2646 DCR zostało wydane, aby zapłacić kontrahentom, co stanowiło wartość $58K po listopadowym kursie wymiany, lub $70K po październikowym kursie rozliczeniowym $26,27.
 
 Transakcja [wypłaty ze Skarbca](https://dcrdata.decred.org/tx/95ebb23a0846417eb1aa6a59bf6b4ad49d8cd72ff44c869d4af366fd1aef402e) zawierała 25 wyjść dokonujących płatności na rzecz kontrahentów, od 3 DCR do 1108 DCR. Została ona zatwierdzona 5 grudnia jednogłośnie głosami na tak. Było to szybkie zatwierdzenie (zwane również "przyspieszonym" w [specyfikacji](https://github.com/decred/dcps/blob/master/dcp-0006/dcp-0006.mediawiki)) w ciągu 10 dni zamiast maksymalnych 12 dni głosowania. Frekwencja wyborcza wyniosła 49% przy 7037 głosach na "tak" z 14339 uprawnionych, którzy mieli szansę zagłosować w skróconym terminie głosowania. Bardziej szczegółowy widok transakcji wydatków skarbowych można znaleźć w [instancji deweloperskiej](https://tip.dcrdata.org/tx/95ebb23a0846417eb1aa6a59bf6b4ad49d8cd72ff44c869d4af366fd1aef402e) dcrdata, który wkrótce pojawi się w głównej instancji eksploratora bloków.
 
