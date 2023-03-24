@@ -265,7 +265,7 @@ Statystyki społeczności na dzień 4. stycznia (w porównaniu z 2. grudnia):
 
 - Obserwujący na [Twitterze](https://twitter.com/decredproject): 53392 (-342)
 - Subskrybenci na [Reddit](https://www.reddit.com/r/decred/): 12648 (+14)
-- Użytkownicy na [Matrixie](https://chat.decred.org/) w pokoju #general:738 (+9)
+- Użytkownicy na [Matrixie](https://chat.decred.org/) w pokoju #general: 738 (+9)
 - Użytkownicy na [Discordzie](https://discord.gg/GJ2GXfz): 1530 (-348 - czystka nieaktywnych użytkowników), zweryfikowanych z możliwością pisania: 929 (-7)
 - Użytkownicy na [Telegramie](https://t.me/Decred): 2872 (-22)
 - Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4640 (+0), wyświetleń: 221K (+2K)
@@ -279,7 +279,7 @@ W grudniu nowy [Skarbiec](https://dcrdata.decred.org/treasury) otrzymał 8712 DC
 
 Transakcja [wypłaty ze Skarbca](https://dcrdata.decred.org/tx/49f141f51421a499d319bc617a4430f87db3a73ffa605dee8408eefb081bd11b) zawierała 24 wyjścia dokonujące płatności na rzecz kontrahentów, od 5 DCR do 1270 DCR.
 
-Na dzień 7. stycznia, łączne saldo [starego](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) i [nowego Skarbca](https://dcrdata.decred.org/treasury) wynosi 834055 DCR (15,6 miliona USD po kursie $18.70).
+Na dzień 7. stycznia, łączne saldo [starego](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) i [nowego Skarbca](https://dcrdata.decred.org/treasury) wynosi 834055 DCR (15,6 miliona USD po kursie $18,70).
 
 W grudniu na Politei nie pojawiły się żadne propozycje.
 
@@ -292,7 +292,7 @@ W grudniu na Politei nie pojawiły się żadne propozycje.
 
 _Obraz: Moc obliczeniowa projektu Decred._
 
-Dystrybucja mocy obliczeniowej w wys. 75 Ph/s [zadeklarowana](https://miningpoolstats.stream/decred)  przez pule wydobywcze na dzień 1. stycznia: Poolin 55%, F2Pool 38%, BTC.com 5%, AntPool 2,7%.
+Dystrybucja mocy obliczeniowej w wys. 75 Ph/s [zadeklarowana](https://miningpoolstats.stream/decred) przez pule wydobywcze na dzień 1. stycznia: Poolin 55%, F2Pool 38%, BTC.com 5%, AntPool 2,7%.
 
 Podział 1000 bloków [wydobytych](https://miningpoolstats.stream/decred) przed 4. stycznia: Poolin 55%, F2Pool 36%, (prawdopodobnie) BTC.com 5%, (prawdopodobnie) AntPool 2,6%, CoinMine 0,4%, nieznany 0,9%.
 
@@ -415,7 +415,7 @@ Statystyki aktywności [Decred Magazine](https://www.decredmagazine.com/) za gru
 Nowe nagrania z Twitter Spaces:
 
 - [Bison Relay: Niezależny Internet](https://twitter.com/i/spaces/1ZkKzXlVvZqJv), aut. @Tivra i @kozel z udz. wielu członków społeczności. 1.7K ludzi wysłuchało audycji (na żywo + nagranie). Dostępna również na [Anchor](https://anchor.fm/decred-magazine/episodes/Bison-Relay-The-Sovereign-Internet-e1sebd4) oraz innych platformach podcastowych.
-- [Badając możliwości zdecentralizowanych mediów społęcznościowych](https://twitter.com/i/spaces/1ypKddnRQZvKW) - aut. @Tivra i @kozel z udz. członków społeczności, odsłuchane ~550 razy. ([Anchor](https://anchor.fm/decred-magazine/episodes/Bison-Relay---Exploring-Possibilities-of-Decentralized-Social-Media---Decred-Twitter-Space-e1smab7))
+- [Badając możliwości zdecentralizowanych mediów społecznościowych](https://twitter.com/i/spaces/1ypKddnRQZvKW) - aut. @Tivra i @kozel z udz. członków społeczności, odsłuchane ~550 razy. ([Anchor](https://anchor.fm/decred-magazine/episodes/Bison-Relay---Exploring-Possibilities-of-Decentralized-Social-Media---Decred-Twitter-Space-e1smab7))
 
 **Coś dla oka i serca:**
 
