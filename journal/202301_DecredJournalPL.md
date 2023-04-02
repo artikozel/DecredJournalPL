@@ -279,7 +279,7 @@ Na dzień 30. stycznia, łączne saldo [starego](https://dcrdata.decred.org/addr
 
 ![](../img/202301.6.720.png)
 
-_Obraz: Miesieczny wpływy i wypłaty ze Skarbca Decred._
+_Obraz: Miesieczne wpływy i wypłaty ze Skarbca Decred._
 
 W styczniu na platformie Politeia opublikowano 8 propozycji.
 
@@ -350,7 +350,7 @@ Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-partici
 
 _Obraz: Ilośc mieszanych i niewydanych DCR nieco spadła._
 
-Eksplorator [Lightning Network](https://ln-map.jholdstock.uk/) sieci Decred na 1. lutego odnotował 147 węzłów (+17) oraz 261 kanałów (+28) o całkowitej pojemności 106,1 DCR. Statystyki te zależą od węzła LN. Na przykład, tego samego dnia węzeł @karamble odnotował 166 węzłów (+19) oraz 342 kanały (+35) o pojemności 159,7 DCR (+5.7).
+Eksplorator [Lightning Network](https://ln-map.jholdstock.uk/) sieci Decred na 1. lutego odnotował 147 węzłów (+17) oraz 261 kanałów (+28) o całkowitej pojemności 106,1 DCR. Statystyki te zależą od węzła LN. Na przykład, tego samego dnia węzeł @karamble odnotował 166 węzłów (+19) oraz 342 kanały (+35) o pojemności 159,7 DCR (+5,7).
 
 
 ## Ekosystem
