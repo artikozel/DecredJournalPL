@@ -297,7 +297,7 @@ Statystyki społeczności na dzień 1. marca (w porównaniu z 2. lutego):
 - Użytkownicy na [Matrixie](https://chat.decred.org/) w pokoju #general: 750 (+8)
 - Użytkownicy na [Discordzie](https://discord.gg/GJ2GXfz): 1557, zweryfikowani z możliwością pisania: 932 (+6)
 - Użytkownicy na [Telegramie](https://t.me/Decred): 2,756 (-60)
-- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4630 (-10), wyświetleń: 224,6K (+2.3K) (+1K)
+- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4630 (-10), wyświetleń: 224,6K (+2,3K)
 
 
 ## Zarządzanie
