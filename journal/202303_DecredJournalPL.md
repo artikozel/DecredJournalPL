@@ -317,9 +317,9 @@ Statystyki społeczności na dzień 3. kwietnia (w porównaniu z 1. marca):
 - Obserwujący na [Twitterze](https://twitter.com/decredproject): 53189 (+125)
 - Subskrybenci na [Reddit](https://www.reddit.com/r/decred/): 12678 (+18)
 - Użytkownicy na [Matrixie](https://chat.decred.org/) w pokoju #general: 761 (+11)
-- Użytkownicy na [Discordzie](https://discord.gg/GJ2GXfz):  1,556 (-1), zweryfikowani z możliwością pisania: 923 (-9)
-- Użytkownicy na [Telegramie](https://t.me/Decred): 2,619 (-137)
-- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4,630 (+0), wyświetleń: 226.5K (+1,9K)
+- Użytkownicy na [Discordzie](https://discord.gg/GJ2GXfz):  1556 (-1), zweryfikowani z możliwością pisania: 923 (-9)
+- Użytkownicy na [Telegramie](https://t.me/Decred): 2619 (-137)
+- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4,630 (+0), wyświetleń: 226,5K (+1,9K)
 
 
 ## Zarządzanie
@@ -385,14 +385,14 @@ Największe wzrosty w marcu odnotowały ubiqsmart.com (280 biletów, czyli +155%
 
 _Obraz: Dystrybucja biletów zarządzanych przez VSP._
 
-**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował między 162 a 176 węzłów dcrd w ciągu miesiąca. Wersje 166 węzłów odnotowanych 1.kwietnia to: v1.7.5 - 36%, v1.7.1 - 21%, v1.8.0 dev buildy - 13%, v1.7.2 - 13%, v1.7.0 - 8%, v1.7.4 - 4%, pozostałe - 7%.
+**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował między 162 a 176 węzłów dcrd w ciągu miesiąca. Wersje 166 węzłów odnotowanych 1. kwietnia to: v1.7.5 - 36%, v1.7.1 - 21%, v1.8.0 dev buildy - 13%, v1.7.2 - 13%, v1.7.0 - 8%, v1.7.4 - 4%, pozostałe - 7%.
 
 ![](../img/202303.8.720.png)
 
 _Obraz: Historyczna dystrybucja wersji węzłów dcrd, dane z nodes.jholdstock.uk. Uwaga: Dane do stycznia 2023 były niekompletne_
 
 Ilość [monet mieszanych](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) wahała się w granicach 60,5-61,1%.
-Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 317-495 DCR.
+Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 317-495K DCR.
 
 ![](../img/202303.9.720.png)
 

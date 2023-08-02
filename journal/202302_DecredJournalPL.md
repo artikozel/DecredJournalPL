@@ -100,7 +100,7 @@ _[dcrwallet](https://github.com/decred/dcrwallet) to serwer portfela używany pr
 
 ### dcrctl
 
-_[dcrctl](https://github.com/decred/dcrctl) to klient wiersza polecenia dla dcrd i dcrwallet.._
+_[dcrctl](https://github.com/decred/dcrctl) to klient wiersza polecenia dla dcrd i dcrwallet._
 
 - Zaktualizowano [zależności](https://github.com/decred/dcrctl/pull/54) do najnowszych modułów. Pozwala to na budowanie na OpenBSD riscv64, a także znacznie ogranicza pośrednie zależności.
 
