@@ -397,7 +397,7 @@ Statystyki społeczności na dzień 3. maja (w porównaniu z 3. kwietnia):
 - Użytkownicy na [Matrixie](https://chat.decred.org/) w pokoju #general: 763 (+2)
 - Użytkownicy na [Discordzie](https://discord.gg/GJ2GXfz):  1573 (+17), zweryfikowani z możliwością pisania: 921 (-2)
 - Użytkownicy na [Telegramie](https://t.me/Decred): 2508 (-111)
-- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4,630 (+0), wyświetleń: 228,1K (+1,6K)
+- Subskrybenci na [YouTube](https://www.youtube.com/decredchannel): 4630 (+0), wyświetleń: 228,1K (+1,6K)
 
 
 ## Zarządzanie
@@ -426,7 +426,7 @@ W kwietniu złożono dwie nowe propozycje:
 
 [Propozycja](https://proposals.decred.org/record/609db9e) od @joegruff, aby rozwinąć wsparcie Decrediton dla sprzętu Ledger została zatwierdzona z 89% głosów na tak i 39% frekwencji.
 
-Zapraszamy do lektury [wydania nr 58](https://blockcommons.red/politeia-digest/issue059/) Politeia Digest po więcej informacji na temat zgłoszonych w tym miesiącu propozycji.
+Zapraszamy do lektury [wydania nr 59](https://blockcommons.red/politeia-digest/issue059/) Politeia Digest po więcej informacji na temat zgłoszonych w tym miesiącu propozycji.
 
 
 ## Sieć
@@ -465,7 +465,7 @@ _Obraz: Cena biletów w kwietniu była niebywale stabilna_
 
 _Obraz: Suma DCR zamkniętych w biletach pnie się w górę_
 
-**VSP**: Na 1.maja, ~6960 (-240) biletów w puli zarządzanych było przez [1 oficjalnych VSP](https://decred.org/vsp/) serwerów vspd, co stanowi 17,1% całej puli biletowej (-0,5%).
+**VSP**: Na 1. maja, ~6960 (-240) biletów w puli zarządzanych było przez [14 oficjalnych VSP](https://decred.org/vsp/), co stanowi 17,1% całej puli biletowej (-0,5%).
 
 Największe wzrosty w kwietniu odnotował vspd.bass.cf (+165 biletów, czyli +27%). Dwa VSP zostały [usunięte](#ecosystem).
 

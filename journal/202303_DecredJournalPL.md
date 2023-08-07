@@ -377,7 +377,7 @@ _Obraz: Stabilizacja ceny biletów._
 
 _Obraz: Suma zablokowanych w biletach DCR ciągle idzie w górę._
 
-**VSP**: Na 1. kwietnia, ~7200 (-210) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/) serwerów vspd, co stanowi 17,6% całej puli biletowej (-0,8%).
+**VSP**: Na 1. kwietnia, ~7200 (-210) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/), co stanowi 17,6% całej puli biletowej (-0,8%).
 
 Największe wzrosty w marcu odnotowały ubiqsmart.com (280 biletów, czyli +155%) oraz dcrhive.com (+225 biletów, czyli +25%).
 

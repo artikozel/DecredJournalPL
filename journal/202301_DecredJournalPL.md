@@ -327,7 +327,7 @@ Gwałtowny spadek wolumenu zakupu biletów posłał ich cenę w dół do 140 DCR
 
 Tak niska cena biletu wywołała bardzo wysoki zakup biletów, który bardzo rozhuśtał cenę biletów przez najbliższe dni. 48,624 bilety zostały kupione w styczniu - [najwyższy miesięczny rekord](https://dcrdata.decred.org/months?rows=100) od pierwszego miesiąca istnienia Decred w lutym 2016 roku.
 
-**VSP**: Na 1. lutego, ~8390 (+1270) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/) serwerów vspd, co stanowi 18,8% całej puli biletowej (+1,6%). Podczas wykonywania migawki puli biletów było w niej ok. 44 670 biletów, co oznacza, że przekroczyła ona [zakładaną docelową ilość](https://docs.decred.org/proof-of-stake/overview/) o całe 9%.
+**VSP**: Na 1. lutego, ~8390 (+1270) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/), co stanowi 18,8% całej puli biletowej (+1,6%). Podczas wykonywania migawki puli biletów było w niej ok. 44 670 biletów, co oznacza, że przekroczyła ona [zakładaną docelową ilość](https://docs.decred.org/proof-of-stake/overview/) o całe 9%.
 
 Największe wzrosty w styczniu odnotowały vspd.99split.com (+419), dcrhive.com (+328) oraz vsp.stakeminer.com (+319).
 

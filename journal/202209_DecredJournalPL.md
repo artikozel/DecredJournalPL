@@ -312,7 +312,7 @@ _Obraz: Dystrybucja mocy obliczeniowej pul wydobywczych._
 
 [Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&zoom=l796eq4a-l8vp7dzk&scale=linear&bin=day&axis=time) to pomiędzy 9,28 a 9,43 miliona DCR, co oznacza, że 64,1-64,9% podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&zoom=l796eq4a-l8vp7dzk&scale=linear&bin=day&axis=time) w elemencie Proof of Stake.
 
-**VSP**: Na 1. października, ~7820 (+770) biletów w puli zarządzanych było przez [18 oficjalnych VSP](https://decred.org/vsp/) serwery vspd. Łącznie VSP miały pod sobą 19,1% całej puli biletów (+1,8%).
+**VSP**: Na 1. października, ~7820 (+770) biletów w puli zarządzanych było przez [18 oficjalnych VSP](https://decred.org/vsp/). Łącznie VSP miały pod sobą 19,1% całej puli biletów (+1,8%).
 
 We wrześniu największy wzrosty odnotowały vspd.bass.cf (+726) oraz vspd.stakey.com (+443). Nadmienić należy, że ten drugi zmagał się z [problemami z API](https://github.com/decred/dcrwebapi/pull/171) od 20 września i raportowany przez niego stan biletów nie był aktualny.
 

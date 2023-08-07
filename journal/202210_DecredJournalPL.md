@@ -247,7 +247,7 @@ _Obraz: Dystrybucja mocy obliczeniowej pul wydobywczych._
 
 _Obraz: Ilość DCR w stakingu przekroczyła 9,5 miliona._
 
-**VSP**: Na 1. listopada, ~6800 (-1020) biletów w puli zarządzanych było przez [17 oficjalnych VSP](https://decred.org/vsp/) serwerów vspd. Łącznie VSP miały pod sobą 16,7% całej puli biletów (-2,4%). Uwaga: dane te nie uwzględniają vspd.stakey.com, który ma [problemy z API](https://github.com/decred/dcrwebapi/pull/171) i podaje przeterminowane dane. Jego ostatni, świeży raport podawał 1332 bilety na dzień 3. października, z których pewna ilość jest dalej gotowa do głosowania.
+**VSP**: Na 1. listopada, ~6800 (-1020) biletów w puli zarządzanych było przez [17 oficjalnych VSP](https://decred.org/vsp/). Łącznie VSP miały pod sobą 16,7% całej puli biletów (-2,4%). Uwaga: dane te nie uwzględniają vspd.stakey.com, który ma [problemy z API](https://github.com/decred/dcrwebapi/pull/171) i podaje przeterminowane dane. Jego ostatni, świeży raport podawał 1332 bilety na dzień 3. października, z których pewna ilość jest dalej gotowa do głosowania.
 
 Największe wzrosty w październiku odnotowały 99split.com (+790), decredcommunity.org (+233), 123.dcr.rocks (+76) oraz big.decred.energy (+71).
 

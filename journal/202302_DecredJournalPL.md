@@ -348,7 +348,7 @@ _Obraz: Największe wahnięcie ceny biletów Decred w historii._
 
 _Obraz: Spadek i odbicie DCR ulokowanych w PoS._
 
-**VSP**: Na 1. marca, ~7410 (-980) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/) serwerów vspd, co stanowi 18,4% całej puli biletowej (-0,4%).
+**VSP**: Na 1. marca, ~7410 (-980) biletów w puli zarządzanych było przez [16 oficjalnych VSP](https://decred.org/vsp/), co stanowi 18,4% całej puli biletowej (-0,4%).
 
 Jedynymi dostawcami, którzy odnotowali wzrosty w lutym byli dcrhive.com (+383 bilety - zmiana o +74%) oraz vsp.decredcommunity.org (+202 bilety - zmiana o +38%). 14 pozostałych VSP straciło średnio ~25% biletów, lecz zmianę tę powinno się rozpatrywać w kontekście całej puli biletowej przechodzącej korektę z abnormalnego rozmiaru ~44880 aż do docelowego - 40960 biletów.
 
