@@ -240,7 +240,7 @@ Statystyki społeczności na dzień 2. czerwca (w porównaniu z 3. maja):
 
 ## Zarządzanie
 
-W maju nowy [Skarbiec](https://dcrdata.decred.org/treasury) otrzymał 8088 DCR o wartości 139 tys. USD po średnim kwietniowym kursie wymiany $17,13. 3591 DCR zostało wydane, aby zapłacić kontrahentom, co stanowiło wartość $62K po kursie wymiany z tego miesiąca.
+W maju nowy [Skarbiec](https://dcrdata.decred.org/treasury) otrzymał 8088 DCR o wartości 139 tys. USD po średnim majowym kursie wymiany $17,13. 3591 DCR zostało wydane, aby zapłacić kontrahentom, co stanowiło wartość $62K po kursie wymiany z tego miesiąca.
 
 Transakcja [wypłaty ze Skarbca](https://explorer.dcrdata.org/tx/5efdb2de7cbea2682d389aa274a1ef79c5996201226054b28e08e286b1809519) została wydobyta 20. maja stosunkiem 6722 głosów na "tak" i 52% udziale w głosowaniu i zawierała 23 wyjścia dokonujące płatności kontrahentom w przedziale od 4 DCR do 1464 DCR. Większość z tej sumy to zapłata za pracę z marca po kursie wymiany $20,69 a cała transakcja TSpend opiewa na równowartość $74K.
 
@@ -267,7 +267,7 @@ Zapraszamy do lektury [wydania nr 60](https://blockcommons.red/politeia-digest/i
 
 _Obraz: Moc obliczeniowa projektu Decred_
 
-Dystrybucja mocy obliczeniowej w wys. 67 Ph/s [zadeklarowana](https://miningpoolstats.stream/decred) przez pule wydobywcze na dzień 1.czerwca: Poolin 40%, F2Pool 40%, AntPool 16%, BTC.com 5%.
+Dystrybucja mocy obliczeniowej w wys. 67 Ph/s [zadeklarowana](https://miningpoolstats.stream/decred) przez pule wydobywcze na dzień 1. czerwca: Poolin 40%, F2Pool 40%, AntPool 16%, BTC.com 5%.
 
 Podział 1000 bloków [wydobytych](https://miningpoolstats.stream/decred) przed 1. czerwca: F2Pool 40%, Poolin 35%, AntPool 17%, BTC.com 8%.
 
@@ -289,7 +289,7 @@ _Obraz: Cena biletów ponownie uległa wahaniu_
 
 _Obraz: Dystrybucja biletów zarządzanych przez VSP_
 
-**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował między 147 węzłów dcrd w ciągu miesiąca. Wersje 147 węzłów odnotowanych 1. czerwca to: v1.7.7 - 25%, v1.7.1 - 21%, v1.7.5 - 18%, v1.7.2 - 10%, dev buildy v1.8.0  - 9%, v1.7.0 - 7%, v1.7.4 - 3%, pozostałe - 8%.
+**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował 147 węzłów dcrd w ciągu miesiąca. Wersje 147 węzłów odnotowanych 1. czerwca to: v1.7.7 - 25%, v1.7.1 - 21%, v1.7.5 - 18%, v1.7.2 - 10%, dev buildy v1.8.0  - 9%, v1.7.0 - 7%, v1.7.4 - 3%, pozostałe - 8%.
 
 ![](../img/202305.08.720.png)
 
@@ -415,7 +415,7 @@ Statystyki aktywności Decred Magazine za maj:
 - Subskrybentów newslettera: 100
 - Opublikowane nowe posty i newslettery: 16
 - Aktywne kampanie w mediach społecznościowych: 57
-- Zakończone kampanie w mediach społecznościowych 41
+- Zakończone kampanie w mediach społecznościowych: 41
 - Posty w mediach społecznościowych: 172
 - Polubienia: 1180
 - Retweety: 302
