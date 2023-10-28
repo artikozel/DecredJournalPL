@@ -459,7 +459,7 @@ _Obraz: Saldo Skarbca Decred w DCR_
 
 ![](../img/202306.07.720.png)
 
-_Obraz: Saldo Skarbca Decred w  USD_
+_Obraz: Saldo Skarbca Decred w USD_
 
 W czerwcu opublikowano 4 propozycje, a jedna z maja zakończyła głosowanie:
 
@@ -508,9 +508,9 @@ Największe wzrosty w czerwcu odnotowały [dcrhive.com](https://dcrhive.com/) (+
 
 ![](../img/202306.12.720.png)
 
-_Obraz: Podział biletów zarządzanych przez VSPs_
+_Obraz: Podział biletów zarządzanych przez VSP_
 
-**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował między 144 o 172 węzły dcrd w ciągu miesiąca. Wersje 170 węzłów odnotowanych 1. lipca to: v1.8.0 - 77%, v1.7.x - 14%,  dev buildy v1.8.0 - 3,5%, pozostałe - 6%.
+**Węzły**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) odnotował między 144 a 172 węzły dcrd w ciągu miesiąca. Wersje 170 węzłów odnotowanych 1. lipca to: v1.8.0 - 77%, v1.7.x - 14%, dev buildy v1.8.0 - 3,5%, pozostałe - 6%.
 
 Sieć bardzo szybko przeprowadziła aktualizację do wersji v1.8.0 i zaczęła wydobywać bloki, co widać na następnych dwóch wykresach.
 
@@ -523,7 +523,7 @@ _Obraz: Operatorzy węzłów błyskawicznie zaktualizowali je do wersji v1.8.0. 
 _Obraz: Wersja 10 bloków szybko stała się wersją dominującą, co umożliwiło przeprowadzenie głosowania nad zasadami konsensusu._
 
 Ilość [monet mieszanych](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) wahała się w granicach 61,8-62,1%.
-Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 298-699K DCR.
+Dzienna [kwota mieszana](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) oscylowała w granicach 298K-699K DCR.
 
 ![](../img/202306.15.720.png)
 
