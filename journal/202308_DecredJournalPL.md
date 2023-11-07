@@ -390,7 +390,7 @@ _[dcrweb](https://github.com/decred/dcrweb) to repozytorium kodu źródłowego s
 
 ### Bison Relay
 
-_[Bison Relay](https://github.com/companyzero/bisonrelay) to nowa platforma mediów społecznościowych peer-to-peer z silną ochroną przeciw cenzurze, inwiligacji, oraz reklamom, działająca na bazie Lightning Network projektu Decred.__
+_[Bison Relay](https://github.com/companyzero/bisonrelay) to nowa platforma mediów społecznościowych peer-to-peer z silną ochroną przeciw cenzurze, inwiligacji, oraz reklamom, działająca na bazie Lightning Network projektu Decred._
 
 Sierpniowe zmiany zawarte w wydaniu v0.1.8 zarówno dla aplikacji GUI, jak i wiersza polecenia:
 
@@ -507,7 +507,7 @@ _Obraz: Cena biletów w sierpniu była zaskakująco stabilna_
 
 [Zablokowana suma](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) to pomiędzy 9,76 a 9,81 miliona DCR, co oznacza, że 63,2-63,7% podaży dostępnej w obiegu [wzięło udział](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) w elemencie Proof of Stake.
 
-**VSP**: Na 1. września, ~5,900 (-250) biletów w puli zarządzanych było przez [14 oficjalnych VSP](https://decred.org/vsp/), co stanowi 14,5% całej puli biletowej (-0,6%).
+**VSP**: Na 1. września, ~5900 (-250) biletów w puli zarządzanych było przez [14 oficjalnych VSP](https://decred.org/vsp/), co stanowi 14,5% całej puli biletowej (-0,6%).
 
 Największe wzrosty w sierpniu odnotowały [dcr.farm](https://vsp.dcr.farm) (+220 biletów, lub +193%) oraz [bass.cf](https://vspd.bass.cf/) (+183 biletów, lub +25%).
 
