@@ -58,7 +58,7 @@ Ta prawie trzydniowa przerwa ustanowiła nowy rekord, bijąc [poprzednią przerw
 
 <a id="decred-gpu-mining-software"></a>
 
-## Oprogramowaie do wydobycia Decred z wykorzystaniem GPU
+## Oprogramowanie do wydobycia Decred z wykorzystaniem GPU
 
 Wydobywanie na GPU rozpoczęło się tydzień po hardforku i szybko wyparło wydobywanie na CPU. We wrześniu publicznie udostępniono dwie opcje oprogramowania do wydobywania Decred na GPU:
 
