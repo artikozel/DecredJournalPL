@@ -609,7 +609,7 @@ _Obraz: Bizony, Lightning oraz kurs na księżyc, aut. @real\_sussey_
 
 ## Rynki
 
-We październiku kurs wymiany DCR mieścił się w przedziale USDT 11,38-14,08 / BTC 0,00036-0,00051. Średni dzienny kurs wynosił $12,73.
+W październiku kurs wymiany DCR mieścił się w przedziale USDT 11,38-14,08 / BTC 0,00036-0,00051. Średni dzienny kurs wynosił $12,73.
 
 ![Osiągi cenowe DCR, DASH i ZEC względem USD, aut. @saender](../img/202310.24.1201.jpg)
 
@@ -638,7 +638,7 @@ _Obraz: Miesięczny wolumen DCRDEX w USD_
 
 Portfel społecznościowego systemu crowdfundingowego Monero (Community Crowdfunding System (CCS)) został [opróżniony](https://github.com/monero-project/meta/issues/916) z całego salda 2675 XMR (~ 450 000 USD) przez nieznanego sprawcę. XMR w portfelu zostały przekazane przez członków społeczności w celu sfinansowania zatwierdzonych projektów realizowanych przez innych członków społeczności i zarządzali nimi deweloperzy luigi i fluffypony. W chwili pisania tego tekstu nie wiadomo, w jaki sposób atakujący mógł uzyskać dostęp do środków. Środki zostały skradzione 1. września, ale fakt ten został odkryty dopiero pod koniec miesiąca.
 
-Wieloletni programista Bitcoin Core [ogłosił](https://cointelegraph.com/news/bitcoin-core-developer-antoine-riard-steps-back-lightning-network-dilemma), że wycofuje się z pracy nad Lightning Network po tym, jak odkryto niedawną klasę ataków typu "replacement cycling", które umożliwiają kradzież środków z kanałów płatności, bez widocznej poprawki, która nie wymaga zmian w Bitcoinie na poziomie zasad konsensusu. Dla Antoine'a Riarda to kropla, któa przelała czarę goryczy i uświadomiła mu, że Lightning Network nie znajduje się na trajektorii, aby stać się użytecznym w sposób, w jaki był pierwotnie zamierzony.
+Wieloletni programista Bitcoin Core [ogłosił](https://cointelegraph.com/news/bitcoin-core-developer-antoine-riard-steps-back-lightning-network-dilemma), że wycofuje się z pracy nad Lightning Network po tym, jak odkryto niedawną klasę ataków typu "replacement cycling", które umożliwiają kradzież środków z kanałów płatności, bez widocznej poprawki, która nie wymaga zmian w Bitcoinie na poziomie zasad konsensusu. Dla Antoine'a Riarda to kropla, która przelała czarę goryczy i uświadomiła mu, że Lightning Network nie znajduje się na trajektorii, aby stać się użytecznym w sposób, w jaki był pierwotnie zamierzony.
 
 THORswap, zdecentralizowana giełda na platformie THORchain, wprowadziła swój front-end w tryb [konserwacji](https://twitter.com/THORSwap/status/1710162462639575065) w odpowiedzi na wymianę środków z ataku na FTX o wartości 475 mln USD z ETH na BTC na ich platformie. Przed przejściem THORswap w tryb konserwacji wymieniono około 120 mln USD, ale hakerowi nadal udało się [zmostkować](https://www.theblock.co/post/256127/elliptic-finds-apparent-russian-connection-in-laundering-of-ftx-stolen-funds) fundusze do THORchain za pomocą innych sposobów. Około tydzień później THORswap [wznowił](https://www.theblock.co/post/256301/thorswap-resumes-with-updated-terms-to-exclude-users-from-sanctioned-countries) usługi front-end ze zmianą warunków użytkowania zabraniającą użytkownikom z krajów objętych sankcjami przez USA, Wielką Brytanię lub Unię Europejską - oraz z niewymienionym z nazwy partnerem do nadzoru łańcucha, który ma pomóc w identyfikacji adresów powiązanych z tymi jurysdykcjami.
 
